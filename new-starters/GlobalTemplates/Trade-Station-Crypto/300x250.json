@@ -1,0 +1,28 @@
+{
+  "template": [
+    {
+      "t": "s",
+      "s": ".dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px}.tsc-1{position:absolute;top:0;left:0;width:100%;height:100%}.box{position:relative}.background-image{width:100%;height:250px;position:relative;top:0;left:0}.overlay-image{position:absolute;bottom:4px;left:110px;width:74px;height:197px}.ov{position:relative}.lg{position:relative}.logo-image{position:absolute;bottom:14px;left:10px;width:92.5px;height:21.5px}"
+    },
+    {
+      "t": "j",
+      "s": "KGZ1bmN0aW9uICgpIHsKCXZhciBhZCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5keW5hbWljQWR2ZXJ0Q29udGFpbmVyJyk7CgoJaWYgKAoJCXdpbmRvdy5sb2NhdGlvbi5ocmVmLmluZGV4T2YoJ29yY2EuYWR5bGljLmNvbScpID4gMCB8fAoJCXdpbmRvdy5sb2NhdGlvbi5ocmVmLmluZGV4T2YoJ3RlbXBsYXRlLmFkeWxpY29yY2EuY29tJykgPiAwCgkpIHsKICAgIGNvbnNvbGUubG9nKCdPbiBPcmNhJyk7CiAgICAvLyBDbGljayBvdXQgaW4gdGVzdCBlbnZpcm9ubWVudAogICAgYWQuYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnNvbGUubG9nKCdjbGljayBvdXQgd29ya3MhJyk7CiAgICB9KTsKICAgIC8vIEdTQVAgbGlicmFyeSDwn5OaCiAgICAvLyB2YXIgczEgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKTsKICAgIC8vIHMxLnNldEF0dHJpYnV0ZSgKICAgIC8vICAgJ3NyYycsCiAgICAvLyAgICdodHRwczovL2NkbmpzLmNsb3VkZmxhcmUuY29tL2FqYXgvbGlicy9nc2FwLzMuNC4yL2dzYXAubWluLmpzJwogICAgLy8gKTsKICAgIC8vIGFkLmFwcGVuZENoaWxkKHMxKTsKICB9IGVsc2UgewoJCS8vIENsaWNrIG91dCBpbiBsaXZlIGVudmlyb21lbnQKCQlhZC5hZGRFdmVudExpc3RlbmVyKCdjbGljaycsIGZ1bmN0aW9uICgpIHsKCQkJZXhpdENsaWNrSGFuZGxlcigpOwoJCX0pOwoJfQoKCS8vIEdsb2JhbCBHU0FQIHRpbWVsaW5lCgkvLyB2YXIgZ2xvYmFsVGwgPSBnc2FwLnRpbWVsaW5lKCk7Cn0pKCk7"
+    },
+    {
+      "t": "e",
+      "c": "bg",
+      "h": " <img class='background-image' src='https://s0.2mdn.net/creatives/assets/4211898/tsc-300x250-bg.png' >"
+    },
+    {
+      "t": "e",
+      "c": "ov",
+      "h": " <img class='overlay-image' src='https://s0.2mdn.net/creatives/assets/4211898/tsc-300x250-overlay.png' >"
+    },
+    {
+      "t": "e",
+      "c": "lg",
+      "h": " <img class='logo-image' src='https://s0.2mdn.net/creatives/assets/4211898/tsc-300x250-logo.png' >"
+    }
+  ],
+  "config": []
+}
