@@ -2,7 +2,7 @@
   "template": [
     {
       "t": "s",
-      "s": "@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,300;1,800&display=swap);.dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px}.tsc-1{position:absolute;top:0;left:0;width:100%;height:100%}.box{position:relative}.background-image{width:100%;height:250px;position:relative;top:0;left:0}.overlay-image{position:absolute;bottom:4px;left:110px;width:74px;height:197px}.ov{position:relative}.lg{position:relative}.logo-image{position:absolute;bottom:14px;left:10px;width:92.5px;height:21.5px}.tradeStation-main-heading{width:110px;height:29px;font-family:Montserrat;font-size:17px;font-weight:300;font-stretch:normal;font-style:italic;line-height:1;letter-spacing:normal;text-align:left;color:#fff;position:absolute;text-transform:uppercase}.tradeStation-sub-heading{width:127.5px;height:22px;font-family:Montserrat;font-size:30.8px;font-weight:800;font-stretch:normal;font-style:italic;line-height:.94;letter-spacing:normal;text-align:left;color:#fff;position:absolute;top:175px;right:18px;text-transform:uppercase}"
+      "s": "@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,300;1,800&display=swap);.dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px}.tsc-1{position:absolute;top:0;left:0;width:100%;height:100%}.box{position:relative}.background-image{width:100%;height:250px;position:relative;top:0;left:0}.overlay-image{position:absolute;bottom:4px;left:110px;width:74px;height:197px}.ov{position:relative}.lg{position:relative}.logo-image{position:absolute;bottom:14px;left:10px;width:92.5px;height:21.5px}.tradeStation-main-heading{width:110px;height:29px;font-family:Montserrat;font-size:17px;font-weight:300;font-stretch:normal;font-style:italic;line-height:1;letter-spacing:normal;text-align:left;color:#fff;position:absolute;text-transform:uppercase;animation:1s;animation-fill-mode:forwards;opacity:0}.tradeStation-sub-heading{width:127.5px;height:22px;font-family:Montserrat;font-size:30.8px;font-weight:800;font-stretch:normal;font-style:italic;line-height:.94;letter-spacing:normal;text-align:left;color:#fff;position:absolute;top:175px;right:18px;text-transform:uppercase;animation:1s;animation-fill-mode:forwards;opacity:0}.tradeStation-sub-heading.animate{animation-name:slidein}.tradeStation-sub-heading.static{opacity:1}.tradeStation-main-heading.animate{animation-name:slidedown}.tradeStation-main-heading.static{opacity:1}@keyframes slidein{from{right:-300px;opacity:0}to{right:18px;opacity:1}}@keyframes slidedown{from{top:-300px;opacity:0}to{top:138px;opacity:1}}"
     },
     {
       "t": "f",
@@ -21,14 +21,14 @@
         },
         {
           "t": "e",
-          "c": "tradeStation-main-heading",
+          "c": "tradeStation-main-heading $MainAnimationHeading",
           "h": "$mainHeadingCopy",
           "s": "font-size:$copySizeMainHeadingpx;right:$positioningHoriziontialMainHeadingpx;top:$positioningVerticalMainHeadingpx; font-weight:$copyStyleMainHeading"
         },
         {
           "t": "e",
-          "c": "tradeStation-sub-heading",
-          "h": "$subHeadingCopy",
+          "c": "tradeStation-sub-heading $SubAnimationHeading",
+          "h": "$subHeadingCopy ",
           "s": "font-size:$copySizeSubHeadingpx;right:$positioningHoriziontialSubHeadingpx;top:$positioningVerticalSubHeadingpx; font-weight:$copyStyleSubHeading;"
         }
       ]
@@ -174,6 +174,32 @@
         "Light <span style=' font-weight: 300;'></span>",
         "Bold <span style=' font-weight: 800;'></span>"
       ]
+    },
+    {
+      "target": "$MainAnimationHeading",
+      "name": "Animation ON/OFF",
+      "type": "radio",
+      "groupName": "Main Heading Copy",
+      "groupType": "select",
+      "initialValue": "animate",
+      "properties": {
+        "value": "animate"
+      },
+      "options": ["animate", "static"],
+      "labels": ["ON", "OFF"]
+    },
+    {
+      "target": "$SubAnimationHeading",
+      "name": "Animation ON/OFF",
+      "type": "radio",
+      "groupName": "Sub Heading Copy",
+      "groupType": "select",
+      "initialValue": "animate",
+      "properties": {
+        "value": "animate"
+      },
+      "options": ["animate", "static"],
+      "labels": ["ON", "OFF"]
     }
   ]
 }
