@@ -21,7 +21,7 @@
         },
         {
           "t": "e",
-          "c": "quickbooks-sub-heading $SubAnimationHeading",
+          "c": "quickbooks-sub-heading",
           "h": "$subHeadingCopy",
           "s": "font-size:$copySizeSubHeadingpx;color:$copyColourSubHeading;left:$positioningHoriziontialSubHeadingpx;top:$positioningVerticalSubHeadingpx"
         },
