@@ -1,0 +1,204 @@
+{
+  "template": [
+    {
+      "t": "s",
+      "s": "@keyframes slideinLeft{from{right:-300px;opacity:0}to{right:$positioningHoriziontialSubHeadingpx;opacity:1}}@keyframes slidedown{from{top:-300px;opacity:0}to{top:138px;opacity:1}}@keyframes slideinRight{from{left:-300px;opacity:0}to{left:10px;opacity:1}}.copy{font-family:Montserrat,sans-serif;color:#fff;position:absolute;text-transform:uppercase;animation:1s;animation-fill-mode:forwards;opacity:0;letter-spacing:normal;text-align:left;font-stretch:normal;font-style:italic}"
+    },
+    {
+      "t": "f",
+      "c": "tsc-frame tsc-1",
+      "d": 5000,
+      "j": {
+        "s": "KGZ1bmN0aW9uICgpIHsKICAvLyBHU0FQIHRpbWVsaW5lCiAgLy8gdmFyIHRsID0gZ3NhcC50aW1lbGluZSgpOwoKICBmdW5jdGlvbiBpbml0KCkgewogICAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyBHU0FQIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KICAgIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwogIH0KICAvLyBpbml0KCk7Cn0pKCk7"
+      },
+
+      "e": [
+        {
+          "t": "e",
+          "c": "header",
+          "h": ""
+        },
+        {
+          "t": "e",
+          "c": "tradeStation-main-heading $MainAnimationHeading copy",
+          "h": "$mainHeadingCopy",
+          "s": "font-size:$copySizeMainHeadingpx;right:$positioningHoriziontialMainHeadingpx;top:$positioningVerticalMainHeadingpx; font-weight:$copyStyleMainHeading"
+        },
+        {
+          "t": "e",
+          "c": "tradeStation-sub-heading $SubAnimationHeading copy",
+          "h": "$subHeadingCopy ",
+          "s": "font-size:$copySizeSubHeadingpx;right:$positioningHoriziontialSubHeadingpx;top:$positioningVerticalSubHeadingpx; font-weight:$copyStyleSubHeading;"
+        }
+      ]
+    }
+  ],
+  "config": [
+    {
+      "target": "$mainHeadingCopy",
+      "name": "Copy Text",
+      "type": "text",
+      "groupName": "Main Heading Copy",
+      "groupType": "text",
+      "initialValue": "Get a piece of the",
+      "properties": {
+        "value": "Get a piece of the",
+        "characterLimit": 45
+      }
+    },
+    {
+      "target": "$subHeadingCopy",
+      "name": "Copy Text",
+      "type": "text",
+      "groupName": "Sub Heading Copy",
+      "groupType": "text",
+      "initialValue": "action",
+      "properties": {
+        "value": "action",
+        "characterLimit": 90
+      }
+    },
+    {
+      "target": "$copySizeMainHeading",
+      "name": "Copy Size",
+      "type": "number",
+      "groupName": "Main Heading Copy",
+      "groupType": "number",
+      "initialValue": "17",
+      "properties": {
+        "min": 1,
+        "max": 28,
+        "step": 1,
+        "value": 19
+      }
+    },
+    {
+      "target": "$positioningHoriziontialMainHeading",
+      "name": "Copy Positioning X",
+      "type": "number",
+      "groupName": "Main Heading Copy",
+      "groupType": "number",
+      "initialValue": 30,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 30
+      }
+    },
+    {
+      "target": "$positioningVerticalMainHeading",
+      "name": "Copy Positioning Y",
+      "type": "number",
+      "groupName": "Main Heading Copy",
+      "groupType": "number",
+      "initialValue": 138,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 138
+      }
+    },
+    {
+      "target": "$positioningHoriziontialSubHeading",
+      "name": "Copy Positioning X",
+      "type": "number",
+      "groupName": "Sub Heading Copy",
+      "groupType": "number",
+      "initialValue": 18,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 18
+      }
+    },
+    {
+      "target": "$positioningVerticalSubHeading",
+      "name": "Copy Positioning Y",
+      "type": "number",
+      "groupName": "Sub Heading Copy",
+      "groupType": "number",
+      "initialValue": 175,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 175
+      }
+    },
+    {
+      "target": "$copySizeSubHeading",
+      "name": "Copy Size",
+      "type": "number",
+      "groupName": "Sub Heading Copy",
+      "groupType": "number",
+      "initialValue": "30",
+      "properties": {
+        "min": 1,
+        "max": 60,
+        "step": 1,
+        "value": 30
+      }
+    },
+    {
+      "target": "$copyStyleMainHeading",
+      "name": "Copy Style",
+      "type": "radio",
+      "groupName": "Main Heading Copy",
+      "groupType": "select",
+      "initialValue": "light",
+      "properties": {
+        "value": "light"
+      },
+      "options": ["light", "bold"],
+      "labels": [
+        "Light <span style=' font-weight: 300;'></span>",
+        "Bold <span style=' font-weight: 800;'></span>"
+      ]
+    },
+    {
+      "target": "$copyStyleSubHeading",
+      "name": "Copy Style",
+      "type": "radio",
+      "groupName": "Sub Heading Copy",
+      "groupType": "select",
+      "initialValue": "bold",
+      "properties": {
+        "value": "bold"
+      },
+      "options": ["light", "bold"],
+      "labels": [
+        "Light <span style=' font-weight: 300;'></span>",
+        "Bold <span style=' font-weight: 800;'></span>"
+      ]
+    },
+    {
+      "target": "$MainAnimationHeading",
+      "name": "Animation ON/OFF",
+      "type": "radio",
+      "groupName": "Main Heading Copy",
+      "groupType": "select",
+      "initialValue": "animate",
+      "properties": {
+        "value": "animate"
+      },
+      "options": ["animate", "static"],
+      "labels": ["ON", "OFF"]
+    },
+    {
+      "target": "$SubAnimationHeading",
+      "name": "Animation ON/OFF",
+      "type": "radio",
+      "groupName": "Sub Heading Copy",
+      "groupType": "select",
+      "initialValue": "animate",
+      "properties": {
+        "value": "animate"
+      },
+      "options": ["animate", "static"],
+      "labels": ["ON", "OFF"]
+    }
+  ]
+}

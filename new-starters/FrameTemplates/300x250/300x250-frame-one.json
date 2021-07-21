@@ -21,7 +21,7 @@
         },
         {
           "t": "e",
-          "c": "quickbooks-sub-heading $SubAnimationHeading",
+          "c": "quickbooks-sub-heading",
           "h": "$subHeadingCopy",
           "s": "font-size:$copySizeSubHeadingpx;color:$copyColourSubHeading;left:$positioningHoriziontialSubHeadingpx;top:$positioningVerticalSubHeadingpx"
         },
@@ -123,10 +123,7 @@
         "value": "animate"
       },
       "options": ["animate", "static"],
-      "labels": [
-        "ON", 
-        "OFF"
-      ]
+      "labels": ["ON", "OFF"]
     },
     {
       "target": "$subHeadingCopy",
@@ -209,10 +206,7 @@
         "value": "animate"
       },
       "options": ["animate", "static"],
-      "labels": [
-        "ON", 
-        "OFF"
-      ]
+      "labels": ["ON", "OFF"]
     },
     {
       "target": "$cta",
@@ -237,10 +231,7 @@
         "value": "animate"
       },
       "options": ["animate", "static"],
-      "labels": [
-        "ON", 
-        "OFF"
-      ]
+      "labels": ["ON", "OFF"]
     }
   ]
 }
