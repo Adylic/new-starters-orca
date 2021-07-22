@@ -12,7 +12,7 @@
           "t": "e",
           "c": "bg",
           "h": "<img class='bg-img' src='https://s0.2mdn.net/creatives/assets/4211898/gordon-s-bg.png'>",
-          "s": ".bg-img{position:absolute;top:6px;left:6px;width:287px;height:178px}"
+          "s": ".bg{position:absolute;top:6px;left:6px}"
         }
       ]
     }

@@ -1,7 +1,11 @@
-.bg-img {
+.bg {
   position: absolute;
   top: 6px;
   left: 6px;
+}
+
+.bg-img {
+  position: absolute;
   width: 287px;
   height: 178px;
 }
