@@ -1,6 +1,10 @@
 {
   "template": [
     {
+      "t": "s",
+      "s": ".bg{position:absolute;top:6px;left:6px}.bg-img{position:absolute;width:287px;height:178px}"
+    },
+    {
       "t": "f",
       "c": "gordons-middle gordons-frame",
       "d": 5000,
@@ -11,8 +15,7 @@
         {
           "t": "e",
           "c": "bg",
-          "h": "<img class='bg-img' src='https://s0.2mdn.net/creatives/assets/4211898/gordon-s-bg.png'>",
-          "s": ".bg{position:absolute;top:6px;left:6px}"
+          "h": "<img class='bg-img' src='https://s0.2mdn.net/creatives/assets/4211898/gordon-s-bg.png'>"
         }
       ]
     }
