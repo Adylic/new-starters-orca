@@ -20,9 +20,9 @@
         },
         {
           "t": "e",
-          "c": "tradeStation-sub-heading $SubAnimationHeading copy",
-          "h": "$subHeadingCopy ",
-          "s": "font-size:$copySizeSubHeadingpx;right:$positioningHoriziontialSubHeadingpx;top:$positioningVerticalSubHeadingpx; font-weight:$copyStyleSubHeading;"
+          "c": "tradeStation-main-heading $MainAnimationHeading copy",
+          "h": "$mainHeadingCopy",
+          "s": "font-size:$copySizeMainHeadingpx;right:$positioningHoriziontialMainHeadingpx;top:$positioningVerticalMainHeadingpx; font-weight:$copyStyleMainHeading"
         }
       ]
     }
@@ -34,22 +34,10 @@
       "type": "text",
       "groupName": "Main Heading Copy",
       "groupType": "text",
-      "initialValue": "Get a piece of the",
+      "initialValue": "With Tradestation Crypto",
       "properties": {
-        "value": "Get a piece of the",
+        "value": "With Tradestation Crypto",
         "characterLimit": 45
-      }
-    },
-    {
-      "target": "$subHeadingCopy",
-      "name": "Copy Text",
-      "type": "text",
-      "groupName": "Sub Heading Copy",
-      "groupType": "text",
-      "initialValue": "action",
-      "properties": {
-        "value": "action",
-        "characterLimit": 90
       }
     },
     {
@@ -72,12 +60,12 @@
       "type": "number",
       "groupName": "Main Heading Copy",
       "groupType": "number",
-      "initialValue": 30,
+      "initialValue": 11,
       "properties": {
         "min": 0,
         "max": 300,
         "step": 1,
-        "value": 30
+        "value": 11
       }
     },
     {
@@ -86,54 +74,12 @@
       "type": "number",
       "groupName": "Main Heading Copy",
       "groupType": "number",
-      "initialValue": 138,
+      "initialValue": 155,
       "properties": {
         "min": 0,
         "max": 250,
         "step": 1,
-        "value": 138
-      }
-    },
-    {
-      "target": "$positioningHoriziontialSubHeading",
-      "name": "Copy Positioning X",
-      "type": "number",
-      "groupName": "Sub Heading Copy",
-      "groupType": "number",
-      "initialValue": 18,
-      "properties": {
-        "min": 0,
-        "max": 300,
-        "step": 1,
-        "value": 18
-      }
-    },
-    {
-      "target": "$positioningVerticalSubHeading",
-      "name": "Copy Positioning Y",
-      "type": "number",
-      "groupName": "Sub Heading Copy",
-      "groupType": "number",
-      "initialValue": 175,
-      "properties": {
-        "min": 0,
-        "max": 250,
-        "step": 1,
-        "value": 175
-      }
-    },
-    {
-      "target": "$copySizeSubHeading",
-      "name": "Copy Size",
-      "type": "number",
-      "groupName": "Sub Heading Copy",
-      "groupType": "number",
-      "initialValue": "30",
-      "properties": {
-        "min": 1,
-        "max": 60,
-        "step": 1,
-        "value": 30
+        "value": 155
       }
     },
     {
@@ -153,39 +99,10 @@
       ]
     },
     {
-      "target": "$copyStyleSubHeading",
-      "name": "Copy Style",
-      "type": "radio",
-      "groupName": "Sub Heading Copy",
-      "groupType": "select",
-      "initialValue": "bold",
-      "properties": {
-        "value": "bold"
-      },
-      "options": ["light", "bold"],
-      "labels": [
-        "Light <span style=' font-weight: 300;'></span>",
-        "Bold <span style=' font-weight: 800;'></span>"
-      ]
-    },
-    {
       "target": "$MainAnimationHeading",
       "name": "Animation ON/OFF",
       "type": "radio",
       "groupName": "Main Heading Copy",
-      "groupType": "select",
-      "initialValue": "animate",
-      "properties": {
-        "value": "animate"
-      },
-      "options": ["animate", "static"],
-      "labels": ["ON", "OFF"]
-    },
-    {
-      "target": "$SubAnimationHeading",
-      "name": "Animation ON/OFF",
-      "type": "radio",
-      "groupName": "Sub Heading Copy",
       "groupType": "select",
       "initialValue": "animate",
       "properties": {
