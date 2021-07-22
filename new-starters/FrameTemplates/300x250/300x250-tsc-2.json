@@ -2,7 +2,7 @@
   "template": [
     {
       "t": "s",
-      "s": "copy{font-family:Montserrat,sans-serif;color:#fff;position:absolute;text-transform:uppercase;animation:1s;animation-fill-mode:forwards;opacity:0;letter-spacing:normal;text-align:left;font-stretch:normal;font-style:italic}"
+      "s": ".copy{font-family:Montserrat,sans-serif;color:#fff;position:absolute;text-transform:uppercase;animation:1s;animation-fill-mode:forwards;opacity:0;letter-spacing:normal;text-align:left;font-stretch:normal;font-style:italic}"
     },
     {
       "t": "f",
@@ -51,7 +51,7 @@
         "min": 1,
         "max": 28,
         "step": 1,
-        "value": 19
+        "value": 17
       }
     },
     {
