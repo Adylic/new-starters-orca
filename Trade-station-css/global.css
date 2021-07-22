@@ -155,17 +155,6 @@
   animation: none !important;
   opacity: 1 !important;
 }
-.tradeStation-sub-heading.slideInLeft {
-  animation-name: slideInLeft;
-}
-
-.tradeStation-sub-heading.slideInRight {
-  animation-name: slideInRight;
-}
-
-.tradeStation-sub-heading.slidedown {
-  animation-name: slidedown;
-}
 
 .tradeStation-main-heading.slideInLeft {
   animation-name: slideInLeft;
