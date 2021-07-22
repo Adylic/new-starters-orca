@@ -26,9 +26,9 @@
         },
         {
           "t": "e",
-          "c": "tradeStation-sub-heading $SubAnimationHeading copy",
+          "c": "tradeStation-sub-heading  copy",
           "h": "$subHeadingCopy ",
-          "s": "font-size:$copySizeSubHeadingpx;right:$positioningHoriziontialSubHeadingpx;top:$positioningVerticalSubHeadingpx; font-weight:$copyStyleSubHeading;"
+          "s": "font-size:$copySizeSubHeadingpx;right:$positioningHoriziontialSubHeadingpx;top:$positioningVerticalSubHeadingpx; font-weight:$copyStyleSubHeading; animation-name: $SubAnimationHeading;"
         }
       ]
     }
@@ -141,19 +141,6 @@
         "step": 1,
         "value": 30
       }
-    },
-    {
-      "target": "$MainAnimationHeading",
-      "name": "Animation ON/OFF",
-      "type": "radio",
-      "groupName": "Main Heading Copy",
-      "groupType": "select",
-      "initialValue": "animate",
-      "properties": {
-        "value": "animate"
-      },
-      "options": ["animate", "static"],
-      "labels": ["ON", "OFF"]
     },
     {
       "target": "$SubAnimationHeading",
