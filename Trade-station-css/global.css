@@ -141,18 +141,18 @@
   font-weight: 300;
 }
 
-.tradeStation-main-heading.slidedown.dev {
-  animation: none !important;
+.tradeStation-main-heading.dev {
+  animation-name: none !important;
   opacity: 1 !important;
 }
 
-.tradeStation-sub-heading.slideInLeft.dev {
-  animation: none !important;
+.tradeStation-sub-heading.dev {
+  animation-name: none !important;
   opacity: 1 !important;
 }
 
-.lg.slideInRight.dev {
-  animation: none !important;
+.lg.dev {
+  animation-name: none !important;
   opacity: 1 !important;
 }
 
