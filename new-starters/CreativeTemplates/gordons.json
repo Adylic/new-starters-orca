@@ -1,0 +1,15 @@
+[
+  {
+    "name": "gordons-300x250",
+    "size": "300x250",
+    "width": 300,
+    "height": 250,
+    "frameLimit": 5,
+    "frameMinCount": 1,
+    "globalTemplateName": "gordons",
+    "start": ["gordons-middle"],
+    "middle": ["gordons-middle"],
+    "end": ["gordons-middle"],
+    "baseSize": 8000
+  }
+]
