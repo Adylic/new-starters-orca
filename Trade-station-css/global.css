@@ -146,7 +146,7 @@
   opacity: 1 !important;
 }
 
-.tradeStation-sub-heading.animate.dev {
+.tradeStation-sub-heading.slideinLeft.dev {
   animation: none !important;
   opacity: 1 !important;
 }
@@ -155,8 +155,16 @@
   animation: none !important;
   opacity: 1 !important;
 }
-.tradeStation-sub-heading.animate {
+.tradeStation-sub-heading.slideinLeft {
   animation-name: slideinLeft;
+}
+
+.tradeStation-sub-heading.slideInRight {
+  animation-name: slideInRight;
+}
+
+.tradeStation-sub-heading.slidedown {
+  animation-name: slidedown;
 }
 .tradeStation-sub-heading.static {
   opacity: 1;
@@ -178,4 +186,35 @@
 
 tsc-bold {
   font-weight: 800;
+}
+
+@keyframes slideinLeft {
+  from {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slidedown {
+  from {
+    transform: translateY(250px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideinRight {
+  from {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
