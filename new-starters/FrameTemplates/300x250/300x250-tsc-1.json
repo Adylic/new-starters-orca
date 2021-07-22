@@ -2,7 +2,7 @@
   "template": [
     {
       "t": "s",
-      "s": "@keyframes slideinLeft{from{transform:translateX(-300px);opacity:0}to{transform:translateX(0);opacity:1}}@keyframes slidedown{from{top:-300px;opacity:0}to{top:$positioningVerticalMainHeadingpx;opacity:1}}@keyframes slideinRight{from{left:-300px;opacity:0}to{left:10px;opacity:1}}"
+      "s": ""
     },
     {
       "t": "f",
@@ -157,16 +157,44 @@
     },
     {
       "target": "$SubAnimationHeading",
-      "name": "Animation ON/OFF",
+      "name": "Animation Direction",
       "type": "radio",
       "groupName": "Sub Heading Copy",
       "groupType": "select",
-      "initialValue": "animate",
+      "initialValue": "slideInLeft",
       "properties": {
-        "value": "animate"
+        "value": "slideInLeft"
       },
-      "options": ["animate", "static"],
-      "labels": ["ON", "OFF"]
+      "options": ["slideInLeft", "slideInRight", "slidedown", "static"],
+      "labels": ["slide in Left", "slide in right", "slide down", "OFF"]
+    },
+
+    {
+      "target": "$APRBackgroundColour",
+      "name": "Block Background Colour",
+      "type": "radio",
+      "groupName": "APR",
+      "groupType": "select",
+      "initialValue": "#00a5a3",
+      "properties": {
+        "value": "#00a5a3"
+      },
+      "options": [
+        "#ffbd1e",
+        "#4c297e",
+        "#00aeef",
+        "#00a5a3",
+        "#b02275",
+        "#FD6C46"
+      ],
+      "labels": [
+        "Yellow <span style='background-color:#ffbd1e;'></span>",
+        "Purple <span style='background-color:#4c297e;'></span>",
+        "Blue <span style='background-color:#00aeef;'></span>",
+        "Turquoise <span style='background-color:#00a5a3;'></span>",
+        "Pink-Red <span style='background-color:#b02275;'></span>",
+        "Organge <span style='background-color:#FD6C46;'></span>"
+      ]
     }
   ]
 }
