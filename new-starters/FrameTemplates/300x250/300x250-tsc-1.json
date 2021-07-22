@@ -22,7 +22,7 @@
           "t": "e",
           "c": "tradeStation-main-heading  copy",
           "h": "$mainHeadingCopy",
-          "s": "font-size:$copySizeMainHeadingpx;right:$positioningHoriziontialMainHeadingpx;top:$positioningVerticalMainHeadingpx; font-weight:$copyStyleMainHeading animation-name: $MainAnimationHeading;"
+          "s": "font-size:$copySizeMainHeadingpx;right:$positioningHoriziontialMainHeadingpx;top:$positioningVerticalMainHeadingpx; font-weight:$copyStyleMainHeading; animation-name: $MainAnimationHeading;"
         },
         {
           "t": "e",
