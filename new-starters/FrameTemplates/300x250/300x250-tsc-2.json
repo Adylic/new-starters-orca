@@ -60,12 +60,12 @@
       "type": "number",
       "groupName": "Main Heading Copy",
       "groupType": "number",
-      "initialValue": 11,
+      "initialValue": 33,
       "properties": {
         "min": 0,
         "max": 300,
         "step": 1,
-        "value": 11
+        "value": 33
       }
     },
     {
@@ -74,12 +74,12 @@
       "type": "number",
       "groupName": "Main Heading Copy",
       "groupType": "number",
-      "initialValue": 155,
+      "initialValue": 154,
       "properties": {
         "min": 0,
         "max": 250,
         "step": 1,
-        "value": 155
+        "value": 154
       }
     },
     {
