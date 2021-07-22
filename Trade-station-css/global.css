@@ -156,18 +156,6 @@
   opacity: 1 !important;
 }
 
-.tradeStation-main-heading.slideInLeft {
-  animation-name: slideInLeft;
-}
-
-.tradeStation-main-heading.slideInRight {
-  animation-name: slideInRight;
-}
-
-.tradeStation-main-heading.slidedown {
-  animation-name: slidedown;
-}
-
 .tradeStation-sub-heading.static {
   opacity: 1;
 }
@@ -176,17 +164,6 @@
   opacity: 1;
 }
 
-.lg.slideInRight {
-  animation-name: slideInRight;
-}
-
-.lg.slideInLeft {
-  animation-name: slideInLeft;
-}
-
-.lg.slidedown {
-  animation-name: slidedown;
-}
 .lg.static {
   opacity: 1;
 }
