@@ -40,12 +40,6 @@
   animation-fill-mode: forwards;
   opacity: 0;
 }
-.lg.animate {
-  animation-name: slideinRight;
-}
-.lg.static {
-  opacity: 1;
-}
 
 .logo-image {
   position: absolute;
@@ -152,6 +146,11 @@
   animation: none !important;
   opacity: 1 !important;
 }
+
+.lg.animate.dev {
+  animation: none !important;
+  opacity: 1 !important;
+}
 .tradeStation-sub-heading.animate {
   animation-name: slideinLeft;
 }
@@ -163,5 +162,12 @@
   animation-name: slidedown;
 }
 .tradeStation-main-heading.static {
+  opacity: 1;
+}
+
+.lg.animate {
+  animation-name: slideinRight;
+}
+.lg.static {
   opacity: 1;
 }
