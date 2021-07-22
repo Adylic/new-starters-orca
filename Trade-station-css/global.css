@@ -143,6 +143,11 @@
   font-style: italic;
   font-weight: 800;
 }
+.tradeStation-main-heading.animate.dev {
+  animation: none !important;
+  opacity: 1 !important;
+}
+
 .tradeStation-sub-heading.animate.dev {
   animation: none !important;
   opacity: 1 !important;
