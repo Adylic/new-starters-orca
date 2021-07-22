@@ -2,7 +2,7 @@
   "template": [
     {
       "t": "s",
-      "s": "@keyframes slideinLeft{from{right:-300px;opacity:0}to{right:$positioningHoriziontialSubHeadingpx;opacity:1}}@keyframes slidedown{from{top:-300px;opacity:0}to{top:138px;opacity:1}}@keyframes slideinRight{from{left:-300px;opacity:0}to{left:10px;opacity:1}}.copy{font-family:Montserrat,sans-serif;color:#fff;position:absolute;text-transform:uppercase;animation:1s;animation-fill-mode:forwards;opacity:0;letter-spacing:normal;text-align:left;font-stretch:normal;font-style:italic}"
+      "s": "@keyframes slideinLeft{from{right:-300px;opacity:0}to{right:$positioningHoriziontialSubHeadingpx;opacity:1}}@keyframes slidedown{from{top:-300px;opacity:0}to{top:$positioningVerticalMainHeadingpx;opacity:1}}@keyframes slideinRight{from{left:-300px;opacity:0}to{left:10px;opacity:1}}.copy{font-family:Montserrat,sans-serif;color:#fff;position:absolute;text-transform:uppercase;animation:1s;animation-fill-mode:forwards;opacity:0;letter-spacing:normal;text-align:left;font-stretch:normal;font-style:italic}"
     },
     {
       "t": "f",
