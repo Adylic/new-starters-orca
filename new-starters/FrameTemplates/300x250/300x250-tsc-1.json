@@ -142,38 +142,7 @@
         "value": 30
       }
     },
-    {
-      "target": "$copyStyleMainHeading",
-      "name": "Copy Style",
-      "type": "radio",
-      "groupName": "Main Heading Copy",
-      "groupType": "select",
-      "initialValue": "light",
-      "properties": {
-        "value": "light"
-      },
-      "options": ["light", "bold"],
-      "labels": [
-        "Light <span style=' font-weight: 300;'></span>",
-        "Bold <span style=' font-weight: 800;'></span>"
-      ]
-    },
-    {
-      "target": "$copyStyleSubHeading",
-      "name": "Copy Style",
-      "type": "radio",
-      "groupName": "Sub Heading Copy",
-      "groupType": "select",
-      "initialValue": "bold",
-      "properties": {
-        "value": "bold"
-      },
-      "options": ["light", "bold"],
-      "labels": [
-        "Light <span style=' font-weight: 300;'></span>",
-        "Bold <span style=' font-weight: 800;'></span>"
-      ]
-    },
+
     {
       "target": "$MainAnimationHeading",
       "name": "Animation ON/OFF",
