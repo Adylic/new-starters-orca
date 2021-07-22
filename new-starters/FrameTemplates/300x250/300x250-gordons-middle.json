@@ -4,7 +4,6 @@
       "t": "f",
       "c": "gordons-middle gordons-frame",
       "d": 5000,
-      "s": "position:absolute; top:0px; left:0px; width:100%; height:100%;",
       "j": {
         "s": "KGZ1bmN0aW9uICgpIHsKICAvLyBHU0FQIHRpbWVsaW5lCiAgdmFyIHRsID0gZ3NhcC50aW1lbGluZSgpOwoKICBmdW5jdGlvbiBpbml0KCkgewogICAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyBHU0FQIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KICAgIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwogIH0KICBpbml0KCk7Cn0pKCk7Cg=="
       },
@@ -12,7 +11,7 @@
         {
           "t": "e",
           "c": "",
-          "h": "",
+          "h": "<img src='https://s0.2mdn.net/creatives/assets/4211898/gordon-s-bg.png'>",
           "s": ""
         }
       ]
