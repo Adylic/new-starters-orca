@@ -124,6 +124,9 @@
   line-height: 0.94;
   top: 175px;
   right: 18px;
+}
+
+.copy {
   font-family: "Montserrat", sans-serif;
   color: #fff;
   position: absolute;
@@ -135,8 +138,9 @@
   text-align: left;
   font-stretch: normal;
   font-style: italic;
-  font-weight: 800;
+  font-weight: 300;
 }
+
 .tradeStation-main-heading.animate.dev {
   animation: none !important;
   opacity: 1 !important;
@@ -170,4 +174,8 @@
 }
 .lg.static {
   opacity: 1;
+}
+
+tsc-bold {
+  font-weight: 800;
 }
