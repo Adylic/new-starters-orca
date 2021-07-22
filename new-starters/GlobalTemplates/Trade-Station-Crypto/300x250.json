@@ -2,7 +2,7 @@
   "template": [
     {
       "t": "s",
-      "s": "@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,300;1,800&display=swap);.dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px}.tsc-1{position:absolute;top:0;left:0;width:100%;height:100%}.box{position:relative}.background-image{width:100%;height:250px;position:relative;top:0;left:0}.overlay-image{position:absolute;bottom:4px;left:110px;width:74px;height:197px}.ov{position:relative}.lg{position:relative;animation:1s;animation-fill-mode:forwards;opacity:0}.logo-image{position:absolute;bottom:14px;left:10px;width:92.5px;height:21.5px}@keyframes slideinRight{from{left:-300px;opacity:0}to{left:14px;opacity:1}}.dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px}.tsc-frame{position:absolute;top:0;left:0;width:100%;height:100%}.box{position:relative}.background-image{width:100%;height:250px;position:relative;top:0;left:0}.overlay-image{position:absolute;bottom:4px;left:110px;width:74px;height:197px}.ov{position:relative}.lg{position:relative;animation:1s;animation-fill-mode:forwards;opacity:0}.logo-image{position:absolute;bottom:14px;left:10px;width:92.5px;height:21.5px}.tradeStation-main-heading{width:110px;height:29px;font-size:17px;font-weight:300;line-height:1}.tradeStation-sub-heading{width:127.5px;height:22px;font-size:30.8px;line-height:.94;top:175px;right:18px}.copy{font-family:Montserrat,sans-serif;color:#fff;position:absolute;text-transform:uppercase;animation:1s;animation-fill-mode:forwards;opacity:0;letter-spacing:normal;text-align:left;font-stretch:normal;font-style:italic;font-weight:300}.tradeStation-main-heading.animate.dev{animation:none!important;opacity:1!important}.tradeStation-sub-heading.slideinLeft.dev{animation:none!important;opacity:1!important}.lg.animate.dev{animation:none!important;opacity:1!important}.tradeStation-sub-heading.slideinLeft{animation-name:slideinLeft}.tradeStation-sub-heading.slideInRight{animation-name:slideInRight}.tradeStation-sub-heading.slidedown{animation-name:slidedown}.tradeStation-sub-heading.static{opacity:1}.tradeStation-main-heading.animate{animation-name:slidedown}.tradeStation-main-heading.static{opacity:1}.lg.animate{animation-name:slideinRight}.lg.static{opacity:1}tsc-bold{font-weight:800}@keyframes slideinLeft{from{transform:translateX(300px);opacity:0}to{transform:translateX(0);opacity:1}}@keyframes slidedown{from{transform:translateY(250px);opacity:0}to{transform:translateY(0);opacity:1}}@keyframes slideinRight{from{transform:translateX(-300px);opacity:0}to{transform:translateX(0);opacity:1}}"
+      "s": "@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,300;1,800&display=swap);.dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px}.tsc-1{position:absolute;top:0;left:0;width:100%;height:100%}.box{position:relative}.background-image{width:100%;height:250px;position:relative;top:0;left:0}.overlay-image{position:absolute;bottom:4px;left:110px;width:74px;height:197px}.ov{position:relative}.lg{position:relative;animation:1s;animation-fill-mode:forwards;opacity:0}.logo-image{position:absolute;bottom:14px;left:10px;width:92.5px;height:21.5px}@keyframes slideInRight{from{left:-300px;opacity:0}to{left:14px;opacity:1}}.dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px}.tsc-frame{position:absolute;top:0;left:0;width:100%;height:100%}.box{position:relative}.background-image{width:100%;height:250px;position:relative;top:0;left:0}.overlay-image{position:absolute;bottom:4px;left:110px;width:74px;height:197px}.ov{position:relative}.lg{position:relative;animation:1s;animation-fill-mode:forwards;opacity:0}.logo-image{position:absolute;bottom:14px;left:10px;width:92.5px;height:21.5px}.tradeStation-main-heading{width:110px;height:29px;font-size:17px;font-weight:300;line-height:1}.tradeStation-sub-heading{width:127.5px;height:22px;font-size:30.8px;line-height:.94;top:175px;right:18px}.copy{font-family:Montserrat,sans-serif;color:#fff;position:absolute;text-transform:uppercase;animation:1s;animation-fill-mode:forwards;opacity:0;letter-spacing:normal;text-align:left;font-stretch:normal;font-style:italic;font-weight:300}.tradeStation-main-heading.slidedown.dev{animation:none!important;opacity:1!important}.tradeStation-sub-heading.slideInLeft.dev{animation:none!important;opacity:1!important}.lg.slideInRight.dev{animation:none!important;opacity:1!important}.tradeStation-sub-heading.slideInLeft{animation-name:slideInLeft}.tradeStation-sub-heading.slideInRight{animation-name:slideInRight}.tradeStation-sub-heading.slidedown{animation-name:slidedown}.tradeStation-main-heading.slideInLeft{animation-name:slideInLeft}.tradeStation-main-heading.slideInRight{animation-name:slideInRight}.tradeStation-main-heading.slidedown{animation-name:slidedown}.tradeStation-sub-heading.static{opacity:1}.tradeStation-main-heading.static{opacity:1}.lg.slideInRight{animation-name:slideInRight}.lg.slideInLeft{animation-name:slideInLeft}.lg.slidedown{animation-name:slidedown}.lg.static{opacity:1}tsc-bold{font-weight:800}@keyframes slideInLeft{from{transform:translateX(300px);opacity:0}to{transform:translateX(0);opacity:1}}@keyframes slidedown{from{transform:translateY(-250px);opacity:0}to{transform:translateY(0);opacity:1}}@keyframes slideInRight{from{transform:translateX(-300px);opacity:0}to{transform:translateX(0);opacity:1}}"
     },
     {
       "t": "j",
@@ -67,18 +67,19 @@
         "value": 1
       }
     },
+
     {
       "target": "$LogoAnimationHeading",
-      "name": "Animation ON/OFF",
+      "name": "Animation Direction",
       "type": "radio",
       "groupName": "Logo",
       "groupType": "select",
-      "initialValue": "animate",
+      "initialValue": "slideInRight",
       "properties": {
-        "value": "animate"
+        "value": "slideInRight"
       },
-      "options": ["animate", "static"],
-      "labels": ["ON", "OFF"]
+      "options": ["slideInLeft", "slideInRight", "slidedown", "static"],
+      "labels": ["slide in Left", "slide in right", "slide down", "OFF"]
     }
   ]
 }
