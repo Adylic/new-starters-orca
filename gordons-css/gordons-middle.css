@@ -20,12 +20,16 @@
 
 .glass-left-img {
   position: absolute;
+  width: 46px;
+  height: 104px;
   top: 67px;
   left: 99px;
 }
 
 .glass-right-img {
   position: absolute;
+  width: 46px;
+  height: 104px;
   top: 67px;
   left: 160px;
 }
