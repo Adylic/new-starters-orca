@@ -2,7 +2,7 @@
   "template": [
     {
       "t": "s",
-      "s": ".bg{position:absolute;top:6px;left:6px}.bg-img{position:absolute;width:287px;height:178px}.strawberry-img{position:absolute;top:6px;left:247px;width:46px;height:50px}.glass-left-img{position:absolute;top:67px;left:99px}.glass-right-img{position:absolute;top:67px;left:160px}"
+      "s": ".bg{position:absolute;top:6px;left:6px}.bg-img{position:absolute;width:287px;height:178px}.strawberry-img{position:absolute;top:6px;left:247px;width:46px;height:50px}.glass-left-img{position:absolute;width:46px;height:104px;top:67px;left:99px}.glass-right-img{position:absolute;width:46px;height:104px;top:67px;left:160px}"
     },
     {
       "t": "f",
