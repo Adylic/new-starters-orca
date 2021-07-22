@@ -1,0 +1,15 @@
+.copy {
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  position: absolute;
+  text-transform: uppercase;
+  animation: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  letter-spacing: normal;
+  text-align: left;
+  font-stretch: normal;
+  font-style: italic;
+  width: 131.5px;
+  height: 46px;
+}
