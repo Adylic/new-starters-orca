@@ -8,7 +8,7 @@
     "frameMinCount": 1,
     "globalTemplateName": "Trade-Station-Crypto",
     "start": ["tsc-1"],
-    "middle": ["tsc-1"],
+    "middle": ["tsc-2"],
     "end": ["tsc-1"],
     "baseSize": 8000
   }
