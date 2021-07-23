@@ -16,7 +16,7 @@
         {
           "t": "e",
           "c": "strawberry",
-          "h": "<img class='strawberry-img' src='https://s0.2mdn.net/creatives/assets/4211898/gordon-s-strawberry.png'>"
+          "h": "<img class='strawberry-img' src='$StrawberryImg' style='left:$StrawberryXPospx;top:$StrawberryYPospx;'>"
         },
         {
           "t": "e",
@@ -107,6 +107,42 @@
         "Black <span style='background-color:black;'></span>",
         "White <span style='background-color:white;'></span>"
       ]
+    },
+    {
+      "target": "$StrawberryImg",
+      "name": "Strawberry Image",
+      "type": "file",
+      "groupName": "Strawberry",
+      "groupType": "image",
+      "initialValue": "https://s0.2mdn.net/creatives/assets/4211898/gordon-s-strawberry.png"
+    },
+    {
+      "target": "$StrawberryXPos",
+      "name": "Strawberry X Position",
+      "type": "number",
+      "groupName": "Strawberry",
+      "groupType": "number",
+      "initialValue": 247,
+      "properties": {
+        "min": 1,
+        "max": 299,
+        "step": 1,
+        "value": 247
+      }
+    },
+    {
+      "target": "$StrawberryYPos",
+      "name": "Strawberry Y Position",
+      "type": "number",
+      "groupName": "Strawberry",
+      "groupType": "number",
+      "initialValue": 6,
+      "properties": {
+        "min": 1,
+        "max": 249,
+        "step": 1,
+        "value": 6
+      }
     },
     {
       "target": "$BottleImg",
