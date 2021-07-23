@@ -2,7 +2,7 @@
   "template": [
     {
       "t": "s",
-      "s": ".dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px;position:absolute}.gordons-frame{position:absolute;top:0;left:0;width:100%;height:100%}"
+      "s": ".dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px;position:absolute}.gordons-frame{position:absolute;top:0;left:0;width:100%;height:100%}.logo-img{position:absolute;top:193px;left:100px;width:109px;height:46px}"
     },
     {
       "t": "j",
@@ -10,8 +10,8 @@
     },
     {
       "t": "e",
-      "c": "",
-      "s": ""
+      "c": "logo",
+      "h": "<img class='logo-img' src='https://s0.2mdn.net/creatives/assets/4211898/gordon-s-logo.png'>"
     }
   ],
   "config": []
