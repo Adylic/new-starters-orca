@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap");
+
 @font-face {
   font-family: Termina-Demi;
   src: url(https://s0.2mdn.net/creatives/assets/4135577/Termina-Demi.woff2)
@@ -35,18 +37,16 @@
 
 .drink-aware {
   position: absolute;
-  top: 1px;
-  left: 242px;
-}
-
-.drink-aware > p {
+  top: -1.5px;
+  left: 241px;
   color: black;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: "Exo 2", sans-serif;
+  line-height: 0px;
 }
 
 .drink-aware-1 {
-  font-size: 2px;
+  font-size: 3px;
 }
 
 .drink-aware-2 {
@@ -78,7 +78,7 @@
   width: 46px;
   height: 104px;
   top: 67px;
-  left: 99px;
+  left: 99.5px;
 }
 
 .glass-right-img {
@@ -103,6 +103,8 @@
   left: 96px;
   font-size: 16px;
   text-align: center;
+  line-height: 1.27;
+  letter-spacing: 0.33px;
   color: white;
   font-family: "Termina-Demi";
 }
