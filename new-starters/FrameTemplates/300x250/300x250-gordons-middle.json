@@ -30,11 +30,83 @@
         },
         {
           "t": "e",
-          "c": "main-copy",
-          "h": "MAKE IT A<br> GORDON'S"
+          "c": "main-copy $CopyColour",
+          "h": "$CopyText",
+          "s": "font-size:$CopySizepx;left:$CopyXPospx;top:$CopyYPospx;"
         }
       ]
     }
   ],
-  "config": []
+  "config": [
+    {
+      "target": "$CopySize",
+      "name": "Copy Size",
+      "type": "number",
+      "groupName": "Copy",
+      "groupType": "number",
+      "initialValue": 16,
+      "properties": {
+        "min": 5,
+        "max": 28,
+        "step": 1,
+        "value": 16
+      }
+    },
+    {
+      "target": "$CopyXPos",
+      "name": "Copy X Position",
+      "type": "number",
+      "groupName": "Copy",
+      "groupType": "number",
+      "initialValue": 96,
+      "properties": {
+        "min": 1,
+        "max": 299,
+        "step": 1,
+        "value": 96
+      }
+    },
+    {
+      "target": "$CopyYPos",
+      "name": "Copy Y Position",
+      "type": "number",
+      "groupName": "Copy",
+      "groupType": "number",
+      "initialValue": 24,
+      "properties": {
+        "min": 1,
+        "max": 249,
+        "step": 1,
+        "value": 24
+      }
+    },
+    {
+      "target": "$CopyText",
+      "name": "Copy Text",
+      "type": "text",
+      "groupName": "Copy",
+      "groupType": "text",
+      "initialValue": "MAKE IT A<br>GORDON'S",
+      "properties": {
+        "value": "MAKE IT A<br>GORDON'S",
+        "characterLimit": 30
+      }
+    },
+    {
+      "target": "$CopyColour",
+      "name": "Copy Text Colour",
+      "type": "radio",
+      "groupName": "Copy",
+      "groupType": "select",
+      "initialValue": "color-white",
+      "properties": {
+        "value": "color-white"
+      },
+      "options": ["color-black", "color-white"],
+      "labels": [
+        "Black <span style='background-color:black;'></span>",
+        "White <span style='background-color:white;'></span>"
+      ]
+    }
+  ]
 }
