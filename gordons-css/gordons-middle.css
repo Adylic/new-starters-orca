@@ -41,3 +41,12 @@
   top: 119px;
   left: 233px;
 }
+
+.main-copy {
+  position: absolute;
+  top: 24px;
+  left: 96px;
+  font-size: 33px;
+  text-align: center;
+  color: #ffffff;
+}
