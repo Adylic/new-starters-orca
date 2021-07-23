@@ -48,5 +48,8 @@
   left: 96px;
   font-size: 16px;
   text-align: center;
-  color: #ffffff;
+}
+
+.main-copy > p {
+  color: white;
 }
