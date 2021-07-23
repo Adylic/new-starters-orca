@@ -26,7 +26,7 @@
         {
           "t": "e",
           "c": "bottle",
-          "h": "<img class='bottle-img' src='https://s0.2mdn.net/creatives/assets/4211898/gordon-s-bottle.png'>"
+          "h": "<img class='bottle-img' src='$BottleImg' style='left:$BottleXPospx;' >"
         },
         {
           "t": "e",
@@ -107,6 +107,28 @@
         "Black <span style='background-color:black;'></span>",
         "White <span style='background-color:white;'></span>"
       ]
+    },
+    {
+      "target": "$BottleImg",
+      "name": "Bottle Image",
+      "type": "file",
+      "groupName": "Bottle",
+      "groupType": "image",
+      "initialValue": "https://s0.2mdn.net/creatives/assets/4211898/gordon-s-bottle.png"
+    },
+    {
+      "target": "$BottleXPos",
+      "name": "Bottle X Position",
+      "type": "number",
+      "groupName": "Bottle",
+      "groupType": "number",
+      "initialValue": 233,
+      "properties": {
+        "min": 1,
+        "max": 299,
+        "step": 1,
+        "value": 233
+      }
     }
   ]
 }
