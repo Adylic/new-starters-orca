@@ -66,7 +66,7 @@
       "type": "text",
       "groupName": "Copy",
       "groupType": "text",
-      "initialValue": "MAKE IT A<br>GORDON'S",
+      "initialValue": "LOOKING FOR A<br>SUMMER DRINK?",
       "properties": {
         "value": "MAKE IT A<br>GORDON'S",
         "characterLimit": 30
