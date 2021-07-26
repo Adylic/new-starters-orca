@@ -10,26 +10,6 @@
       "e": [
         {
           "t": "e",
-          "c": "bg",
-          "h": "<img class='bg-img' src='$BgImg'>"
-        },
-        {
-          "t": "e",
-          "c": "strawberry",
-          "h": "<img class='strawberry-img' src='$StrawberryImg' style='left:$StrawberryXPospx;top:$StrawberryYPospx;'>"
-        },
-        {
-          "t": "e",
-          "c": "glasses",
-          "h": "<img class='glass-left-img' src='https://s0.2mdn.net/creatives/assets/4211898/gordon-s-strawberry-serve_left.png'><img class='glass-right-img' src='https://s0.2mdn.net/creatives/assets/4211898/gordon-s-strawberry-serve_right.png'>"
-        },
-        {
-          "t": "e",
-          "c": "bottle",
-          "h": "<img class='bottle-img' src='$BottleImg' style='left:$BottleXPospx;' >"
-        },
-        {
-          "t": "e",
           "c": "main-copy $CopyColour $CopyEntryAnimation",
           "h": "$CopyText",
           "s": "font-size:$CopySizepx;left:$CopyXPospx;top:$CopyYPospx;"
@@ -38,14 +18,6 @@
     }
   ],
   "config": [
-    {
-      "target": "$BgImg",
-      "name": "Background Image",
-      "type": "file",
-      "groupName": "Background",
-      "groupType": "image",
-      "initialValue": "https://s0.2mdn.net/creatives/assets/4211898/gordon-s-bg.jpg"
-    },
     {
       "target": "$CopySize",
       "name": "Copy Size",
@@ -140,64 +112,6 @@
         "Slide in top & fade in",
         "Slide in bottom & fade in"
       ]
-    },
-    {
-      "target": "$StrawberryImg",
-      "name": "Strawberry Image",
-      "type": "file",
-      "groupName": "Strawberry",
-      "groupType": "image",
-      "initialValue": "https://s0.2mdn.net/creatives/assets/4211898/gordon-s-strawberry.png"
-    },
-    {
-      "target": "$StrawberryXPos",
-      "name": "Strawberry X Position",
-      "type": "number",
-      "groupName": "Strawberry",
-      "groupType": "number",
-      "initialValue": 247,
-      "properties": {
-        "min": 1,
-        "max": 299,
-        "step": 1,
-        "value": 247
-      }
-    },
-    {
-      "target": "$StrawberryYPos",
-      "name": "Strawberry Y Position",
-      "type": "number",
-      "groupName": "Strawberry",
-      "groupType": "number",
-      "initialValue": 6,
-      "properties": {
-        "min": 1,
-        "max": 249,
-        "step": 1,
-        "value": 6
-      }
-    },
-    {
-      "target": "$BottleImg",
-      "name": "Bottle Image",
-      "type": "file",
-      "groupName": "Bottle",
-      "groupType": "image",
-      "initialValue": "https://s0.2mdn.net/creatives/assets/4211898/gordon-s-bottle.png"
-    },
-    {
-      "target": "$BottleXPos",
-      "name": "Bottle X Position",
-      "type": "number",
-      "groupName": "Bottle",
-      "groupType": "number",
-      "initialValue": 233,
-      "properties": {
-        "min": 1,
-        "max": 299,
-        "step": 1,
-        "value": 233
-      }
     }
   ]
 }
