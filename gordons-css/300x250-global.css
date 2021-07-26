@@ -27,6 +27,10 @@
   height: 100%;
 }
 
+.logo.dev {
+  animation: none !important;
+}
+
 .logo-img {
   position: absolute;
   top: 193px;
@@ -107,6 +111,10 @@
   letter-spacing: 0.33px;
   color: white;
   font-family: "Termina-Demi";
+}
+
+.main-copy.dev {
+  animation: none !important;
 }
 
 .color-white {
