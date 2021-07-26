@@ -30,7 +30,7 @@
         },
         {
           "t": "e",
-          "c": "main-copy $CopyColour",
+          "c": "main-copy $CopyColour $CopyEntryAnimation",
           "h": "$CopyText",
           "s": "font-size:$CopySizepx;left:$CopyXPospx;top:$CopyYPospx;"
         }
@@ -114,6 +114,31 @@
       "labels": [
         "Black <span style='background-color:black;'></span>",
         "White <span style='background-color:white;'></span>"
+      ]
+    },
+    {
+      "target": "$CopyEntryAnimation",
+      "name": "Copy Entry Animation",
+      "type": "radio",
+      "groupName": "Copy",
+      "groupType": "select",
+      "initialValue": "fade-in",
+      "properties": {
+        "value": "fade-in"
+      },
+      "options": [
+        "fade-in",
+        "slide-in-left-fade-in",
+        "slide-in-right-fade-in",
+        "slide-in-top-fade-in",
+        "slide-in-bottom-fade-in"
+      ],
+      "labels": [
+        "Fade in",
+        "Slide in left & fade in",
+        "Slide in right & fade in",
+        "Slide in top & fade in",
+        "Slide in bottom & fade in"
       ]
     },
     {
