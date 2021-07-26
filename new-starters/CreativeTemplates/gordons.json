@@ -7,9 +7,9 @@
     "frameLimit": 5,
     "frameMinCount": 1,
     "globalTemplateName": "gordons",
-    "start": ["gordons-start"],
-    "middle": ["gordons-middle"],
-    "end": ["gordons-end"],
+    "start": ["gordons"],
+    "middle": ["gordons"],
+    "end": ["gordons"],
     "baseSize": 8000
   }
 ]
