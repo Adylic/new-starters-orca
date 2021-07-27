@@ -5,7 +5,7 @@
       "c": "gordons-middle gordons-frame",
       "d": 5000,
       "j": {
-        "s": "KGZ1bmN0aW9uICgpIHsKICAvLyBHU0FQIHRpbWVsaW5lCiAgdmFyIHRsID0gZ3NhcC50aW1lbGluZSgpOwoKICBmdW5jdGlvbiBpbml0KCkgewogICAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyBHU0FQIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KICAgIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwogIH0KICBpbml0KCk7Cn0pKCk7Cg=="
+        "s": "KGZ1bmN0aW9uICgpIHsKICAgICAgICAgIHBhcmVudE5vZGUuY2xhc3NMaXN0LmFkZCgnYW5pbWF0ZScpOwogICAgICAgIH0pKCk7"
       },
       "e": [
         {
@@ -94,9 +94,9 @@
       "type": "radio",
       "groupName": "Copy",
       "groupType": "select",
-      "initialValue": "fade-in-out",
+      "initialValue": "slide-in-left-out-right",
       "properties": {
-        "value": "fade-in-out"
+        "value": "slide-in-left-out-right"
       },
       "options": [
         "fade-in-out",

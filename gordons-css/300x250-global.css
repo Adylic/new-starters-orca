@@ -116,10 +116,12 @@
   letter-spacing: 0.33px;
   color: white;
   font-family: 'Termina-Demi';
+  opacity: 0;
 }
 
 .main-copy.dev {
   animation: none !important;
+  opacity: 1 !important;
 }
 
 .color-white {
@@ -130,27 +132,27 @@
   color: black;
 }
 
-.fade-in-out {
+.animate .fade-in-out {
   animation: fade-in var(--anim-dur) ease-in-out 0ms forwards,
     fade-out var(--anim-dur) ease-in-out var(--anim-del) forwards;
 }
 
-.slide-in-left-out-right {
+.animate .slide-in-left-out-right {
   animation: slide-in-left var(--anim-dur) ease-in-out 0ms forwards,
     slide-out-right var(--anim-dur) ease-in-out var(--anim-del) forwards;
 }
 
-.slide-in-right-out-left {
+.animate .slide-in-right-out-left {
   animation: slide-in-right var(--anim-dur) ease-in-out 0ms forwards,
     slide-out-left var(--anim-dur) ease-in-out var(--anim-del) forwards;
 }
 
-.slide-in-top-out-bottom {
+.animate .slide-in-top-out-bottom {
   animation: slide-in-top var(--anim-dur) ease-in-out 0ms forwards,
     slide-out-bottom var(--anim-dur) ease-in-out var(--anim-del) forwards;
 }
 
-.slide-in-bottom-out-top {
+.animate .slide-in-bottom-out-top {
   animation: slide-in-bottom var(--anim-dur) ease-in-out 0ms forwards,
     slide-out-top var(--anim-dur) ease-in-out var(--anim-del) forwards;
 }
