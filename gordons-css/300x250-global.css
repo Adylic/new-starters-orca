@@ -1,13 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap');
 
 @font-face {
   font-family: Termina-Demi;
   src: url(https://s0.2mdn.net/creatives/assets/4135577/Termina-Demi.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://s0.2mdn.net/creatives/assets/4135577/Termina-Demi.woff)
-      format("woff");
+      format('woff');
   font-weight: normal;
   font-display: swap;
+}
+
+:root {
+  --anim-dur: 500ms;
+  --anim-pulse-dur: 2500ms;
+  --anim-del: 4000ms;
 }
 
 .dynamicAdvertContainer {
@@ -27,6 +33,10 @@
   height: 100%;
 }
 
+.logo.dev {
+  animation: none !important;
+}
+
 .logo-img {
   position: absolute;
   top: 193px;
@@ -41,7 +51,7 @@
   left: 241px;
   color: black;
   font-weight: bold;
-  font-family: "Exo 2", sans-serif;
+  font-family: 'Exo 2', sans-serif;
   line-height: 0px;
 }
 
@@ -63,6 +73,14 @@
   position: absolute;
   width: 287px;
   height: 178px;
+}
+
+.strawberry {
+  transform-origin: 100% 0%;
+}
+
+.strawberry.dev {
+  animation: none !important;
 }
 
 .strawberry-img {
@@ -106,7 +124,13 @@
   line-height: 1.27;
   letter-spacing: 0.33px;
   color: white;
-  font-family: "Termina-Demi";
+  font-family: 'Termina-Demi';
+  opacity: 0;
+}
+
+.main-copy.dev {
+  animation: none !important;
+  opacity: 1 !important;
 }
 
 .color-white {
@@ -115,4 +139,154 @@
 
 .color-black {
   color: black;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.animate .fade-in-out {
+  animation: fade-in var(--anim-dur) ease-in-out 0ms forwards,
+    fade-out var(--anim-dur) ease-in-out var(--anim-del) forwards;
+}
+
+.animate .slide-in-left-out-right {
+  animation: slide-in-left var(--anim-dur) ease-in-out 0ms forwards,
+    slide-out-right var(--anim-dur) ease-in-out var(--anim-del) forwards;
+}
+
+.animate .slide-in-right-out-left {
+  animation: slide-in-right var(--anim-dur) ease-in-out 0ms forwards,
+    slide-out-left var(--anim-dur) ease-in-out var(--anim-del) forwards;
+}
+
+.animate .slide-in-top-out-bottom {
+  animation: slide-in-top var(--anim-dur) ease-in-out 0ms forwards,
+    slide-out-bottom var(--anim-dur) ease-in-out var(--anim-del) forwards;
+}
+
+.animate .slide-in-bottom-out-top {
+  animation: slide-in-bottom var(--anim-dur) ease-in-out 0ms forwards,
+    slide-out-top var(--anim-dur) ease-in-out var(--anim-del) forwards;
+}
+
+.pulse {
+  animation: var(--anim-pulse-dur) ease-in-out 0ms infinite normal none running
+    pulse;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-out-right {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-out-left {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+}
+
+@keyframes slide-in-top {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-out-bottom {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+}
+
+@keyframes slide-in-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-out-top {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(100%, 100%);
+  }
+  50% {
+    transform: scale(110%, 110%);
+  }
 }
