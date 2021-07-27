@@ -12,6 +12,7 @@
 
 :root {
   --anim-dur: 500ms;
+  --anim-pulse-dur: 2500ms;
   --anim-del: 4000ms;
 }
 
@@ -72,6 +73,14 @@
   position: absolute;
   width: 287px;
   height: 178px;
+}
+
+.strawberry {
+  transform-origin: 100% 0%;
+}
+
+.strawberry.dev {
+  animation: none !important;
 }
 
 .strawberry-img {
@@ -155,6 +164,11 @@
 .animate .slide-in-bottom-out-top {
   animation: slide-in-bottom var(--anim-dur) ease-in-out 0ms forwards,
     slide-out-top var(--anim-dur) ease-in-out var(--anim-del) forwards;
+}
+
+.pulse {
+  animation: var(--anim-pulse-dur) ease-in-out 0ms infinite normal none running
+    pulse;
 }
 
 @keyframes fade-in {
@@ -260,5 +274,15 @@
   to {
     opacity: 0;
     transform: translateY(-100px);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(100%, 100%);
+  }
+  50% {
+    transform: scale(110%, 110%);
   }
 }
