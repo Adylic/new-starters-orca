@@ -1,13 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap');
 
 @font-face {
   font-family: Termina-Demi;
   src: url(https://s0.2mdn.net/creatives/assets/4135577/Termina-Demi.woff2)
-      format("woff2"),
+      format('woff2'),
     url(https://s0.2mdn.net/creatives/assets/4135577/Termina-Demi.woff)
-      format("woff");
+      format('woff');
   font-weight: normal;
   font-display: swap;
+}
+
+:root {
+  --anim-dur: 500ms;
 }
 
 .dynamicAdvertContainer {
@@ -45,7 +49,7 @@
   left: 241px;
   color: black;
   font-weight: bold;
-  font-family: "Exo 2", sans-serif;
+  font-family: 'Exo 2', sans-serif;
   line-height: 0px;
 }
 
@@ -110,7 +114,7 @@
   line-height: 1.27;
   letter-spacing: 0.33px;
   color: white;
-  font-family: "Termina-Demi";
+  font-family: 'Termina-Demi';
 }
 
 .main-copy.dev {
@@ -126,27 +130,27 @@
 }
 
 .fade-in {
-  animation: fade-in 500ms ease-in-out 0ms forwards;
+  animation: fade-in var(--anim-dur) ease-in-out 0ms forwards;
 }
 
 .slide-in-left-fade-in {
-  animation: slide-in-left 500ms ease-in-out 0ms forwards,
-    fade-in 500ms ease-in-out 0ms forwards;
+  animation: slide-in-left var(--anim-dur) ease-in-out 0ms forwards,
+    fade-in var(--anim-dur) ease-in-out 0ms forwards;
 }
 
 .slide-in-right-fade-in {
-  animation: slide-in-right 500ms ease-in-out 0ms forwards,
-    fade-in 500ms ease-in-out 0ms forwards;
+  animation: slide-in-right var(--anim-dur) ease-in-out 0ms forwards,
+    fade-in var(--anim-dur) ease-in-out 0ms forwards;
 }
 
 .slide-in-top-fade-in {
-  animation: slide-in-top 500ms ease-in-out 0ms forwards,
-    fade-in 500ms ease-in-out 0ms forwards;
+  animation: slide-in-top var(--anim-dur) ease-in-out 0ms forwards,
+    fade-in var(--anim-dur) ease-in-out 0ms forwards;
 }
 
 .slide-in-bottom-fade-in {
-  animation: slide-in-bottom 500ms ease-in-out 0ms forwards,
-    fade-in 500ms ease-in-out 0ms forwards;
+  animation: slide-in-bottom var(--anim-dur) ease-in-out 0ms forwards,
+    fade-in var(--anim-dur) ease-in-out 0ms forwards;
 }
 
 @keyframes fade-in {
