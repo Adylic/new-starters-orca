@@ -12,6 +12,7 @@
 
 :root {
   --anim-dur: 500ms;
+  --anim-del: 4000ms;
 }
 
 .dynamicAdvertContainer {
@@ -131,27 +132,27 @@
 
 .fade-in-out {
   animation: fade-in var(--anim-dur) ease-in-out 0ms forwards,
-    fade-out var(--anim-dur) ease-in-out 4000ms forwards;
+    fade-out var(--anim-dur) ease-in-out var(--anim-del) forwards;
 }
 
-.slide-in-left-fade-in {
+.slide-in-left-out-right {
   animation: slide-in-left var(--anim-dur) ease-in-out 0ms forwards,
-    fade-in var(--anim-dur) ease-in-out 0ms forwards;
+    slide-out-right var(--anim-dur) ease-in-out var(--anim-del) forwards;
 }
 
-.slide-in-right-fade-in {
+.slide-in-right-out-left {
   animation: slide-in-right var(--anim-dur) ease-in-out 0ms forwards,
-    fade-in var(--anim-dur) ease-in-out 0ms forwards;
+    slide-out-left var(--anim-dur) ease-in-out var(--anim-del) forwards;
 }
 
-.slide-in-top-fade-in {
+.slide-in-top-out-bottom {
   animation: slide-in-top var(--anim-dur) ease-in-out 0ms forwards,
-    fade-in var(--anim-dur) ease-in-out 0ms forwards;
+    slide-out-bottom var(--anim-dur) ease-in-out var(--anim-del) forwards;
 }
 
-.slide-in-bottom-fade-in {
+.slide-in-bottom-out-top {
   animation: slide-in-bottom var(--anim-dur) ease-in-out 0ms forwards,
-    fade-in var(--anim-dur) ease-in-out 0ms forwards;
+    slide-out-top var(--anim-dur) ease-in-out var(--anim-del) forwards;
 }
 
 @keyframes fade-in {
@@ -174,36 +175,88 @@
 
 @keyframes slide-in-left {
   from {
+    opacity: 0;
     transform: translateX(-100px);
   }
   to {
+    opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@keyframes slide-out-right {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100px);
   }
 }
 
 @keyframes slide-in-right {
   from {
+    opacity: 0;
     transform: translateX(100px);
   }
   to {
+    opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@keyframes slide-out-left {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-100px);
   }
 }
 
 @keyframes slide-in-top {
   from {
+    opacity: 0;
     transform: translateY(-100px);
   }
   to {
+    opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes slide-out-bottom {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(100px);
   }
 }
 
 @keyframes slide-in-bottom {
   from {
+    opacity: 0;
     transform: translateY(100px);
   }
   to {
+    opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes slide-out-top {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-100px);
   }
 }

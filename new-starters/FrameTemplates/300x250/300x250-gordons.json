@@ -100,17 +100,17 @@
       },
       "options": [
         "fade-in-out",
-        "slide-in-left-fade-in",
-        "slide-in-right-fade-in",
-        "slide-in-top-fade-in",
-        "slide-in-bottom-fade-in"
+        "slide-in-left-out-right",
+        "slide-in-right-out-left",
+        "slide-in-top-out-bottom",
+        "slide-in-bottom-out-top"
       ],
       "labels": [
         "Fade in / out",
-        "Slide in left & fade in",
-        "Slide in right & fade in",
-        "Slide in top & fade in",
-        "Slide in bottom & fade in"
+        "Slide in left & out right",
+        "Slide in right & out left",
+        "Slide in top & out bottom",
+        "Slide in bottom & out top"
       ]
     }
   ]
