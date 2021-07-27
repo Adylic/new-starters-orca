@@ -26,7 +26,7 @@
     {
       "t": "e",
       "c": "bottle",
-      "h": "<img class='bottle-img' src='$BottleImg' style='left:$BottleXPospx;' >"
+      "h": "<img class='bottle-img' src='$BottleImg' style='top:$BottleYPospx;left:$BottleXPospx;' >"
     },
     {
       "t": "e",
@@ -104,6 +104,20 @@
         "max": 299,
         "step": 1,
         "value": 233
+      }
+    },
+    {
+      "target": "$BottleYPos",
+      "name": "Bottle Y Position",
+      "type": "number",
+      "groupName": "Bottle",
+      "groupType": "number",
+      "initialValue": 119,
+      "properties": {
+        "min": 1,
+        "max": 249,
+        "step": 1,
+        "value": 119
       }
     }
   ]
