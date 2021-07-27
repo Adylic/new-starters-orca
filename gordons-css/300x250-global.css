@@ -141,6 +141,10 @@
   color: black;
 }
 
+.opacity-1 {
+  opacity: 1;
+}
+
 .animate .fade-in-out {
   animation: fade-in var(--anim-dur) ease-in-out 0ms forwards,
     fade-out var(--anim-dur) ease-in-out var(--anim-del) forwards;

@@ -5,12 +5,12 @@
       "c": "gordons-middle gordons-frame",
       "d": 5000,
       "j": {
-        "s": "KGZ1bmN0aW9uICgpIHsKICAgICAgICAgIHBhcmVudE5vZGUuY2xhc3NMaXN0LmFkZCgnYW5pbWF0ZScpOwogICAgICAgIH0pKCk7"
+        "s": "KGZ1bmN0aW9uICgpIHsKICB0cmlnZ2VyQW5pbWF0aW9uc09uRnJhbWVTdGFydCgpOwogIHByb2Nlc3NFeGl0QW5pbWF0aW9uT3ZlcnJpZGVzKCk7CgogIGZ1bmN0aW9uIHRyaWdnZXJBbmltYXRpb25zT25GcmFtZVN0YXJ0KCkgewogICAgcGFyZW50Tm9kZS5jbGFzc0xpc3QuYWRkKCdhbmltYXRlJyk7CiAgfQoKICBmdW5jdGlvbiBwcm9jZXNzRXhpdEFuaW1hdGlvbk92ZXJyaWRlcygpIHsKICAgIGxldCBtYWluQ29weSA9IHBhcmVudE5vZGUucXVlcnlTZWxlY3RvcignLm1haW4tY29weScpOwogICAgY29uc29sZS5sb2cobWFpbkNvcHkpOwogICAgaWYgKG1haW5Db3B5LmNsYXNzTGlzdC5jb250YWlucygnaG9sZC1pbi1wbGFjZScpKSB7CiAgICAgIHNldFRpbWVvdXQoKCkgPT4gewogICAgICAgIG1haW5Db3B5LmNsYXNzTGlzdC5hZGQoJ29wYWNpdHktMScpOwogICAgICAgIHBhcmVudE5vZGUuY2xhc3NMaXN0LnJlbW92ZSgnYW5pbWF0ZScpOwogICAgICB9LCA1MDApOwogICAgfQogIH0KfSkoKTs="
       },
       "e": [
         {
           "t": "e",
-          "c": "main-copy $CopyColour $CopyEntryAnimation",
+          "c": "main-copy $CopyColour $CopyAnimation $CopyHoldInPlace",
           "h": "$CopyText",
           "s": "font-size:$CopySizepx;left:$CopyXPospx;top:$CopyYPospx;"
         }
@@ -89,8 +89,8 @@
       ]
     },
     {
-      "target": "$CopyEntryAnimation",
-      "name": "Copy Entry Animation",
+      "target": "$CopyAnimation",
+      "name": "Copy Animation",
       "type": "radio",
       "groupName": "Copy",
       "groupType": "select",
@@ -112,6 +112,19 @@
         "Slide in top & out bottom",
         "Slide in bottom & out top"
       ]
+    },
+    {
+      "target": "$CopyHoldInPlace",
+      "name": "Copy Hold In Place",
+      "type": "radio",
+      "groupName": "Copy",
+      "groupType": "select",
+      "initialValue": "animate-out",
+      "properties": {
+        "value": "animate-out"
+      },
+      "options": ["animate-out", "hold-in-place"],
+      "labels": ["Animate out", "Hold in place"]
     }
   ]
 }
