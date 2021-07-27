@@ -94,19 +94,19 @@
       "type": "radio",
       "groupName": "Copy",
       "groupType": "select",
-      "initialValue": "fade-in",
+      "initialValue": "fade-in-out",
       "properties": {
-        "value": "fade-in"
+        "value": "fade-in-out"
       },
       "options": [
-        "fade-in",
+        "fade-in-out",
         "slide-in-left-fade-in",
         "slide-in-right-fade-in",
         "slide-in-top-fade-in",
         "slide-in-bottom-fade-in"
       ],
       "labels": [
-        "Fade in",
+        "Fade in / out",
         "Slide in left & fade in",
         "Slide in right & fade in",
         "Slide in top & fade in",
