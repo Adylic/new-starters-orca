@@ -18,11 +18,24 @@
         }
     ],
     "config": [{
-        "target": "$BackgroundImage",
-        "name": "Background Image",
-        "type": "file",
-        "groupName": "backgrounds",
-        "groupType": "image",
-        "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
-    }]
+            "target": "$BackgroundImage",
+            "name": "Background Image",
+            "type": "file",
+            "groupName": "backgrounds",
+            "groupType": "image",
+            "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
+        },
+        {
+            "target": "$mainHeadingCopy",
+            "name": "Main Copy",
+            "type": "text",
+            "groupName": "Main Heading Copy",
+            "groupType": "text",
+            "initialValue": "Initial Test Copy",
+            "properties": {
+                "value": "Initial Test Copy",
+                "characterLimit": 40
+            }
+        }
+    ]
 }
