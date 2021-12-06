@@ -20,7 +20,13 @@
             "t": "e",
             "c": "main-heading main-heading-f1",
             "h": "$mainHeadingCopy",
-            "s": "font-size:$copySizeMainHeadingpx;color:$copyColorMainHeading;left:$positioningHoriziontialMainHeadingpx;top:$positioningVerticalMainHeadingpx"
+            "s": "font-size:$copySizeMainHeadingpx;color:$copyColorMainHeading;left:$positioningHorizontalMainHeadingpx;top:$positioningVerticalMainHeadingpx"
+        },
+        {
+            "t": "e",
+            "c": "sub-heading sub-heading-f1",
+            "h": "$subHeadingCopy",
+            "s": "font-size:$copySizeSubHeadingpx;color:$copyColourSubHeading;left:$positioningHoriziontialSubHeadingpx;top:$positioningVerticalSubHeadingpx"
         }
     ],
     "config": [{
@@ -55,11 +61,11 @@
             },
             "options": [
                 "black",
-                "red"
+                "white"
             ],
             "labels": [
                 "Black <span style='background-color:black;'></span>",
-                "Red <span style='background-color:red;'></span>"
+                "White <span style='background-color:white;'></span>"
             ]
         },
         {
@@ -74,6 +80,107 @@
                 "max": 28,
                 "step": 1,
                 "value": 20
+            }
+        },
+        {
+            "target": "$positioningHorizontalMainHeading",
+            "name": "Copy Position Horizontal",
+            "type": "number",
+            "groupName": "Main Heading Copy",
+            "groupType": "number",
+            "initialValue": 0,
+            "properties": {
+                "min": 0,
+                "max": 300,
+                "step": 1,
+                "value": 0
+            }
+        },
+        {
+            "target": "$positioningVerticalMainHeading",
+            "name": "Copy Position Vertical",
+            "type": "number",
+            "groupName": "Main Heading Copy",
+            "groupType": "number",
+            "initialValue": 150,
+            "properties": {
+                "min": 0,
+                "max": 250,
+                "step": 1,
+                "value": 150
+            }
+        },
+        {
+            "target": "$subHeadingCopy",
+            "name": "Copy Text",
+            "type": "text",
+            "groupName": "Sub Heading Copy",
+            "groupType": "text",
+            "initialValue": "Initial Sub heading",
+            "properties": {
+                "value": "Initial Sub heading",
+                "characterLimit": 40
+            }
+        },
+        {
+            "target": "$copySizeSubHeading",
+            "name": "Copy Size",
+            "type": "number",
+            "groupName": "Sub Heading Copy",
+            "groupType": "number",
+            "initialValue": "20",
+            "properties": {
+                "min": 1,
+                "max": 30,
+                "step": 1,
+                "value": 20
+            }
+        },
+        {
+            "target": "$copyColourSubHeading",
+            "name": "Copy Colour",
+            "type": "radio",
+            "groupName": "Sub Heading Copy",
+            "groupType": "select",
+            "initialValue": "white",
+            "properties": {
+                "value": "white"
+            },
+            "options": [
+                "black",
+                "white"
+            ],
+            "labels": [
+                "Black <span style='background-color:black;'></span>",
+                "White <span style='background-color:white;'></span>"
+            ]
+        },
+        {
+            "target": "$positioningHoriziontialSubHeading",
+            "name": "Copy Positioning X",
+            "type": "number",
+            "groupName": "Sub Heading Copy",
+            "groupType": "number",
+            "initialValue": 0,
+            "properties": {
+                "min": 0,
+                "max": 300,
+                "step": 1,
+                "value": 0
+            }
+        },
+        {
+            "target": "$positioningVerticalSubHeading",
+            "name": "Copy Positioning Y",
+            "type": "number",
+            "groupName": "Sub Heading Copy",
+            "groupType": "number",
+            "initialValue": 190,
+            "properties": {
+                "min": 0,
+                "max": 250,
+                "step": 1,
+                "value": 190
             }
         }
     ]
