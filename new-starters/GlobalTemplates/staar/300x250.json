@@ -14,7 +14,13 @@
         {
             "t": "e",
             "c": "bg",
-            "h": "<img src='$BackgroundImage' />"
+            "h": "<img class='frame-1-background' src='$BackgroundImage' />"
+        },
+        {
+            "t": "e",
+            "c": "main-heading main-heading-f1",
+            "h": "$mainHeadingCopy",
+            "s": "font-size:$copySizeMainHeadingpx;color:$copyColorMainHeading;left:$positioningHoriziontialMainHeadingpx;top:$positioningVerticalMainHeadingpx"
         }
     ],
     "config": [{
@@ -35,6 +41,39 @@
             "properties": {
                 "value": "Initial Test Copy",
                 "characterLimit": 40
+            }
+        },
+        {
+            "target": "$copyColorMainHeading",
+            "name": "Copy Colour",
+            "type": "radio",
+            "groupName": "Main Heading Copy",
+            "groupType": "select",
+            "initialValue": "white",
+            "properties": {
+                "value": "white"
+            },
+            "options": [
+                "black",
+                "red"
+            ],
+            "labels": [
+                "Black <span style='background-color:black;'></span>",
+                "Red <span style='background-color:red;'></span>"
+            ]
+        },
+        {
+            "target": "$copySizeMainHeading",
+            "name": "Copy Size",
+            "type": "number",
+            "groupName": "Main Heading Copy",
+            "groupType": "number",
+            "initialValue": "20",
+            "properties": {
+                "min": 1,
+                "max": 28,
+                "step": 1,
+                "value": 20
             }
         }
     ]
