@@ -1,18 +1,13 @@
 {
-  "template": [
-    {
-      "t": "f",
-      "c": "start-frame template-set-frame",
-      "d": 5000,
-      "e": [
-        {
-          "t": "e",
-          "c": "",
-          "h": "",
-          "s": ""
-        }
-      ]
-    }
-  ],
-  "config": []
+    "template": [{
+        "t": "f",
+        "c": "staar-start-frame staar-frame",
+        "d": 6000,
+        "e": [{
+            "t": "e",
+            "c": "bg",
+            "h": "<img src='#' />"
+        }]
+    }],
+    "config": []
 }
