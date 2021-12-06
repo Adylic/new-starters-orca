@@ -1,0 +1,19 @@
+[{
+    "name": "staar-300x250",
+    "size": "300x250",
+    "width": 300,
+    "height": 250,
+    "frameLimit": 3,
+    "frameMinCount": 1,
+    "globalTemplateName": "staar",
+    "start": [
+        "staar-start"
+    ],
+    "middle": [
+        "staar-middle"
+    ],
+    "end": [
+        "staar-end"
+    ],
+    "baseSize": 8000
+}]

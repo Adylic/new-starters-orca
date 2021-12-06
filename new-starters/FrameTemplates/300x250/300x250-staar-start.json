@@ -1,0 +1,18 @@
+{
+  "template": [
+    {
+      "t": "f",
+      "c": "start-frame template-set-frame",
+      "d": 5000,
+      "e": [
+        {
+          "t": "e",
+          "c": "",
+          "h": "",
+          "s": ""
+        }
+      ]
+    }
+  ],
+  "config": []
+}
