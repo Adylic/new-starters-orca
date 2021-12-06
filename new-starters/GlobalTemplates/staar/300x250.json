@@ -102,12 +102,12 @@
             "type": "number",
             "groupName": "Main Heading Copy",
             "groupType": "number",
-            "initialValue": 150,
+            "initialValue": 0,
             "properties": {
                 "min": 0,
                 "max": 250,
                 "step": 1,
-                "value": 150
+                "value": 0
             }
         },
         {
@@ -175,12 +175,12 @@
             "type": "number",
             "groupName": "Sub Heading Copy",
             "groupType": "number",
-            "initialValue": 190,
+            "initialValue": 0,
             "properties": {
                 "min": 0,
                 "max": 250,
                 "step": 1,
-                "value": 190
+                "value": 0
             }
         }
     ]
