@@ -1,16 +1,14 @@
 {
     "template": [{
-            "t": "f",
-            "c": "staar-start-frame staar-frame",
-            "d": 6000,
-            "e": []
-        },
-        {
+        "t": "f",
+        "c": "staar-start-frame staar-frame",
+        "d": 6000,
+        "e": [{
             "t": "e",
             "c": "frame-bg",
             "h": "<img src='$Frame1BackgroundImage' />"
-        }
-    ],
+        }]
+    }],
     "config": [{
         "target": "$Frame1BackgroundImage",
         "name": "Background Image",

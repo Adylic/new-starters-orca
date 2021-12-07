@@ -1,11 +1,11 @@
-.bg {
-    max-width: 100%;
+.bg,
+.frame-bg {
     z-index: 1;
 }
 
-.frame-bg {
+.bg img,
+.frame-bg img {
     max-width: 100%;
-    z-index: 2;
 }
 
 .text-item {

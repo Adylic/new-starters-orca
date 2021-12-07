@@ -1,33 +1,27 @@
 {
     "template": [{
-            "t": "f",
-            "c": "staar-end-frame template-set-frame",
-            "d": 5000,
-            "e": [{
+        "t": "f",
+        "c": "staar-end-frame template-set-frame",
+        "d": 5000,
+        "e": [{
                 "t": "e",
-                "c": "",
-                "h": "",
-                "s": ""
-            }]
-        },
-        {
-            "t": "e",
-            "c": "frame-bg",
-            "h": "<img src='$Frame3BackgroundImage' />"
-        },
-        {
-            "t": "e",
-            "c": "cta text-item",
-            "h": "$cta",
-            "s": "font-size:$ctaSizepx;left:$ctapositioningHorizontalpx;top:$ctapositioningVerticalpx"
-        },
-        {
-            "t": "e",
-            "c": "staar-logo text-item",
-            "h": "<img class='staar-logo' src='https://s0.2mdn.net/creatives/assets/4211898/main-logo.png'/>",
-            "s": "left:$LogoPositionHorizontalpx;top:$LogoPositioningVerticalpx"
-        }
-    ],
+                "c": "frame-bg",
+                "h": "<img src='$Frame3BackgroundImage' />"
+            },
+            {
+                "t": "e",
+                "c": "cta text-item",
+                "h": "$cta",
+                "s": "font-size:$SizeCtapx;left:$PositioningHorizontalCtapx;top:$PositioningVerticalCtapx"
+            },
+            {
+                "t": "e",
+                "c": "staar-logo text-item",
+                "h": "<img class='staar-logo' src='https://s0.2mdn.net/creatives/assets/4211898/main-logo.png'/>",
+                "s": "left:$LogoPositionHorizontalpx;top:$LogoPositioningVerticalpx"
+            }
+        ]
+    }],
     "config": [{
             "target": "$Frame3BackgroundImage",
             "name": "Background Image",
@@ -49,12 +43,12 @@
             }
         },
         {
-            "target": "$ctaSize",
+            "target": "$SizeCta",
             "name": "Copy Size",
             "type": "number",
             "groupName": "CTA Copy",
             "groupType": "number",
-            "initialValue": "15",
+            "initialValue": 15,
             "properties": {
                 "min": 1,
                 "max": 25,
@@ -63,7 +57,7 @@
             }
         },
         {
-            "target": "$ctapositioningHorizontal",
+            "target": "$PositioningHorizontalCta",
             "name": "Copy Position Horizontal",
             "type": "number",
             "groupName": "CTA Copy",
@@ -77,7 +71,7 @@
             }
         },
         {
-            "target": "$ctapositioningVertical",
+            "target": "$PositioningVerticalCta",
             "name": "Copy Position Vertical",
             "type": "number",
             "groupName": "CTA Copy",
@@ -109,7 +103,7 @@
             "type": "number",
             "groupName": "Logo",
             "groupType": "number",
-            "initialValue": 220,
+            "initialValue": 230,
             "properties": {
                 "min": 0,
                 "max": 250,

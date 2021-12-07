@@ -9,7 +9,7 @@
         },
         {
             "t": "s",
-            "s": ".bg{max-width:100%;z-index:1}.frame-bg{max-width:100%;z-index:2}.text-item{position:absolute;z-index:1}.cta{color:#fff}"
+            "s": ".bg,.frame-bg{z-index:1}.bg img,.frame-bg img{max-width:100%}.text-item{position:absolute;z-index:3}.cta{color:#fff}"
         },
         {
             "t": "j",
@@ -18,7 +18,7 @@
         {
             "t": "e",
             "c": "bg",
-            "h": "<img class='bg' src='$BackgroundImage' />"
+            "h": "<img src='$BackgroundImage' />"
         },
         {
             "t": "e",
@@ -78,7 +78,7 @@
             "type": "number",
             "groupName": "Main Heading Copy",
             "groupType": "number",
-            "initialValue": "20",
+            "initialValue": 20,
             "properties": {
                 "min": 1,
                 "max": 28,
@@ -92,7 +92,7 @@
             "type": "number",
             "groupName": "Main Heading Copy",
             "groupType": "number",
-            "initialValue": 0,
+            "initialValue": 30,
             "properties": {
                 "min": 0,
                 "max": 300,
@@ -106,7 +106,7 @@
             "type": "number",
             "groupName": "Main Heading Copy",
             "groupType": "number",
-            "initialValue": 0,
+            "initialValue": 30,
             "properties": {
                 "min": 0,
                 "max": 250,
@@ -132,7 +132,7 @@
             "type": "number",
             "groupName": "Sub Heading Copy",
             "groupType": "number",
-            "initialValue": "20",
+            "initialValue": 20,
             "properties": {
                 "min": 1,
                 "max": 30,
@@ -165,7 +165,7 @@
             "type": "number",
             "groupName": "Sub Heading Copy",
             "groupType": "number",
-            "initialValue": 0,
+            "initialValue": 50,
             "properties": {
                 "min": 0,
                 "max": 300,
@@ -179,7 +179,7 @@
             "type": "number",
             "groupName": "Sub Heading Copy",
             "groupType": "number",
-            "initialValue": 0,
+            "initialValue": 40,
             "properties": {
                 "min": 0,
                 "max": 250,
