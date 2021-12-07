@@ -1,14 +1,22 @@
 {
     "template": [{
-        "t": "f",
-        "c": "middle-frame template-set-frame",
-        "d": 5000,
-        "e": [{
+            "t": "f",
+            "c": "middle-frame template-set-frame",
+            "d": 5000,
+            "e": []
+        },
+        {
             "t": "e",
-            "c": "",
-            "h": "",
-            "s": ""
-        }]
-    }],
-    "config": []
+            "c": "frame-2-bg bg",
+            "h": "<img src='$Frame2BackgroundImage' />"
+        }
+    ],
+    "config": [{
+        "target": "$Frame2BackgroundImage",
+        "name": "Background Image",
+        "type": "file",
+        "groupName": "Frame Background",
+        "groupType": "image",
+        "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
+    }]
 }

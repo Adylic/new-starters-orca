@@ -9,7 +9,7 @@
         },
         {
             "t": "s",
-            "s": ".bg{max-width:100%}.main-heading{position:absolute}.sub-heading{position:absolute}.cta{position:absolute}.staar-logo{position:absolute}"
+            "s": ".bg{max-width:100%}.main-heading{position:absolute}.sub-heading{position:absolute}.cta{position:absolute;color:#fff}.staar-logo{position:absolute}"
         },
         {
             "t": "j",
@@ -22,13 +22,13 @@
         },
         {
             "t": "e",
-            "c": "main-heading main-heading-f1",
+            "c": "main-heading",
             "h": "$mainHeadingCopy",
             "s": "font-size:$copySizeMainHeadingpx;color:$copyColorMainHeading;left:$positioningHorizontalMainHeadingpx;top:$positioningVerticalMainHeadingpx"
         },
         {
             "t": "e",
-            "c": "sub-heading sub-heading-f1",
+            "c": "sub-heading",
             "h": "$subHeadingCopy",
             "s": "font-size:$copySizeSubHeadingpx;color:$copyColourSubHeading;left:$positioningHoriziontialSubHeadingpx;top:$positioningVerticalSubHeadingpx"
         }

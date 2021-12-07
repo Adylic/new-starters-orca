@@ -68,12 +68,12 @@
             "type": "number",
             "groupName": "CTA Copy",
             "groupType": "number",
-            "initialValue": 0,
+            "initialValue": 150,
             "properties": {
                 "min": 0,
                 "max": 300,
                 "step": 1,
-                "value": 0
+                "value": 150
             }
         },
         {
@@ -82,12 +82,12 @@
             "type": "number",
             "groupName": "CTA Copy",
             "groupType": "number",
-            "initialValue": 0,
+            "initialValue": 150,
             "properties": {
                 "min": 0,
                 "max": 250,
                 "step": 1,
-                "value": 0
+                "value": 150
             }
         },
         {
