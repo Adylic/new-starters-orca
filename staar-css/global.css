@@ -1,20 +1,18 @@
 .bg {
     max-width: 100%;
+    z-index: 1;
 }
 
-.main-heading {
-    position: absolute;
+.frame-bg {
+    max-width: 100%;
+    z-index: 2;
 }
 
-.sub-heading {
+.text-item {
     position: absolute;
+    z-index: 3;
 }
 
 .cta {
-    position: absolute;
     color: white;
-}
-
-.staar-logo {
-    position: absolute;
 }

@@ -7,7 +7,7 @@
         },
         {
             "t": "e",
-            "c": "frame-1-bg bg",
+            "c": "frame-bg",
             "h": "<img src='$Frame1BackgroundImage' />"
         }
     ],

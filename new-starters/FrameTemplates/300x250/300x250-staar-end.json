@@ -1,7 +1,7 @@
 {
     "template": [{
             "t": "f",
-            "c": "end-frame template-set-frame",
+            "c": "staar-end-frame template-set-frame",
             "d": 5000,
             "e": [{
                 "t": "e",
@@ -12,18 +12,18 @@
         },
         {
             "t": "e",
-            "c": "cta",
+            "c": "frame-bg",
+            "h": "<img src='$Frame3BackgroundImage' />"
+        },
+        {
+            "t": "e",
+            "c": "cta text-item",
             "h": "$cta",
             "s": "font-size:$ctaSizepx;left:$ctapositioningHorizontalpx;top:$ctapositioningVerticalpx"
         },
         {
             "t": "e",
-            "c": "frame-3-bg bg",
-            "h": "<img src='$Frame3BackgroundImage' />"
-        },
-        {
-            "t": "e",
-            "c": "staar-logo",
+            "c": "staar-logo text-item",
             "h": "<img class='staar-logo' src='https://s0.2mdn.net/creatives/assets/4211898/main-logo.png'/>",
             "s": "left:$LogoPositionHorizontalpx;top:$LogoPositioningVerticalpx"
         }
