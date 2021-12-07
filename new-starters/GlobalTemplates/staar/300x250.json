@@ -13,11 +13,6 @@
         },
         {
             "t": "e",
-            "c": "bg",
-            "h": "<img class='frame-1-background' src='$BackgroundImage' />"
-        },
-        {
-            "t": "e",
             "c": "main-heading main-heading-f1",
             "h": "$mainHeadingCopy",
             "s": "font-size:$copySizeMainHeadingpx;color:$copyColorMainHeading;left:$positioningHorizontalMainHeadingpx;top:$positioningVerticalMainHeadingpx"
@@ -30,14 +25,6 @@
         }
     ],
     "config": [{
-            "target": "$BackgroundImage",
-            "name": "Background Image",
-            "type": "file",
-            "groupName": "backgrounds",
-            "groupType": "image",
-            "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
-        },
-        {
             "target": "$mainHeadingCopy",
             "name": "Main Copy",
             "type": "text",
