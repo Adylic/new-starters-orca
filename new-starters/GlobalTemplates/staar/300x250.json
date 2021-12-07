@@ -8,8 +8,17 @@
             "s": ".dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px;}.template-set-frame{position:absolute; top:0px; left:0px; width:100%; height:100%;}"
         },
         {
+            "t": "s",
+            "s": ".bg{max-width:100%}.main-heading{position:absolute}.sub-heading{position:absolute}.cta{position:absolute}.staar-logo{position:absolute}"
+        },
+        {
             "t": "j",
             "s": "CihmdW5jdGlvbiAoKSB7Cgl2YXIgYWQgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcuZHluYW1pY0FkdmVydENvbnRhaW5lcicpOwoKCWlmICgKCQl3aW5kb3cubG9jYXRpb24uaHJlZi5pbmRleE9mKCdvcmNhLmFkeWxpYy5jb20nKSA+IDAgfHwKCQl3aW5kb3cubG9jYXRpb24uaHJlZi5pbmRleE9mKCd0ZW1wbGF0ZS5hZHlsaWNvcmNhLmNvbScpID4gMAoJKSB7CiAgICBjb25zb2xlLmxvZygnT24gT3JjYScpOwogICAgLy8gQ2xpY2sgb3V0IGluIHRlc3QgZW52aXJvbm1lbnQKICAgIGFkLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgZnVuY3Rpb24gKCkgewogICAgICBjb25zb2xlLmxvZygnY2xpY2sgb3V0IHdvcmtzIScpOwogICAgfSk7CiAgfSBlbHNlIHsKCQkvLyBDbGljayBvdXQgaW4gbGl2ZSBlbnZpcm9tZW50CgkJYWQuYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCBmdW5jdGlvbiAoKSB7CgkJCWV4aXRDbGlja0hhbmRsZXIoKTsKCQl9KTsKCX0KfSkoKTs="
+        },
+        {
+            "t": "e",
+            "c": "bg",
+            "h": "<img class='bg' src='$BackgroundImage' />"
         },
         {
             "t": "e",
@@ -25,6 +34,14 @@
         }
     ],
     "config": [{
+            "target": "$BackgroundImage",
+            "name": "Background Image",
+            "type": "file",
+            "groupName": "Background",
+            "groupType": "image",
+            "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
+        },
+        {
             "target": "$mainHeadingCopy",
             "name": "Main Copy",
             "type": "text",

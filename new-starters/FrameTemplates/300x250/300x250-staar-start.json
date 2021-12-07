@@ -1,26 +1,9 @@
 {
     "template": [{
-            "t": "f",
-            "c": "staar-start-frame staar-frame",
-            "d": 6000,
-            "e": [{
-                "t": "e",
-                "c": "bg",
-                "h": "<img src='#' />"
-            }]
-        },
-        {
-            "t": "e",
-            "c": "frame-1-bg bg",
-            "h": "<img src='$Frame1BackgroundImage' />"
-        }
-    ],
-    "config": [{
-        "target": "$Frame1BackgroundImage",
-        "name": "Background Image",
-        "type": "file",
-        "groupName": "Frame Background",
-        "groupType": "image",
-        "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
-    }]
+        "t": "f",
+        "c": "staar-start-frame staar-frame",
+        "d": 6000,
+        "e": []
+    }],
+    "config": []
 }
