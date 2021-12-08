@@ -1,6 +1,7 @@
 .bg,
 .frame-bg {
     z-index: 1;
+    position: absolute;
 }
 
 .bg img,
@@ -15,4 +16,29 @@
 
 .cta {
     color: white;
+}
+
+
+/* when playing 'dev' goes away and this is executed */
+
+.staar-start-frame,
+.staar-middle-frame,
+.staar-end-frame {
+    animation: animateFrames 6s;
+}
+
+
+/* when animation stops 'dev' appears and this executes */
+
+.dev {
+    opacity: 1 !important;
+}
+
+@keyframes animateFrames {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
