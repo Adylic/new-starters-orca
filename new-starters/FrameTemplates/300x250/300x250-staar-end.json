@@ -110,6 +110,27 @@
                 "step": 1,
                 "value": 220
             }
+        },
+        {
+            "target": "$CopyTextAlign",
+            "name": "Copy Text Alignment",
+            "type": "radio",
+            "groupName": "Text Alignment",
+            "groupType": "select",
+            "initialValue": "left",
+            "properties": {
+                "value": "left"
+            },
+            "options": [
+                "left",
+                "center",
+                "right"
+            ],
+            "labels": [
+                "<span style='text-align:left;width:90%;height:20px;border:none;'>Left</span>",
+                "<span style='text-align:center;width:90%;height:20px;border:none;width:90%;height:20px;border:none;'>Center</span>",
+                "<span style='text-align:right;width:90%;height:20px;border:none;'>Right</span>"
+            ]
         }
     ]
 }
