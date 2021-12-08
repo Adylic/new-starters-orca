@@ -4,39 +4,24 @@
         "c": "staar-middle-frame template-set-frame",
         "d": 5000,
         "e": [{
-            "t": "e",
-            "c": "frame-bg",
-            "h": "<img src='$Frame2BackgroundImage' />"
-        }]
+                "t": "e",
+                "c": "frame-bg",
+                "h": "<img src='$Frame2BackgroundImage' />"
+            },
+            {
+                "t": "e",
+                "c": "copy-align",
+                "h": "$CopyTextAlign",
+                "s": "text-align:$CopyTextAlign"
+            }
+        ]
     }],
     "config": [{
-            "target": "$Frame2BackgroundImage",
-            "name": "Background Image",
-            "type": "file",
-            "groupName": "Frame Background",
-            "groupType": "image",
-            "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
-        },
-        {
-            "target": "$CopyTextAlign",
-            "name": "Copy Text Alignment",
-            "type": "radio",
-            "groupName": "Text Alignment",
-            "groupType": "select",
-            "initialValue": "left",
-            "properties": {
-                "value": "left"
-            },
-            "options": [
-                "left",
-                "center",
-                "right"
-            ],
-            "labels": [
-                "<span style='text-align:left;width:90%;height:20px;border:none;'>Left</span>",
-                "<span style='text-align:center;width:90%;height:20px;border:none;width:90%;height:20px;border:none;'>Center</span>",
-                "<span style='text-align:right;width:90%;height:20px;border:none;'>Right</span>"
-            ]
-        }
-    ]
+        "target": "$Frame2BackgroundImage",
+        "name": "Background Image",
+        "type": "file",
+        "groupName": "Frame Background",
+        "groupType": "image",
+        "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
+    }]
 }

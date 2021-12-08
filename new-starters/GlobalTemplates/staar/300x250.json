@@ -9,7 +9,7 @@
         },
         {
             "t": "s",
-            "s": ".bg,.frame-bg{z-index:1}.bg img,.frame-bg img{max-width:100%}.text-item{position:absolute;z-index:3}.cta{color:#fff}"
+            "s": ".bg,.frame-bg{z-index:1}.bg img,.frame-bg img{max-width:100%}.text-item{position:absolute;z-index:3;max-width:100%}.cta{color:#fff}"
         },
         {
             "t": "j",
@@ -24,13 +24,13 @@
             "t": "e",
             "c": "main-heading text-item",
             "h": "$mainHeadingCopy",
-            "s": "font-size:$copySizeMainHeadingpx;color:$copyColorMainHeading;left:$positioningHorizontalMainHeadingpx;top:$positioningVerticalMainHeadingpx"
+            "s": "font-size:$copySizeMainHeadingpx;color:$copyColorMainHeading;left:$positioningHorizontalMainHeadingpx;top:$positioningVerticalMainHeadingpx;text-align:$TextAlignMainCopy"
         },
         {
             "t": "e",
             "c": "sub-heading text-item",
             "h": "$subHeadingCopy",
-            "s": "font-size:$copySizeSubHeadingpx;color:$copyColourSubHeading;left:$positioningHoriziontialSubHeadingpx;top:$positioningVerticalSubHeadingpx"
+            "s": "font-size:$copySizeSubHeadingpx;color:$copyColourSubHeading;left:$positioningHoriziontialSubHeadingpx;top:$positioningVerticalSubHeadingpx:text-align:$TextAlignSubCopy"
         }
     ],
     "config": [{
@@ -186,6 +186,48 @@
                 "step": 1,
                 "value": 0
             }
+        },
+        {
+            "target": "$TextAlignMainCopy",
+            "name": "Copy Text Alignment",
+            "type": "radio",
+            "groupName": "Main Heading Copy",
+            "groupType": "select",
+            "initialValue": "left",
+            "properties": {
+                "value": "left"
+            },
+            "options": [
+                "left",
+                "center",
+                "right"
+            ],
+            "labels": [
+                "<span style='text-align:left;width:90%;height:20px;border:none;'>Left</span>",
+                "<span style='text-align:center;width:90%;height:20px;border:none;width:90%;height:20px;border:none;'>Center</span>",
+                "<span style='text-align:right;width:90%;height:20px;border:none;'>Right</span>"
+            ]
+        },
+        {
+            "target": "$TextAlignSubCopy",
+            "name": "Copy Text Alignment",
+            "type": "radio",
+            "groupName": "Main Heading Copy",
+            "groupType": "select",
+            "initialValue": "left",
+            "properties": {
+                "value": "left"
+            },
+            "options": [
+                "left",
+                "center",
+                "right"
+            ],
+            "labels": [
+                "<span style='text-align:left;width:90%;height:20px;border:none;'>Left</span>",
+                "<span style='text-align:center;width:90%;height:20px;border:none;width:90%;height:20px;border:none;'>Center</span>",
+                "<span style='text-align:right;width:90%;height:20px;border:none;'>Right</span>"
+            ]
         }
     ]
 }
