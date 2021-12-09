@@ -52,11 +52,11 @@
 /* when middle/end frames are animating, bring thier opacity to 1 */
 
 .staar-middle-frame.animate {
-    animation: animateFrameIn 1s;
+    animation: animateFrameIn 1s forwards;
 }
 
 .staar-end-frame.animate {
-    animation: animateFrameIn 1s;
+    animation: animateFrameIn 1s forwards;
 }
 
 @keyframes animateFrameIn {

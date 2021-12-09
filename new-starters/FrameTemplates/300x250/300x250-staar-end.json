@@ -22,6 +22,11 @@
                 "c": "staar-logo text-item",
                 "h": "<img class='staar-logo' src='https://s0.2mdn.net/creatives/assets/4211898/main-logo.png'/>",
                 "s": "left:$LogoPositionHorizontalpx;top:$LogoPositioningVerticalpx"
+            },
+            {
+                "t": "e",
+                "c": "cta-container",
+                "h": "<div>$cta</div>"
             }
         ]
     }],
