@@ -3,6 +3,9 @@
         "t": "f",
         "c": "staar-middle-frame staar-frame",
         "d": 5000,
+        "j": {
+            "s": "cGFyZW50Tm9kZS5jbGFzc0xpc3QuYWRkKCdhbmltYXRlJyk="
+        },
         "e": [{
                 "t": "e",
                 "c": "frame-bg",
