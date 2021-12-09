@@ -1,0 +1,1 @@
+parentNode.classList.add("animate");

@@ -27,11 +27,14 @@
 }
 
 
-/* when playing 'dev' goes away and this is executed */
+/* when playing 'dev' goes away this executes - all frames 0 */
 
 .staar-frame {
     opacity: 0;
 }
+
+
+/* when animation stops 'dev' appears and this executes */
 
 .staar-frame.dev {
     opacity: 1 !important;
@@ -41,21 +44,20 @@
     opacity: 1;
 }
 
-.staar-start-frame.animate {}
+.staar-start-frame.animate {
+    opacity: 0;
+}
+
+
+/* when middle/end frames are animating, bring thier opacity to 1 */
 
 .staar-middle-frame.animate {
-    animation: animateFrameIn;
+    animation: animateFrameIn 1s;
 }
 
 .staar-end-frame.animate {
-    animation: animateFrameIn;
+    animation: animateFrameIn 1s;
 }
-
-
-/* when animation stops 'dev' appears and this executes */
-
-
-/* make this 1 sec so that frame appears instantly */
 
 @keyframes animateFrameIn {
     from {
