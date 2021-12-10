@@ -2,6 +2,7 @@
     "template": [{
         "t": "f",
         "c": "staar-middle-frame staar-frame",
+        "s": "opacity: 0",
         "d": 5000,
         "j": {
             "s": "cGFyZW50Tm9kZS5jbGFzc0xpc3QuYWRkKCdhbmltYXRlJyk="
@@ -17,7 +18,15 @@
                 "h": "$CopyTextAlign",
                 "s": "text-align:$CopyTextAlign"
             }
-        ]
+        ],
+        "a": {
+            "s": 0,
+            "n": "opacity 1s linear",
+            "b": "opacity: 1",
+            "e": 5000,
+            "x": "opacity 1s linear",
+            "a": "opacity: 0"
+        }
     }],
     "config": [{
         "target": "$Frame2BackgroundImage",

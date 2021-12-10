@@ -44,20 +44,23 @@
     opacity: 1;
 }
 
-.staar-start-frame.animate {
+
+/* .staar-start-frame.animate {
     opacity: 0;
-}
+} */
 
 
 /* when middle/end frames are animating, bring thier opacity to 1 */
 
+
+/* 
 .staar-middle-frame.animate {
     animation: animateFrameIn 1s forwards;
 }
 
 .staar-end-frame.animate {
     animation: animateFrameIn 1s forwards;
-}
+} */
 
 @keyframes animateFrameIn {
     from {

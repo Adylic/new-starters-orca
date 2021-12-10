@@ -9,7 +9,12 @@
         "e": [{
             "t": "e",
             "c": "frame-bg",
-            "h": "<img src='$Frame1BackgroundImage' />"
+            "h": "<img src='$Frame1BackgroundImage' />",
+            "a": {
+                "s": 6000,
+                "n": "opacity 1s linear",
+                "b": "opacity: 0"
+            }
         }]
     }],
     "config": [{
