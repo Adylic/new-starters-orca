@@ -21,15 +21,14 @@
             {
                 "t": "e",
                 "c": "staar-logo text-item",
-                "h": "<img class='staar-logo' src='https://s0.2mdn.net/creatives/assets/4211898/evo-visian-white-png.png'/>",
+                "h": "<img src='https://s0.2mdn.net/creatives/assets/4211898/evo-visian-white-png.png'/>",
                 "s": "left:$LogoPositionHorizontalpx;top:$LogoPositioningVerticalpx"
             }
         ],
         "a": {
             "s": 0,
             "n": "opacity 1s linear",
-            "b": "opacity: 1",
-            "e": 5000
+            "b": "opacity: 1"
         }
     }],
     "config": [{

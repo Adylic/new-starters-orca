@@ -8,17 +8,10 @@
             "s": "cGFyZW50Tm9kZS5jbGFzc0xpc3QuYWRkKCdhbmltYXRlJyk="
         },
         "e": [{
-                "t": "e",
-                "c": "frame-bg",
-                "h": "<img src='$Frame2BackgroundImage' />"
-            },
-            {
-                "t": "e",
-                "c": "copy-align",
-                "h": "$CopyTextAlign",
-                "s": "text-align:$CopyTextAlign"
-            }
-        ],
+            "t": "e",
+            "c": "frame-bg",
+            "h": "<img src='$Frame2BackgroundImage' />"
+        }],
         "a": {
             "s": 0,
             "n": "opacity 1s linear",
