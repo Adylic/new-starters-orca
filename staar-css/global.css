@@ -34,7 +34,7 @@
 }
 
 
-/* when animation stops 'dev' appears and this executes */
+/* when animation stops 'dev' appears */
 
 .staar-frame.dev {
     opacity: 1 !important;
@@ -44,13 +44,17 @@
     opacity: 1;
 }
 
+.cta {
+    border: 1px solid black;
+    background-color: blue;
+    border-radius: 14px;
+    padding: 10px;
+}
+
 
 /* .staar-start-frame.animate {
     opacity: 0;
 } */
-
-
-/* when middle/end frames are animating, bring thier opacity to 1 */
 
 
 /* 
