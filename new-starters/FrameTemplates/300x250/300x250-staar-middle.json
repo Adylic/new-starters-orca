@@ -8,10 +8,22 @@
             "s": "cGFyZW50Tm9kZS5jbGFzc0xpc3QuYWRkKCdhbmltYXRlJyk="
         },
         "e": [{
-            "t": "e",
-            "c": "frame-bg",
-            "h": "<img src='$Frame2BackgroundImage' />"
-        }],
+                "t": "e",
+                "c": "frame-bg",
+                "h": "<img src='$Frame2BackgroundImage' />"
+            },
+            {
+                "t": "e",
+                "c": "main-heading-frame-only text-item",
+                "h": "$mainHeadingCopy",
+                "s": "$copyAnimation;font-size:$copySizeMainHeadingpx;color:$copyColorMainHeading;left:$positioningHorizontalMainHeadingpx;top:$positioningVerticalMainHeadingpx;text-align:$TextAlignMainCopy;width:100%;height:100%",
+                "a": {
+                    "s": 1000,
+                    "n": "all 1s linear",
+                    "b": "transform: translate(0%, 0%)"
+                }
+            }
+        ],
         "a": {
             "s": 0,
             "n": "opacity 1s linear",
@@ -22,11 +34,108 @@
         }
     }],
     "config": [{
-        "target": "$Frame2BackgroundImage",
-        "name": "Background Image",
-        "type": "file",
-        "groupName": "Frame Background",
-        "groupType": "image",
-        "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
-    }]
+            "target": "$Frame2BackgroundImage",
+            "name": "Background Image",
+            "type": "file",
+            "groupName": "Frame Background",
+            "groupType": "image",
+            "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
+        },
+        {
+            "target": "$mainHeadingCopy",
+            "name": "Main Copy",
+            "type": "text",
+            "groupName": "Frame Main Copy",
+            "groupType": "text",
+            "initialValue": "Initial Test Copy",
+            "properties": {
+                "value": "Initial Test Copy",
+                "characterLimit": 40
+            }
+        },
+        {
+            "target": "$copyColorMainHeading",
+            "name": "Copy Colour",
+            "type": "radio",
+            "groupName": "Frame Main Copy",
+            "groupType": "select",
+            "initialValue": "white",
+            "properties": {
+                "value": "white"
+            },
+            "options": [
+                "black",
+                "white"
+            ],
+            "labels": [
+                "Black <span style='background-color:black;'></span>",
+                "White <span style='background-color:white;'></span>"
+            ]
+        },
+        {
+            "target": "$copyAnimation",
+            "name": "Copy Animation",
+            "type": "radio",
+            "groupName": "Frame Main Copy",
+            "groupType": "select",
+            "initialValue": "transform: translateX(-100%)",
+            "properties": {
+                "value": "transform: translateX(-100%)"
+            },
+            "options": [
+                "transform: translateX(-100%)",
+                "transform: translateX(100%)",
+                "transform: translateY(-100%)",
+                "transform: translateY(100%)"
+            ],
+            "labels": [
+                "Slide In From Left",
+                "Slide In From Right",
+                "Slide In From Top",
+                "Slide In From Bottom"
+            ]
+        },
+        {
+            "target": "$copySizeMainHeading",
+            "name": "Copy Size",
+            "type": "number",
+            "groupName": "Frame Main Copy",
+            "groupType": "number",
+            "initialValue": 20,
+            "properties": {
+                "min": 1,
+                "max": 28,
+                "step": 1,
+                "value": 20
+            }
+        },
+        {
+            "target": "$positioningHorizontalMainHeading",
+            "name": "Copy Position Horizontal",
+            "type": "number",
+            "groupName": "Frame Main Copy",
+            "groupType": "number",
+            "initialValue": 30,
+            "properties": {
+                "min": 0,
+                "max": 300,
+                "step": 1,
+                "value": 0
+            }
+        },
+        {
+            "target": "$positioningVerticalMainHeading",
+            "name": "Copy Position Vertical",
+            "type": "number",
+            "groupName": "Frame Main Copy",
+            "groupType": "number",
+            "initialValue": 30,
+            "properties": {
+                "min": 0,
+                "max": 250,
+                "step": 1,
+                "value": 0
+            }
+        }
+    ]
 }

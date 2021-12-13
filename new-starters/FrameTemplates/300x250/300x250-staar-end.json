@@ -16,7 +16,12 @@
                 "t": "e",
                 "c": "cta text-item",
                 "h": "$cta",
-                "s": "font-size:$SizeCtapx;left:$PositioningHorizontalCtapx;top:$PositioningVerticalCtapx"
+                "s": "$AnimationCta;font-size:$SizeCtapx;left:$PositioningHorizontalCtapx;top:$PositioningVerticalCtapx",
+                "a": {
+                    "s": 500,
+                    "n": "all 1s linear",
+                    "b": "transform: translate(0px, 0px)"
+                }
             },
             {
                 "t": "e",
@@ -92,6 +97,29 @@
                 "step": 1,
                 "value": 150
             }
+        },
+        {
+            "target": "$AnimationCta",
+            "name": "CTA Animation",
+            "type": "radio",
+            "groupName": "CTA Copy",
+            "groupType": "select",
+            "initialValue": "transform: translateX(-300px)",
+            "properties": {
+                "value": "transform: translateX(-300px)"
+            },
+            "options": [
+                "transform: translateX(-300px)",
+                "transform: translateX(300px)",
+                "transform: translateY(-250px)",
+                "transform: translateY(250px)"
+            ],
+            "labels": [
+                "Slide In From Left",
+                "Slide In From Right",
+                "Slide In From Top",
+                "Slide In From Bottom"
+            ]
         },
         {
             "target": "$LogoPositionHorizontal",
