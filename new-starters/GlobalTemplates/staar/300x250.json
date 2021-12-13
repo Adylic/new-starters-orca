@@ -9,7 +9,7 @@
         },
         {
             "t": "s",
-            "s": ".bg,.frame-bg{z-index:1;position:absolute}.bg img,.frame-bg img{max-width:100%}.text-item{position:absolute;z-index:3}.cta{color:#fff}.staar-frame{opacity:0}.staar-frame.dev{opacity:1!important}.staar-start-frame{opacity:1}.cta{border:1px solid #000;background-color:#00f;border-radius:14px;padding:10px}@keyframes animateFrameIn{from{opacity:0}to{opacity:1}}"
+            "s": ".bg,.frame-bg{z-index:1;position:absolute}.bg img,.frame-bg img{max-width:100%}.text-item{position:absolute;z-index:3}.cta{color:#fff;background-color:#00f;border:1px solid #000;border-radius:14px;padding:10px}.staar-frame{opacity:0}.staar-frame.dev{opacity:1!important}.staar-start-frame{opacity:1}"
         },
         {
             "t": "j",
@@ -127,20 +127,6 @@
             }
         },
         {
-            "target": "$copySizeSubHeading",
-            "name": "Copy Size",
-            "type": "number",
-            "groupName": "Sub Heading Copy",
-            "groupType": "number",
-            "initialValue": 20,
-            "properties": {
-                "min": 1,
-                "max": 30,
-                "step": 1,
-                "value": 20
-            }
-        },
-        {
             "target": "$copyColourSubHeading",
             "name": "Copy Colour",
             "type": "radio",
@@ -158,6 +144,20 @@
                 "Black <span style='background-color:black;'></span>",
                 "White <span style='background-color:white;'></span>"
             ]
+        },
+        {
+            "target": "$copySizeSubHeading",
+            "name": "Copy Size",
+            "type": "number",
+            "groupName": "Sub Heading Copy",
+            "groupType": "number",
+            "initialValue": 20,
+            "properties": {
+                "min": 1,
+                "max": 30,
+                "step": 1,
+                "value": 20
+            }
         },
         {
             "target": "$positioningHoriziontialSubHeading",
