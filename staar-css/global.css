@@ -70,3 +70,16 @@
         opacity: 1;
     }
 } */
+
+.sub-heading {
+    animation: spin 3s infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

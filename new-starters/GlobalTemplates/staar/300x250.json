@@ -9,7 +9,7 @@
         },
         {
             "t": "s",
-            "s": ".bg,.frame-bg{z-index:1;position:absolute}.bg img,.frame-bg img{max-width:100%}.text-item{position:absolute;z-index:3}.cta{color:#fff;background-color:#00f;border:1px solid #000;border-radius:14px;padding:10px}.staar-frame{opacity:0}.staar-frame.dev{opacity:1!important}.staar-start-frame{opacity:1}"
+            "s": ".bg,.frame-bg{z-index:1;position:absolute}.bg img,.frame-bg img{max-width:100%}.text-item{position:absolute;z-index:3}.cta{color:#fff;background-color:#00f;border:1px solid #000;border-radius:14px;padding:10px}.staar-frame{opacity:0}.staar-frame.dev{opacity:1!important}.staar-start-frame{opacity:1}.sub-heading{animation:spin 3s infinite}"
         },
         {
             "t": "j",
