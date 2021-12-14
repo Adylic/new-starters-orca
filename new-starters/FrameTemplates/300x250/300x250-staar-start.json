@@ -22,7 +22,7 @@
                     "s": "$copyAnimation;font-size:$copySizeMainHeadingpx;color:$copyColorMainHeading;left:$positioningHorizontalMainHeadingpx;top:$positioningVerticalMainHeadingpx;text-align:$TextAlignMainCopy;width:100%;height:100%",
                     "a": {
                         "s": 1000,
-                        "n": "all 1s linear",
+                        "n": "all 1s ease",
                         "b": "transform: translate(0%, 0%)"
                     }
                 }

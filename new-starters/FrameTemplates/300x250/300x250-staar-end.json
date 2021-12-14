@@ -19,7 +19,7 @@
                 "s": "$AnimationCta;font-size:$SizeCtapx;left:$PositioningHorizontalCtapx;top:$PositioningVerticalCtapx",
                 "a": {
                     "s": 500,
-                    "n": "all 1s linear",
+                    "n": "all 1s ease-out",
                     "b": "transform: translate(0px, 0px)"
                 }
             },
@@ -30,7 +30,7 @@
                 "s": "$AnimationLogo;left:$LogoPositionHorizontalpx;top:$LogoPositioningVerticalpx",
                 "a": {
                     "s": 500,
-                    "n": "all 1s linear",
+                    "n": "all 1s ease-out",
                     "b": "transform: translate(0px, 0px)"
                 }
             }
