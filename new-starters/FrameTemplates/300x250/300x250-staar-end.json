@@ -27,7 +27,12 @@
                 "t": "e",
                 "c": "staar-logo text-item",
                 "h": "<img src='https://s0.2mdn.net/creatives/assets/4211898/evo-visian-white-png.png'/>",
-                "s": "left:$LogoPositionHorizontalpx;top:$LogoPositioningVerticalpx"
+                "s": "$AnimationLogo;left:$LogoPositionHorizontalpx;top:$LogoPositioningVerticalpx",
+                "a": {
+                    "s": 500,
+                    "n": "all 1s linear",
+                    "b": "transform: translate(0px, 0px)"
+                }
             }
         ],
         "a": {
@@ -147,6 +152,29 @@
                 "step": 1,
                 "value": 220
             }
+        },
+        {
+            "target": "$AnimationLogo",
+            "name": "Logo Animation",
+            "type": "radio",
+            "groupName": "Logo",
+            "groupType": "select",
+            "initialValue": "transform: translateX(-300px)",
+            "properties": {
+                "value": "transform: translateX(-300px)"
+            },
+            "options": [
+                "transform: translateX(-300px)",
+                "transform: translateX(300px)",
+                "transform: translateY(-250px)",
+                "transform: translateY(250px)"
+            ],
+            "labels": [
+                "Slide In From Left",
+                "Slide In From Right",
+                "Slide In From Top",
+                "Slide In From Bottom"
+            ]
         }
     ]
 }
