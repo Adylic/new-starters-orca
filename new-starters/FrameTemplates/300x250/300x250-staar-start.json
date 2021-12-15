@@ -39,7 +39,7 @@
         },
         {
             "target": "$mainHeadingCopy",
-            "name": "Main Copy",
+            "name": "Frame Main Copy",
             "type": "text",
             "groupName": "Frame Main Copy",
             "groupType": "text",
@@ -107,7 +107,7 @@
         },
         {
             "target": "$positioningHorizontalMainHeading",
-            "name": "Main Copy Position Horizontal",
+            "name": "Main Copy Position X",
             "type": "number",
             "groupName": "Frame Main Copy",
             "groupType": "number",
@@ -121,7 +121,7 @@
         },
         {
             "target": "$positioningVerticalMainHeading",
-            "name": "Main Copy Position Vertical",
+            "name": "Main Copy Position Y",
             "type": "number",
             "groupName": "Frame Main Copy",
             "groupType": "number",

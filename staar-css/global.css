@@ -13,9 +13,11 @@
     height: 100%;
 }
 
+
+/* 
 .staar-start-frame.main-heading.dev {
     transform: translateX(0%) !important;
-}
+} */
 
 .staar-start-frame.main-heading {
     width: 100%;

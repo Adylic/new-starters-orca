@@ -84,7 +84,7 @@
         },
         {
             "target": "$positioningHorizontalMainHeading",
-            "name": "Main Copy Position Horizontal",
+            "name": "Main Copy Position X",
             "type": "number",
             "groupName": "Main Heading Copy",
             "groupType": "number",
@@ -98,7 +98,7 @@
         },
         {
             "target": "$positioningVerticalMainHeading",
-            "name": "Main Copy Position Vertical",
+            "name": "Main Copy Position Y",
             "type": "number",
             "groupName": "Main Heading Copy",
             "groupType": "number",

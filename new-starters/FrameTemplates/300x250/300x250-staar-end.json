@@ -77,7 +77,7 @@
         },
         {
             "target": "$PositioningHorizontalCta",
-            "name": "CTA Copy Position Horizontal",
+            "name": "CTA Copy Position X",
             "type": "number",
             "groupName": "CTA Copy",
             "groupType": "number",
@@ -91,7 +91,7 @@
         },
         {
             "target": "$PositioningVerticalCta",
-            "name": "CTA Copy Position Vertical",
+            "name": "CTA Copy Position Y",
             "type": "number",
             "groupName": "CTA Copy",
             "groupType": "number",
