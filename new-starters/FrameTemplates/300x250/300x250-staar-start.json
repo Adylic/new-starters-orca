@@ -1,39 +1,34 @@
 {
     "template": [{
-            "t": "s",
-            "s": ".main-heading-frame-only.dev(transform: translateX(0%)!important)"
+        "t": "f",
+        "c": "staar-start-frame staar-frame",
+        "d": 6000,
+        "j": {
+            "s": "cGFyZW50Tm9kZS5jbGFzc0xpc3QuYWRkKCdhbmltYXRlJyk="
         },
-        {
-            "t": "f",
-            "c": "staar-start-frame staar-frame",
-            "d": 6000,
-            "j": {
-                "s": "cGFyZW50Tm9kZS5jbGFzc0xpc3QuYWRkKCdhbmltYXRlJyk="
+        "e": [{
+                "t": "e",
+                "c": "frame-bg",
+                "h": "<img src='$Frame1BackgroundImage' />"
             },
-            "e": [{
-                    "t": "e",
-                    "c": "frame-bg",
-                    "h": "<img src='$Frame1BackgroundImage' />"
-                },
-                {
-                    "t": "e",
-                    "c": "main-heading-frame-only text-item",
-                    "h": "$mainHeadingCopy",
-                    "s": "$copyAnimation;font-size:$copySizeMainHeadingpx;color:$copyColorMainHeading;left:$positioningHorizontalMainHeadingpx;top:$positioningVerticalMainHeadingpx;text-align:$TextAlignMainCopy;width:100%;height:100%",
-                    "a": {
-                        "s": 1000,
-                        "n": "all 1s ease",
-                        "b": "transform: translate(0%, 0%)"
-                    }
+            {
+                "t": "e",
+                "c": "main-heading text-item",
+                "h": "$mainHeadingCopy",
+                "s": "$copyAnimation;font-size:$copySizeMainHeadingpx;color:$copyColorMainHeading;left:$positioningHorizontalMainHeadingpx;top:$positioningVerticalMainHeadingpx;text-align:$TextAlignMainCopy",
+                "a": {
+                    "s": 1000,
+                    "n": "transform 1s ease",
+                    "b": "transform: translate(0%, 0%)"
                 }
-            ],
-            "a": {
-                "e": 6000,
-                "x": "all 1s linear",
-                "a": "opacity: 0"
             }
+        ],
+        "a": {
+            "e": 6000,
+            "x": "opacity 1s linear",
+            "a": "opacity: 0"
         }
-    ],
+    }],
     "config": [{
             "target": "$Frame1BackgroundImage",
             "name": "Background Image",
@@ -56,7 +51,7 @@
         },
         {
             "target": "$copyColorMainHeading",
-            "name": "Copy Colour",
+            "name": "Main Copy Colour",
             "type": "radio",
             "groupName": "Frame Main Copy",
             "groupType": "select",
@@ -75,7 +70,7 @@
         },
         {
             "target": "$copyAnimation",
-            "name": "Copy Animation",
+            "name": "Main Copy Animation",
             "type": "radio",
             "groupName": "Frame Main Copy",
             "groupType": "select",
@@ -98,7 +93,7 @@
         },
         {
             "target": "$copySizeMainHeading",
-            "name": "Copy Size",
+            "name": "Main Copy Size",
             "type": "number",
             "groupName": "Frame Main Copy",
             "groupType": "number",
@@ -112,7 +107,7 @@
         },
         {
             "target": "$positioningHorizontalMainHeading",
-            "name": "Copy Position Horizontal",
+            "name": "Main Copy Position Horizontal",
             "type": "number",
             "groupName": "Frame Main Copy",
             "groupType": "number",
@@ -126,7 +121,7 @@
         },
         {
             "target": "$positioningVerticalMainHeading",
-            "name": "Copy Position Vertical",
+            "name": "Main Copy Position Vertical",
             "type": "number",
             "groupName": "Frame Main Copy",
             "groupType": "number",

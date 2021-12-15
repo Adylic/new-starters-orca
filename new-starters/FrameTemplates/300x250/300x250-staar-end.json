@@ -19,7 +19,7 @@
                 "s": "$AnimationCta;font-size:$SizeCtapx;left:$PositioningHorizontalCtapx;top:$PositioningVerticalCtapx",
                 "a": {
                     "s": 500,
-                    "n": "all 1s ease-out",
+                    "n": "transform 1s ease-out",
                     "b": "transform: translate(0px, 0px)"
                 }
             },
@@ -30,7 +30,7 @@
                 "s": "$AnimationLogo;left:$LogoPositionHorizontalpx;top:$LogoPositioningVerticalpx",
                 "a": {
                     "s": 500,
-                    "n": "all 1s ease-out",
+                    "n": "transform 1s ease-out",
                     "b": "transform: translate(0px, 0px)"
                 }
             }
@@ -63,13 +63,13 @@
         },
         {
             "target": "$SizeCta",
-            "name": "Copy Size",
+            "name": "CTA Copy Size",
             "type": "number",
             "groupName": "CTA Copy",
             "groupType": "number",
             "initialValue": 15,
             "properties": {
-                "min": 1,
+                "min": 5,
                 "max": 25,
                 "step": 1,
                 "value": 15
@@ -77,7 +77,7 @@
         },
         {
             "target": "$PositioningHorizontalCta",
-            "name": "Copy Position Horizontal",
+            "name": "CTA Copy Position Horizontal",
             "type": "number",
             "groupName": "CTA Copy",
             "groupType": "number",
@@ -91,7 +91,7 @@
         },
         {
             "target": "$PositioningVerticalCta",
-            "name": "Copy Position Vertical",
+            "name": "CTA Copy Position Vertical",
             "type": "number",
             "groupName": "CTA Copy",
             "groupType": "number",

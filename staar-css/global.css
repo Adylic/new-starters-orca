@@ -1,3 +1,28 @@
+.dynamicAdvertContainer {
+    cursor: pointer;
+    line-height: 1;
+    width: 300px;
+    height: 250px;
+}
+
+.template-set-frame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.staar-start-frame.main-heading.dev {
+    transform: translateX(0%) !important;
+}
+
+.staar-start-frame.main-heading {
+    width: 100%;
+    height: 100%;
+}
+
+
 /* by default position relative pushes img down - use absolute */
 
 .bg,
@@ -71,15 +96,7 @@
     }
 } */
 
-.sub-heading {
-    animation: spin 3s infinite;
-}
 
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
+/* .sub-heading {
+    animation: spin 3s infinite;
+} */

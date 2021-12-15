@@ -5,11 +5,7 @@
         },
         {
             "t": "s",
-            "s": ".dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px;}.template-set-frame{position:absolute; top:0px; left:0px; width:100%; height:100%;}"
-        },
-        {
-            "t": "s",
-            "s": ".bg,.frame-bg{z-index:1;position:absolute}.bg img,.frame-bg img{max-width:100%}.text-item{position:absolute;z-index:3}.cta{color:#fff;background-color:#00f;border:1px solid #000;border-radius:14px;padding:10px}.staar-frame{opacity:0}.staar-frame.dev{opacity:1!important}.staar-start-frame{opacity:1}.sub-heading{animation:spin 3s infinite}"
+            "s": ".dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px}.template-set-frame{position:absolute;top:0;left:0;width:100%;height:100%}.staar-start-frame.main-heading.dev{transform:translateX(0)!important}.staar-start-frame.main-heading{width:100%;height:100%}.bg,.frame-bg{z-index:1;position:absolute}.bg img,.frame-bg img{max-width:100%}.text-item{position:absolute;z-index:3}.cta{color:#fff;background-color:#00f;border:1px solid #000;border-radius:14px;padding:10px}.staar-frame{opacity:0}.staar-frame.dev{opacity:1!important}.staar-start-frame{opacity:1}"
         },
         {
             "t": "j",
@@ -43,7 +39,7 @@
         },
         {
             "target": "$mainHeadingCopy",
-            "name": "Main Copy",
+            "name": "Main Copy Text",
             "type": "text",
             "groupName": "Main Heading Copy",
             "groupType": "text",
@@ -55,7 +51,7 @@
         },
         {
             "target": "$copyColorMainHeading",
-            "name": "Copy Colour",
+            "name": "Main Copy Colour",
             "type": "radio",
             "groupName": "Main Heading Copy",
             "groupType": "select",
@@ -74,7 +70,7 @@
         },
         {
             "target": "$copySizeMainHeading",
-            "name": "Copy Size",
+            "name": "Main Copy Size",
             "type": "number",
             "groupName": "Main Heading Copy",
             "groupType": "number",
@@ -88,7 +84,7 @@
         },
         {
             "target": "$positioningHorizontalMainHeading",
-            "name": "Copy Position Horizontal",
+            "name": "Main Copy Position Horizontal",
             "type": "number",
             "groupName": "Main Heading Copy",
             "groupType": "number",
@@ -102,7 +98,7 @@
         },
         {
             "target": "$positioningVerticalMainHeading",
-            "name": "Copy Position Vertical",
+            "name": "Main Copy Position Vertical",
             "type": "number",
             "groupName": "Main Heading Copy",
             "groupType": "number",
@@ -116,7 +112,7 @@
         },
         {
             "target": "$subHeadingCopy",
-            "name": "Copy Text",
+            "name": "Sub Copy Text",
             "type": "text",
             "groupName": "Sub Heading Copy",
             "groupType": "text",
@@ -128,7 +124,7 @@
         },
         {
             "target": "$copyColourSubHeading",
-            "name": "Copy Colour",
+            "name": "Sub Copy Colour",
             "type": "radio",
             "groupName": "Sub Heading Copy",
             "groupType": "select",
@@ -147,7 +143,7 @@
         },
         {
             "target": "$copySizeSubHeading",
-            "name": "Copy Size",
+            "name": "Sub Copy Size",
             "type": "number",
             "groupName": "Sub Heading Copy",
             "groupType": "number",
@@ -161,7 +157,7 @@
         },
         {
             "target": "$positioningHoriziontialSubHeading",
-            "name": "Copy Positioning X",
+            "name": "Sub Copy Positioning X",
             "type": "number",
             "groupName": "Sub Heading Copy",
             "groupType": "number",
@@ -175,7 +171,7 @@
         },
         {
             "target": "$positioningVerticalSubHeading",
-            "name": "Copy Positioning Y",
+            "name": "Sub Copy Positioning Y",
             "type": "number",
             "groupName": "Sub Heading Copy",
             "groupType": "number",
@@ -189,7 +185,7 @@
         },
         {
             "target": "$TextAlignMainCopy",
-            "name": "Copy Text Alignment",
+            "name": "Main Copy Text Alignment",
             "type": "radio",
             "groupName": "Main Heading Copy",
             "groupType": "select",
@@ -210,7 +206,7 @@
         },
         {
             "target": "$TextAlignSubCopy",
-            "name": "Copy Text Alignment",
+            "name": "Sub Copy Text Alignment",
             "type": "radio",
             "groupName": "Sub Heading Copy",
             "groupType": "select",
