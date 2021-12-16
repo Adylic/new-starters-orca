@@ -39,7 +39,7 @@
         },
         {
             "target": "$mainHeadingCopy",
-            "name": "Frame Main Copy",
+            "name": "Frame Main Copy Text",
             "type": "text",
             "groupName": "Frame Main Copy",
             "groupType": "text",
@@ -51,7 +51,7 @@
         },
         {
             "target": "$copyColorMainHeading",
-            "name": "Main Copy Colour",
+            "name": "Frame Main Copy Colour",
             "type": "radio",
             "groupName": "Frame Main Copy",
             "groupType": "select",
@@ -70,7 +70,7 @@
         },
         {
             "target": "$copyAnimation",
-            "name": "Main Copy Animation",
+            "name": "Frame Main Copy Animation",
             "type": "radio",
             "groupName": "Frame Main Copy",
             "groupType": "select",
@@ -93,7 +93,7 @@
         },
         {
             "target": "$copySizeMainHeading",
-            "name": "Main Copy Size",
+            "name": "Frame Main Copy Size",
             "type": "number",
             "groupName": "Frame Main Copy",
             "groupType": "number",
@@ -107,7 +107,7 @@
         },
         {
             "target": "$positioningHorizontalMainHeading",
-            "name": "Main Copy Position X",
+            "name": "Frame Main Copy Position X",
             "type": "number",
             "groupName": "Frame Main Copy",
             "groupType": "number",
@@ -121,7 +121,7 @@
         },
         {
             "target": "$positioningVerticalMainHeading",
-            "name": "Main Copy Position Y",
+            "name": "Frame Main Copy Position Y",
             "type": "number",
             "groupName": "Frame Main Copy",
             "groupType": "number",
