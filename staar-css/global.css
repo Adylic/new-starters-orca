@@ -15,12 +15,9 @@
 
 .staar-start-frame .main-heading.dev,
 .staar-middle-frame .main-heading.dev,
-.staar-end-frame .staar-logo.dev {
-    transform: translateX(0%) !important;
-}
-
+.staar-end-frame .staar-logo.dev,
 .staar-end-frame .cta.dev {
-    transform: translateX(0px) !important;
+    transform: translateX(0) !important;
 }
 
 .staar-start-frame .main-heading,
@@ -83,28 +80,3 @@
 .staar-start-frame {
     opacity: 1;
 }
-
-
-/* 
-.staar-middle-frame.animate {
-    animation: animateFrameIn 1s forwards;
-}
-
-.staar-end-frame.animate {
-    animation: animateFrameIn 1s forwards;
-} */
-
-
-/* @keyframes animateFrameIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-} */
-
-
-/* .sub-heading {
-    animation: spin 3s infinite;
-} */

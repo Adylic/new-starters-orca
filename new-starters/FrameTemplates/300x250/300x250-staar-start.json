@@ -19,7 +19,7 @@
                 "a": {
                     "s": 1000,
                     "n": "transform 1s ease",
-                    "b": "transform: translate(0%, 0%)"
+                    "b": "transform: translate(0, 0)"
                 }
             }
         ],
@@ -74,15 +74,15 @@
             "type": "radio",
             "groupName": "Frame Main Copy",
             "groupType": "select",
-            "initialValue": "transform: translateX(-100%)",
+            "initialValue": "transform: translateX(-300)",
             "properties": {
-                "value": "transform: translateX(-100%)"
+                "value": "transform: translateX(-300)"
             },
             "options": [
-                "transform: translateX(-100%)",
-                "transform: translateX(100%)",
-                "transform: translateY(-100%)",
-                "transform: translateY(100%)"
+                "transform: translateX(-300px)",
+                "transform: translateX(300px)",
+                "transform: translateY(-250px)",
+                "transform: translateY(250px)"
             ],
             "labels": [
                 "Slide In From Left",
