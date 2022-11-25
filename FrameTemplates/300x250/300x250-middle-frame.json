@@ -3,19 +3,26 @@
     {
       "t": "f",
       "c": "middle-frame template-set-frame",
-      "d": 5000,
+      "d": 6000,
+      "s": ".background-image{width: 300px; height: 250px;}",
       "e": [
         {
           "t": "e",
           "c": "background",
-          "h": "",
-          "s": "background-image: $background;"
+          "h": "<img src='$background' style='width: auto; height: 520px;' />",
+          "s": "position:absolute;left:-193px;top:-184px;width: 300px; height: 250px;"
         },
         {
           "t": "e",
-          "c": "",
-          "h": "",
-          "s": ""
+          "c": "headline",
+          "h": "<h3>$headlineCopy</h3>",
+          "s": "font-family: 'AudiType_Bold'; position: absolute; top: $YHeadlinepx; left: $XHeadlinepx; margin: 0; color: $headlineFontColour; font-size: $headlineFontSizepx;"
+        },
+        {
+          "t": "e",
+          "c": "sub-headline",
+          "h": "<h3>$subHeadlineCopy</h3>",
+          "s": "font-family: 'AudiType_Normal'; position: absolute; top: $YsubHeadlinepx; left: $XsubHeadlinepx; margin: 0; color: $subHeadlineFontColour; font-size: $subHeadlineFontSizepx;"
         }
       ]
     }
@@ -26,8 +33,136 @@
       "name": "Background Image Upload",
       "type": "file",
       "groupName": "Background",
-      "grouptType": "image",
+      "groupType": "image",
       "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
+    },
+    {
+      "target": "$headlineCopy",
+      "name": "Headline Copy",
+      "type": "text",
+      "groupName": "Headline",
+      "groupType": "text",
+      "initialValue": "Audi Approved Used.",
+      "properties": {
+        "value": "Audi Approved Used."
+      }
+    },
+    {
+      "target": "$headlineFontSize",
+      "name": "Headline Font Size",
+      "type": "number",
+      "groupName": "Headline",
+      "groupType": "number",
+      "initialValue": 12,
+      "properties": {
+        "min": 10,
+        "max": 50,
+        "step": 0.5,
+        "value": 12
+      }
+    },
+    {
+      "target": "$headlineFontColour",
+      "name": "Headline Font Colour",
+      "type": "text",
+      "groupName": "Headline",
+      "groupType": "text",
+      "initialValue": "#000000",
+      "properties": {
+        "value": ""
+      }
+    },
+    {
+      "target": "$XHeadline",
+      "name": "Headline X-Position",
+      "type": "number",
+      "groupName": "Headline",
+      "groupType": "number",
+      "initialValue": 14,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 14
+      }
+    },
+    {
+      "target": "$YHeadline",
+      "name": "Headline Y-Position",
+      "type": "number",
+      "groupName": "Headline",
+      "groupType": "number",
+      "initialValue": 40,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 40
+      }
+    },
+    {
+      "target": "$subHeadlineCopy",
+      "name": "Sub Headline Copy",
+      "type": "text",
+      "groupName": "Sub Headline",
+      "groupType": "text",
+      "initialValue": "Timelessly Audi.",
+      "properties": {
+        "value": "Timelessly Audi."
+      }
+    },
+    {
+      "target": "$subHeadlineFontSize",
+      "name": "Sub Headline Font Size",
+      "type": "number",
+      "groupName": "Sub Headline",
+      "groupType": "number",
+      "initialValue": 12,
+      "properties": {
+        "min": 10,
+        "max": 50,
+        "step": 0.5,
+        "value": 12
+      }
+    },
+    {
+      "target": "$subHeadlineFontColour",
+      "name": "Sub Headline Font Colour",
+      "type": "text",
+      "groupName": "Sub Headline",
+      "groupType": "text",
+      "initialValue": "#000000",
+      "properties": {
+        "value": ""
+      }
+    },
+    {
+      "target": "$XsubHeadline",
+      "name": "Sub Headline X-Position",
+      "type": "number",
+      "groupName": "Sub Headline",
+      "groupType": "number",
+      "initialValue": 14,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 14
+      }
+    },
+    {
+      "target": "$YsubHeadline",
+      "name": "Sub Headline Y-Position",
+      "type": "number",
+      "groupName": "Sub Headline",
+      "groupType": "number",
+      "initialValue": 56,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 56
+      }
     }
   ]
 }

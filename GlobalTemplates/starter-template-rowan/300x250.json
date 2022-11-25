@@ -6,7 +6,7 @@
     },
     {
       "t": "s",
-      "s": ".dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px;background-color:#FFFFFF;}.template-set-frame{position:absolute; top:0px; left:0px; width:100%; height:100%;}@font-face{font-family: Raleway;src:url('https://s0.2mdn.net/creatives/assets/4638358/Raleway-Black.woff') format('woff2'),url('https://s0.2mdn.net/creatives/assets/4638358/Raleway-Black.woff') format('woff');}@font-face{font-family: Gotham;src:url('https://s0.2mdn.net/creatives/assets/4638358/Gotham-XLight.woff') format('woff2'),url('https://s0.2mdn.net/creatives/assets/4638358/Gotham-XLight.woff') format('woff');}"
+      "s": ".dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px;background-color:#FFFFFF;}.template-set-frame{position:absolute; top:0px; left:0px; width:100%; height:100%;} @font-face {font-family: 'AudiType_Bold'; src:  url('https://s0.2mdn.net/creatives/assets/2888622/AudiType-ExtendedBold.woff2') format('woff2');} @font-face {font-family: 'AudiType_Normal'; src:  url('https://s0.2mdn.net/creatives/assets/2888622/AudiType-ExtendedNormal.woff2') format('woff2');}"
     },
     {
       "t": "j",
