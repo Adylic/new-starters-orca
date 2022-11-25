@@ -1,0 +1,33 @@
+{
+  "template": [
+    {
+      "t": "f",
+      "c": "end-frame template-set-frame",
+      "d": 5000,
+      "e": [
+        {
+          "t": "e",
+          "c": "background",
+          "h": "",
+          "s": "background-image: $background;"
+        },
+        {
+          "t": "e",
+          "c": "",
+          "h": "",
+          "s": ""
+        }
+      ]
+    }
+  ],
+  "config": [
+    {
+      "target": "$background",
+      "name": "Background Image Upload",
+      "type": "file",
+      "groupName": "Background",
+      "grouptType": "image",
+      "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "name": "rowan-300x250",
+    "size": "300x250",
+    "width": 300,
+    "height": 250,
+    "frameLimit": 5,
+    "frameMinCount": 1,
+    "globalTemplateName": "starter-template-rowan",
+    "start": ["intro-frame"],
+    "middle": ["middle-frame"],
+    "end": ["end-frame"],
+    "baseSize": 8000
+  }
+]
