@@ -7,12 +7,24 @@
       "e": [
         {
           "t": "e",
-          "c": "",
-          "h": "",
+          "c": "copy",
+          "h": "<h3>$CopyOne</h3>",
           "s": ""
         }
       ]
     }
   ],
-  "config": []
+  "config": [
+    {
+      "target": "$CopyOne",
+      "name": "Copy One",
+      "type": "text",
+      "groupName": "Copy One",
+      "groupType": "text",
+      "initialValue": "",
+      "properties": {
+        "value": ""
+      }
+    }
+  ]
 }
