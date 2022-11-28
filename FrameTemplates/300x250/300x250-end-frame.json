@@ -4,43 +4,59 @@
       "t": "f",
       "c": "middle-frame template-set-frame",
       "d": 6000,
-      "s": "",
+      "s": "opacity: 0;",
+      "a": {
+        "s": 0,
+        "n": "opacity 1s ease",
+        "b": "opacity: 1"
+      },
       "e": [
         {
           "t": "e",
           "c": "background",
           "h": "<img src='$background' style='width: auto; height: 520px;' />",
-          "s": "position:absolute;left:-193px;top:-184px;width: 300px; height: 250px;"
+          "s": ""
         },
         {
           "t": "e",
           "c": "headline",
           "h": "<h3>$headlineCopy</h3>",
-          "s": "font-family: 'AudiType_Bold'; position: absolute; top: $YHeadlinepx; left: $XHeadlinepx; margin: 0; color: $headlineFontColour; font-size: $headlineFontSizepx;",
+          "s": "text-align: $headlineTextAlign;  top: $YHeadlinepx; left: $XHeadlinepx; color: $headlineFontColour; font-size: $headlineFontSizepx;",
           "a": {
-            "e": 4000,
-            "x": "opacity 1s ease",
-            "a": "opacity: 0"
+            "s": 500,
+            "n": "opacity 2s ease",
+            "b": "opacity: 1"
           }
         },
         {
           "t": "e",
           "c": "sub-headline",
           "h": "<h3>$subHeadlineCopy</h3>",
-          "s": "font-family: 'AudiType_Normal'; position: absolute; top: $YsubHeadlinepx; left: $XsubHeadlinepx; margin: 0; color: $subHeadlineFontColour; font-size: $subHeadlineFontSizepx;",
+          "s": "text-align: $subHeadlineTextAlign; top: $YsubHeadlinepx; left: $XsubHeadlinepx; color: $subHeadlineFontColour; font-size: $subHeadlineFontSizepx;",
           "a": {
-            "e": 4000,
-            "x": "opacity 1s ease",
-            "a": "opacity: 0"
+            "s": 900,
+            "n": "opacity 2s ease",
+            "b": "opacity: 1"
           }
         },
         {
           "t": "e",
           "c": "logo",
-          "h": "<img src='$logo' style='width: 90px;' />",
-          "s": "opacity: 1; position:absolute; left:12px; top:12px;",
+          "h": "<img src='$logo' />",
+          "s": "left: $XLogopx; top: $YLogopx;",
           "a": {
-            "s": 500,
+            "s": 100,
+            "n": "opacity 2s ease",
+            "b": "opacity: 1"
+          }
+        },
+        {
+          "t": "e",
+          "c": "cta",
+          "h": "<button>Find yours</button>",
+          "s": "bottom: $YCTApx; left: $XCTApx;font-size: $CTAFontSizepx;",
+          "a": {
+            "s": 1300,
             "n": "opacity 2s ease",
             "b": "opacity: 1"
           }
@@ -64,6 +80,34 @@
       "groupName": "Logo",
       "groupType": "image",
       "initialValue": "https://s0.2mdn.net/creatives/assets/1951882/transparent.png"
+    },
+    {
+      "target": "$XLogo",
+      "name": "Logo X-Position",
+      "type": "number",
+      "groupName": "Logo",
+      "groupType": "number",
+      "initialValue": 12,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 12
+      }
+    },
+    {
+      "target": "$YLogo",
+      "name": "Logo Y-Position",
+      "type": "number",
+      "groupName": "Logo",
+      "groupType": "number",
+      "initialValue": 12,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 12
+      }
     },
     {
       "target": "$headlineCopy",
@@ -191,6 +235,59 @@
         "max": 250,
         "step": 1,
         "value": 56
+      }
+    },
+    {
+      "target": "$CTACopy",
+      "name": "CTA Copy",
+      "type": "text",
+      "groupName": "CTA",
+      "groupType": "text",
+      "initialValue": "Find yours",
+      "properties": {
+        "value": "Find yours"
+      }
+    },
+    {
+      "target": "$CTAFontSize",
+      "name": "CTA Font Size",
+      "type": "number",
+      "groupName": "CTA",
+      "groupType": "number",
+      "initialValue": 12,
+      "properties": {
+        "min": 10,
+        "max": 50,
+        "step": 0.5,
+        "value": 12
+      }
+    },
+    {
+      "target": "$XCTA",
+      "name": "CTA X-Position",
+      "type": "number",
+      "groupName": "CTA",
+      "groupType": "number",
+      "initialValue": 15,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 15
+      }
+    },
+    {
+      "target": "$YCTA",
+      "name": "CTA Y-Position",
+      "type": "number",
+      "groupName": "CTA",
+      "groupType": "number",
+      "initialValue": 12,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 12
       }
     }
   ]

@@ -4,25 +4,49 @@
       "t": "f",
       "c": "middle-frame template-set-frame",
       "d": 6000,
-      "s": ".background-image{width: 300px; height: 250px;}",
+      "s": "opacity: 0;",
+      "a": {
+        "s": 0,
+        "e": 6000,
+        "n": "opacity 1s ease",
+        "x": "opacity 1s ease",
+        "b": "opacity: 1",
+        "a": "opacity: 0"
+      },
       "e": [
         {
           "t": "e",
           "c": "background",
           "h": "<img src='$background' style='width: auto; height: 520px;' />",
-          "s": "position:absolute;left:-193px;top:-184px;width: 300px; height: 250px;"
+          "s": ""
         },
         {
           "t": "e",
           "c": "headline",
           "h": "<h3>$headlineCopy</h3>",
-          "s": "font-family: 'AudiType_Bold'; position: absolute; top: $YHeadlinepx; left: $XHeadlinepx; margin: 0; color: $headlineFontColour; font-size: $headlineFontSizepx;"
+          "s": "text-align: $headlineTextAlign;  top: $YHeadlinepx; left: $XHeadlinepx; color: $headlineFontColour; font-size: $headlineFontSizepx;",
+          "a": {
+            "s": 0,
+            "e": 4000,
+            "n": "opacity 2s ease",
+            "x": "opacity 1s ease",
+            "b": "opacity: 1",
+            "a": "opacity: 0"
+          }
         },
         {
           "t": "e",
           "c": "sub-headline",
           "h": "<h3>$subHeadlineCopy</h3>",
-          "s": "font-family: 'AudiType_Normal'; position: absolute; top: $YsubHeadlinepx; left: $XsubHeadlinepx; margin: 0; color: $subHeadlineFontColour; font-size: $subHeadlineFontSizepx;"
+          "s": "text-align: $subHeadlineTextAlign; top: $YsubHeadlinepx; left: $XsubHeadlinepx; color: $subHeadlineFontColour; font-size: $subHeadlineFontSizepx;",
+          "a": {
+            "s": 900,
+            "e": 4400,
+            "n": "opacity 2s ease",
+            "x": "opacity 1s ease",
+            "b": "opacity: 1",
+            "a": "opacity: 0"
+          }
         }
       ]
     }
