@@ -14,7 +14,8 @@
     },
     {
       "t": "e",
-      "c": "",
+      "c": "background",
+      "h": "<img src='$background' style='width: auto; height: 520px;' />",
       "s": ""
     }
   ],
