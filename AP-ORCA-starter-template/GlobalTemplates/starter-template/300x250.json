@@ -14,9 +14,18 @@
     },
     {
       "t": "e",
-      "c": "",
-      "s": ""
+      "c": "background-image-master",
+      "s": "position:absolute;top:0px;background-image:url($backgroundImage); background-size:cover;background-position:center;background-repeat:no-repeat;width:100%;height:100%;"
     }
   ],
-  "config": []
+  "config": [
+    {
+      "target": "$backgroundImage",
+      "name": "Background Image",
+      "type": "file",
+      "groupName": "Global Background",
+      "groupType": "image",
+      "initialValue": "https://s0.2mdn.net/creatives/assets/3464340/transparent.png"
+    }
+  ]
 }

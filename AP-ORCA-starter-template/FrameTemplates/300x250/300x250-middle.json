@@ -2,17 +2,271 @@
   "template": [
     {
       "t": "f",
-      "c": "middle-frame template-set-frame",
-      "d": 5000,
+      "c": "start-frame template-set-frame",
+      "d": 6000,
       "e": [
         {
           "t": "e",
-          "c": "",
-          "h": "",
-          "s": ""
+          "c": "background-image",
+          "s": "position:absolute;top:0px;background-image:url($backgroundImage); background-size:cover;background-position:center;background-repeat:no-repeat;width:100%;height:100%;"
+        },
+        {
+          "t": "e",
+          "c": "logo",
+          "s": "position:absolute;bottom:$Y-MovementLogopx;left:$X-MovementLogopx;height:23px;width:62px;display:$DisplayLogo",
+          "h": "<img style='width:100%' src='../Assets/audiLogo.png' alt='Logo'>"
+        },
+        {
+          "t": "e",
+          "c": "primaryCopy",
+          "s": "line-height:24px;letter-spacing:-0.28px;text-align:$TextAlignPrimaryCopy;font-size:$FontSizePrimaryCopypx;color:$FontColorPrimaryCopy;position:absolute;bottom:$Y-MovementPrimaryCopypx;left:$X-MovementPrimaryCopypx;font-family:'AudiType-ExtendedBold';width:$WidthPrimaryCopypx",
+          "h": "$TextPrimaryCopy"
+        },
+        {
+          "t": "e",
+          "c": "secondaryCopy",
+          "s": "line-height:24px;letter-spacing:-0.25px;text-align:$TextAlignSecondaryCopy;font-size:$FontSizeSecondaryCopypx;position:absolute;bottom:$Y-MovementSecondaryCopypx;left:$X-MovementSecondaryCopypx;width:$WidthSecondaryCopypx;font-family:'AudiType-ExtendedNormal';",
+          "h": "$TextSecondaryCopy"
         }
       ]
     }
   ],
-  "config": []
-}
+  "config": [
+    {
+      "target": "$backgroundImage",
+      "name": "Background Image",
+      "type": "file",
+      "groupName": "Background",
+      "groupType": "image",
+      "initialValue": "https://s0.2mdn.net/creatives/assets/3464340/transparent.png"
+    },
+    {
+      "target": "$DisplayLogo",
+      "name": "Logo Display",
+      "type": "radio",
+      "groupName": "Logo",
+      "groupType": "select",
+      "initialValue": "block",
+      "properties": {
+        "value": "block"
+      },
+      "options": ["block", "none"],
+      "labels": ["Yes", "No"]
+    },
+    {
+      "target": "$X-MovementLogo",
+      "name": "X Location",
+      "type": "number",
+      "groupName": "Logo",
+      "groupType": "number",
+      "initialValue": 20,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 20
+      }
+    },
+    {
+      "target": "$Y-MovementLogo",
+      "name": "Y Location",
+      "type": "number",
+      "groupName": "Logo",
+      "groupType": "number",
+      "initialValue": 209,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 209
+      }
+    },
+    {
+      "target": "$TextPrimaryCopy",
+      "name": "Copy Text",
+      "type": "text",
+      "groupName": "Primary Copy",
+      "groupType": "text",
+      "initialValue": "Primary Text",
+      "properties": {
+        "value": "Primary Text"
+      }
+    },
+    {
+      "target": "$TextAlignPrimaryCopy",
+      "name": "Text Align",
+      "type": "radio",
+      "groupName": "Primary Copy",
+      "groupType": "select",
+      "initialValue": "left",
+      "properties": {
+        "value": "left"
+      },
+      "options": ["left", "center", "right"],
+      "labels": ["<span style='text-align:left;width:90%;height:20px;border:none;'>Left</span>", "<span style='text-align:center;width:90%;height:20px;border:none;width:90%;height:20px;border:none;'>Center</span>","<span style='text-align:right;width:90%;height:20px;border:none;'>Right</span>"]
+    },
+    {
+      "target": "$FontSizePrimaryCopy",
+      "name": "Font Size",
+      "type": "number",
+      "groupName": "Primary Copy",
+      "groupType": "number",
+      "initialValue": 14,
+      "properties": {
+        "min": 0,
+        "max": 28,
+        "step": 1,
+        "value": 14
+      }
+    },
+    {
+      "target": "$FontColorPrimaryCopy",
+      "name": "Text Color",
+      "type": "radio",
+      "groupName": "Primary Copy",
+      "groupType": "select",
+      "initialValue": "black",
+      "properties": {
+        "value": "black"
+      },
+      "options": ["black", "white", "grey", "blue"],
+      "labels": ["Black", "White", "Grey", "Blue"]
+    },
+    {
+      "target": "$WidthPrimaryCopy",
+      "name": "Text Box Width",
+      "type": "number",
+      "groupName": "Primary Copy",
+      "groupType": "number",
+      "initialValue": 150,
+      "properties": {
+        "min": 50,
+        "max": 300,
+        "step": 5,
+        "value": 150
+      }
+    },
+    {
+      "target": "$X-MovementPrimaryCopy",
+      "name": "X Location",
+      "type": "number",
+      "groupName": "Primary Copy",
+      "groupType": "number",
+      "initialValue": 19,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 19
+      }
+    },
+    {
+      "target": "$Y-MovementPrimaryCopy",
+      "name": "Y Location",
+      "type": "number",
+      "groupName": "Primary Copy",
+      "groupType": "number",
+      "initialValue": 183,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 183
+      }
+    },
+    {
+      "target": "$TextSecondaryCopy",
+      "name": "Copy Text",
+      "type": "text",
+      "groupName": "Secondary Copy",
+      "groupType": "text",
+      "initialValue": "Secondary Text",
+      "properties": {
+        "value": "Secondary Text"
+      }
+    },
+    {
+      "target": "$TextAlignSecondaryCopy",
+      "name": "Text Align",
+      "type": "radio",
+      "groupName": "Secondary Copy",
+      "groupType": "select",
+      "initialValue": "left",
+      "properties": {
+        "value": "left"
+      },
+      "options": ["left", "center", "right"],
+      "labels": ["<span style='text-align:left;width:90%;height:20px;border:none;'>Left</span>", "<span style='text-align:center;width:90%;height:20px;border:none;width:90%;height:20px;border:none;'>Center</span>","<span style='text-align:right;width:90%;height:20px;border:none;'>Right</span>"]
+    },
+    {
+      "target": "$FontSizeSecondaryCopy",
+      "name": "Font Size",
+      "type": "number",
+      "groupName": "Secondary Copy",
+      "groupType": "number",
+      "initialValue": 10,
+      "properties": {
+        "min": 0,
+        "max": 28,
+        "step": 1,
+        "value": 10
+      }
+    },
+    {
+      "target": "$FontColorSecondaryCopy",
+      "name": "Text Color",
+      "type": "radio",
+      "groupName": "Secondary Copy",
+      "groupType": "select",
+      "initialValue": "black",
+      "properties": {
+        "value": "black"
+      },
+      "options": ["black", "white", "grey", "blue"],
+      "labels": ["Black", "White", "Grey", "Blue"]
+    },
+    {
+      "target": "$WidthSecondaryCopy",
+      "name": "Text Box Width",
+      "type": "number",
+      "groupName": "Secondary Copy",
+      "groupType": "number",
+      "initialValue": 150,
+      "properties": {
+        "min": 50,
+        "max": 300,
+        "step": 5,
+        "value": 150
+      }
+    },
+    {
+      "target": "$X-MovementSecondaryCopy",
+      "name": "X Location",
+      "type": "number",
+      "groupName": "Secondary Copy",
+      "groupType": "number",
+      "initialValue": 21,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 21
+      }
+    },
+    {
+      "target": "$Y-MovementSecondaryCopy",
+      "name": "Y Location",
+      "type": "number",
+      "groupName": "Secondary Copy",
+      "groupType": "number",
+      "initialValue": 158,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 158
+      }
+    }
+  ]
+  }
+  
