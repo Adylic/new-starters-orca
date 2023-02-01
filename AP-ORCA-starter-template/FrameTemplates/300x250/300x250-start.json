@@ -1,6 +1,10 @@
 {
   "template": [
     {
+      "t": "s",
+      "s": ""
+    },
+    {
       "t": "f",
       "c": "start-frame template-set-frame",
       "d": 6000,
@@ -8,18 +12,18 @@
         {
           "t": "e",
           "c": "background-image",
-          "s": "position:absolute;top:0px;background-image:url($backgroundImage); background-size:cover;background-position:center;background-repeat:no-repeat;width:100%;height:100%;"
+          "s": "background-image:url($backgroundImage)"
         },
         {
           "t": "e",
           "c": "logo",
-          "s": "position:absolute;bottom:$Y-MovementLogopx;left:$X-MovementLogopx;height:23px;width:62px;display:$DisplayLogo",
-          "h": "<img style='width:100%' src='../Assets/audiLogo.png' alt='Logo'>"
+          "s": "bottom:$Y-MovementLogopx;left:$X-MovementLogopx;display:$DisplayLogo",
+          "h": "<img style='width:100%' src='https://cdn.zeplin.io/5bf7fa3af5a80b3fd2256764/assets/6878E0B8-C9E6-4268-B0C8-4DA6BC93762E.png' alt='Logo'>"
         },
         {
           "t": "e",
           "c": "primaryCopy",
-          "s": "line-height:24px;letter-spacing:-0.28px;text-align:$TextAlignPrimaryCopy;font-size:$FontSizePrimaryCopypx;color:$FontColorPrimaryCopy;position:absolute;bottom:$Y-MovementPrimaryCopypx;left:$X-MovementPrimaryCopypx;font-family:'AudiType-ExtendedBold';width:$WidthPrimaryCopypx",
+          "s": "text-align:$TextAlignPrimaryCopy;font-size:$FontSizePrimaryCopypx;color:$FontColorPrimaryCopy;bottom:$Y-MovementPrimaryCopypx;left:$X-MovementPrimaryCopypx;width:$WidthPrimaryCopypx",
           "h": "$TextPrimaryCopy"
         },
         {
