@@ -6,8 +6,11 @@
     },
     {
       "t": "f",
-      "c": "start-frame template-set-frame",
+      "c": "middle-frame template-set-frame",
       "d": 6000,
+      "j": {
+        "s": "KGZ1bmN0aW9uICgpIHsKICAgIGxldCBwcmltYXJ5Q29weSA9IHBhcmVudE5vZGUucXVlcnlTZWxlY3RvcigiLnByaW1hcnlDb3B5Iik7CiAgICBsZXQgc2Vjb25kYXJ5Q29weSA9IHBhcmVudE5vZGUucXVlcnlTZWxlY3RvcigiLnNlY29uZGFyeUNvcHkiKTsKICAgIGxldCBwcmltYXJ5VGwgPSBnc2FwLnRpbWVsaW5lKCk7CiAgICBsZXQgc2Vjb25kYXJ5VGwgPSBnc2FwLnRpbWVsaW5lKCk7CiAgICBwcmltYXJ5VGwuZnJvbShwcmltYXJ5Q29weSwge2R1cmF0aW9uOiAxLjUsIHg6ICIzMDBweCIsIG9wYWNpdHk6IDB9KTsKICAgIHByaW1hcnlUbC50byhwcmltYXJ5Q29weSwge2R1cmF0aW9uOiAxLCB4OiAiLTIwMHB4In0sICIrPTMiKTsKICAgIHNlY29uZGFyeVRsLmZyb20oc2Vjb25kYXJ5Q29weSwge2R1cmF0aW9uOiAxLjUsIHg6ICIzMDBweCIsIG9wYWNpdHk6IDB9KTsKICAgIHNlY29uZGFyeVRsLnRvKHNlY29uZGFyeUNvcHksIHtkdXJhdGlvbjogMSwgeDogIi0yMDBweCJ9LCAiKz0zIik7CiAgICBjb25zb2xlLmxvZygiRW5kIG9mIEFuaW1hdGlvbiIpOwp9KSgpOw=="
+      },
       "e": [
         {
           "t": "e",
@@ -29,7 +32,7 @@
         {
           "t": "e",
           "c": "secondaryCopy",
-          "s": "line-height:24px;letter-spacing:-0.25px;text-align:$TextAlignSecondaryCopy;font-size:$FontSizeSecondaryCopypx;position:absolute;bottom:$Y-MovementSecondaryCopypx;left:$X-MovementSecondaryCopypx;width:$WidthSecondaryCopypx;font-family:'AudiType-ExtendedNormal';",
+          "s": "text-align:$TextAlignSecondaryCopy;font-size:$FontSizeSecondaryCopypx;bottom:$Y-MovementSecondaryCopypx;left:$X-MovementSecondaryCopypx;width:$WidthSecondaryCopypx;",
           "h": "$TextSecondaryCopy"
         }
       ]
@@ -91,9 +94,9 @@
       "type": "text",
       "groupName": "Primary Copy",
       "groupType": "text",
-      "initialValue": "Primary Text",
+      "initialValue": "Primary Middle Text",
       "properties": {
-        "value": "Primary Text"
+        "value": "Primary Middle Text"
       }
     },
     {

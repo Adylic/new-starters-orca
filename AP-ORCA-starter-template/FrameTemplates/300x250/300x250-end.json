@@ -6,8 +6,11 @@
     },
     {
       "t": "f",
-      "c": "start-frame template-set-frame",
+      "c": "end-frame template-set-frame",
       "d": 6000,
+      "j": {
+        "s": "KGZ1bmN0aW9uKCl7CiAgICBsZXQgcHJpbWFyeUNvcHkgPSBwYXJlbnROb2RlLnF1ZXJ5U2VsZWN0b3IoIi5wcmltYXJ5Q29weSIpOwogICAgbGV0IHNlY29uZGFyeUNvcHkgPSBwYXJlbnROb2RlLnF1ZXJ5U2VsZWN0b3IoIi5zZWNvbmRhcnlDb3B5Iik7CiAgICBsZXQgcHJpbWFyeVRsID0gZ3NhcC50aW1lbGluZSgpOwogICAgbGV0IHNlY29uZGFyeVRsID0gZ3NhcC50aW1lbGluZSgpOwogICAgcHJpbWFyeVRsLmZyb20ocHJpbWFyeUNvcHksIHtkdXJhdGlvbjogMS41LCB4OiAiMzAwcHgiLCBvcGFjaXR5OiAwfSk7CiAgICBzZWNvbmRhcnlUbC5mcm9tKHNlY29uZGFyeUNvcHksIHtkdXJhdGlvbjogMS41LCB4OiAiMzAwcHgiLCBvcGFjaXR5OiAwfSk7CiAgICBjb25zb2xlLmxvZygiRW5kIG9mIEFuaW1hdGlvbiAzIik7Cn0pKCk7"
+      },
       "e": [
         {
           "t": "e",
