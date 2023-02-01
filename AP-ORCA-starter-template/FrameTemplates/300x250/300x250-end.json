@@ -353,9 +353,9 @@
       "type": "radio",
       "groupName": "CTA",
       "groupType": "select",
-      "initialValue": "grey",
+      "initialValue": "black",
       "properties": {
-        "value": "grey"
+        "value": "black"
       },
       "options": ["black", "grey", "white"],
       "labels": ["Black","Grey", "White"]
