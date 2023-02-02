@@ -36,8 +36,8 @@
           "h": "$TextPrimaryCopy",
           "a": {
             "s": 0,
-            "e": 1500,
-            "n": "all 1.5s linear",
+            "e": 1000,
+            "n": "all 1s linear",
             "x": "all 0.5s linear 3s",
             "b": "opacity: 1; left: $X-MovementPrimaryCopypx",
             "a": "left: -$WidthPrimaryCopypx"
@@ -50,8 +50,8 @@
           "h": "$TextSecondaryCopy",
           "a": {
             "s": 0,
-            "e": 1500,
-            "n": "all 1.5s linear",
+            "e": 1000,
+            "n": "all 1s linear",
             "x": "all 0.5s linear 3s",
             "b": "opacity: 1; left: $X-MovementSecondaryCopypx",
             "a": "left: -$WidthSecondaryCopypx"
