@@ -13,7 +13,7 @@
       "c": "start-frame template-set-frame",
       "d": 6000,
       "j": {
-        "s": "KGZ1bmN0aW9uICgpIHsKICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCIubWlkZGxlLWZyYW1lIikuc3R5bGUub3BhY2l0eSA9IDA7CiAgZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiLmVuZC1mcmFtZSIpLnN0eWxlLm9wYWNpdHkgPSAwOwoKICBjaGVja0ZvckdzYXAoaW5pdEZyYW1lQW5pbWF0aW9ucyk7CgogIGZ1bmN0aW9uIGNoZWNrRm9yR3NhcChjYWxsYmFjaykgewogICAgbGV0IGRlYWRsaW5lTXMgPSAxMDAwOwogICAgbGV0IGludGVydmFsOwoKICAgIGxldCB0aW1lb3V0ID0gc2V0VGltZW91dCgoKSA9PiB7CiAgICAgIGNsZWFySW50ZXJ2YWwoaW50ZXJ2YWwpOwogICAgfSwgZGVhZGxpbmVNcyk7CgogICAgdHJ5IHsKICAgICAgaWYgKGdzYXApIGNhbGxiYWNrKCk7CiAgICB9IGNhdGNoIHsKICAgICAgaW50ZXJ2YWwgPSBzZXRJbnRlcnZhbCgoKSA9PiB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgIGlmIChnc2FwKSB7CiAgICAgICAgICAgIGNsZWFyVGltZW91dCh0aW1lb3V0KTsKICAgICAgICAgICAgY2xlYXJJbnRlcnZhbChpbnRlcnZhbCk7CiAgICAgICAgICAgIGNhbGxiYWNrKCk7CiAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgICAgIGNvbnNvbGUubG9nKGVycm9yKTsKICAgICAgICB9CiAgICAgIH0sIDEwMCk7CiAgICB9CiAgfQoKICBmdW5jdGlvbiBpbml0RnJhbWVBbmltYXRpb25zKCkgewogICAgICBsZXQgcHJpbWFyeUNvcHkgPSBwYXJlbnROb2RlLnF1ZXJ5U2VsZWN0b3IoIi5wcmltYXJ5Q29weSIpOwogICAgICBsZXQgc2Vjb25kYXJ5Q29weSA9IHBhcmVudE5vZGUucXVlcnlTZWxlY3RvcigiLnNlY29uZGFyeUNvcHkiKTsKICAgICAgZ3NhcC50byhwcmltYXJ5Q29weSwge2R1cmF0aW9uOiAxLCB4OiAiLTIwMHB4IiwgZGVsYXk6NC41fSk7CiAgICAgIGdzYXAudG8oc2Vjb25kYXJ5Q29weSwge2R1cmF0aW9uOiAxLCB4OiAiLTIwMHB4IiwgZGVsYXk6IDQuNX0pOwogICAgICBnc2FwLnRvKHBhcmVudE5vZGUsIHtkdXJhdGlvbjogMCwgb3BhY2l0eTogMCwgZGVsYXk6IDZ9KQogICAgICBjb25zb2xlLmxvZygiRW5kIG9mIEFuaW1hdGlvbiIpOwogIH0KfSkoKTs="
+        "s": "KGZ1bmN0aW9uICgpIHsKCWxldCBtaWRGcmFtZSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoIi5taWRkbGUtZnJhbWUiKTsKCWxldCBlbmRGcmFtZSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoIi5lbmQtZnJhbWUiKTsKCgltaWRGcmFtZS5zdHlsZS5vcGFjaXR5ID0gMDsKCWVuZEZyYW1lLnN0eWxlLm9wYWNpdHkgPSAwOwp9KSgpOwo="
       },
       "e": [
         {
@@ -25,19 +25,37 @@
           "t": "e",
           "c": "logo",
           "s": "bottom:$Y-MovementLogopx;left:$X-MovementLogopx;display:$DisplayLogo",
-          "h": "<img style='width:100%' src='https://cdn.zeplin.io/5bf7fa3af5a80b3fd2256764/assets/6878E0B8-C9E6-4268-B0C8-4DA6BC93762E.png' alt='Logo'>"
+          "h": "<img style='width:100%' src='https://cdn.zeplin.io/5bf7fa3af5a80b3fd2256764/assets/6878E0B8-C9E6-4268-B0C8-4DA6BC93762E.png' alt='Logo'>",
+          "a": {
+            "s": 0,
+            "e": 1000,
+            "x": "all 1s linear 5s",
+            "a": "opacity: 0"
+          }
         },
         {
           "t": "e",
           "c": "primaryCopy",
           "s": "text-align:$TextAlignPrimaryCopy;font-size:$FontSizePrimaryCopypx;color:$FontColorPrimaryCopy;bottom:$Y-MovementPrimaryCopypx;left:$X-MovementPrimaryCopypx;width:$WidthPrimaryCopypx",
-          "h": "$TextPrimaryCopy"
+          "h": "$TextPrimaryCopy",
+          "a": {
+            "s": 0,
+            "e": 500,
+            "x": "all 0.5s linear 5s",
+            "a": "left: -$WidthPrimaryCopypx"
+          }
         },
         {
           "t": "e",
           "c": "secondaryCopy",
           "s": "text-align:$TextAlignSecondaryCopy;font-size:$FontSizeSecondaryCopypx;bottom:$Y-MovementSecondaryCopypx;left:$X-MovementSecondaryCopypx;width:$WidthSecondaryCopypx;",
-          "h": "$TextSecondaryCopy"
+          "h": "$TextSecondaryCopy",
+          "a": {
+            "s": 0,
+            "e": 500,
+            "x": "all 0.5s linear 5s",
+            "a": "left: -$WidthPrimaryCopypx"
+          }
         }
       ]
     }
