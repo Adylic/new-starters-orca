@@ -12,9 +12,6 @@
       "t": "f",
       "c": "start-frame template-set-frame",
       "d": 6000,
-      "j": {
-        "s": "KGZ1bmN0aW9uICgpIHsKCWxldCBtaWRGcmFtZSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoIi5taWRkbGUtZnJhbWUiKTsKCWxldCBlbmRGcmFtZSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoIi5lbmQtZnJhbWUiKTsKCgltaWRGcmFtZS5zdHlsZS5vcGFjaXR5ID0gMDsKCWVuZEZyYW1lLnN0eWxlLm9wYWNpdHkgPSAwOwp9KSgpOwo="
-      },
       "e": [
         {
           "t": "e",
@@ -36,28 +33,36 @@
         {
           "t": "e",
           "c": "primaryCopy",
-          "s": "text-align:$TextAlignPrimaryCopy;font-size:$FontSizePrimaryCopypx;color:$FontColorPrimaryCopy;bottom:$Y-MovementPrimaryCopypx;left:$X-MovementPrimaryCopypx;width:$WidthPrimaryCopypx",
+          "s": "text-align:$TextAlignPrimaryCopy;font-size:$FontSizePrimaryCopypx;color:$FontColorPrimaryCopy;bottom:$Y-MovementPrimaryCopypx;left:$X-MovementPrimaryCopypx;width:$WidthPrimaryCopypx;opacity:1",
           "h": "$TextPrimaryCopy",
           "a": {
             "s": 0,
-            "e": 500,
-            "x": "all 0.5s linear 5s",
-            "a": "left: -$WidthPrimaryCopypx"
+            "e": 5000,
+            "x": "all 0.5s linear",
+            "a": "transform: translateX(-200px)"
           }
         },
         {
           "t": "e",
           "c": "secondaryCopy",
-          "s": "text-align:$TextAlignSecondaryCopy;font-size:$FontSizeSecondaryCopypx;bottom:$Y-MovementSecondaryCopypx;left:$X-MovementSecondaryCopypx;width:$WidthSecondaryCopypx;",
+          "s": "text-align:$TextAlignSecondaryCopy;font-size:$FontSizeSecondaryCopypx;bottom:$Y-MovementSecondaryCopypx;left:$X-MovementSecondaryCopypx;width:$WidthSecondaryCopypx;opacity:1",
           "h": "$TextSecondaryCopy",
           "a": {
             "s": 0,
-            "e": 500,
-            "x": "all 0.5s linear 5s",
-            "a": "left: -$WidthPrimaryCopypx"
+            "e": 5000,
+            "x": "all 0.5s linear",
+            "a": "transform: translateX(-200px)"
           }
         }
-      ]
+      ],
+      "a": {
+        "s": 0,
+        "e": 6000,
+        "n": "opacity 0s linear",
+        "x": "opacity 0s linear",
+        "b": "opacity: 1",
+        "a": "opacity: 0"
+      }
     }
   ],
   "config": [

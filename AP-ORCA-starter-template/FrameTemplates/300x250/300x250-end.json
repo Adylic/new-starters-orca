@@ -8,9 +8,6 @@
       "t": "f",
       "c": "end-frame template-set-frame",
       "d": 6000,
-      "j": {
-        "s": "KGZ1bmN0aW9uICgpIHsKICAgIGxldCBtaWRGcmFtZSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoIi5taWRkbGUtZnJhbWUiKTsKICAgIGxldCBzdGFydEZyYW1lID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcigiLnN0YXJ0LWZyYW1lIik7CgltaWRGcmFtZS5zdHlsZS5vcGFjaXR5ID0gMDsKCXN0YXJ0RnJhbWUuc3R5bGUub3BhY2l0eSA9IDA7CiAgICAKCXBhcmVudE5vZGUuc3R5bGUub3BhY2l0eSA9IDE7CglsZXQgdGV4dFByaW1hcnkgPSBwYXJlbnROb2RlLnF1ZXJ5U2VsZWN0b3IoIi5wcmltYXJ5Q29weSIpOwoJbGV0IHRleHRTZWNvbmRhcnkgPSBwYXJlbnROb2RlLnF1ZXJ5U2VsZWN0b3IoIi5zZWNvbmRhcnlDb3B5Iik7CglsZXQgY3RhID0gcGFyZW50Tm9kZS5xdWVyeVNlbGVjdG9yKCIuY3RhIik7CglsZXQgbG9nbyA9IHBhcmVudE5vZGUucXVlcnlTZWxlY3RvcigiLmxvZ28iKTsKCglsb2dvLnN0eWxlLm9wYWNpdHkgPSAwOwoJY3RhLnN0eWxlLm9wYWNpdHkgPSAwOwoJdGV4dFByaW1hcnkuc3R5bGUub3BhY2l0eSA9IDA7Cgl0ZXh0U2Vjb25kYXJ5LnN0eWxlLm9wYWNpdHkgPSAwOwp9KSgpOwo="
-      },
       "e": [
         {
           "t": "e",
@@ -20,12 +17,12 @@
         {
           "t": "e",
           "c": "logo",
-          "s": "bottom:$Y-MovementLogopx;left:$X-MovementLogopx;display:$DisplayLogo;width:$SizeLogo%;transform:translateX(-50%)",
+          "s": "bottom:$Y-MovementLogopx;left:$X-MovementLogopx;display:$DisplayLogo;width:$SizeLogo%;transform:translateX(-50%);opacity: 0",
           "h": "<img style='width:100%' src='https://cdn.zeplin.io/5bf7fa3af5a80b3fd2256764/assets/6878E0B8-C9E6-4268-B0C8-4DA6BC93762E.png' alt='Logo'>",
           "a": {
-            "s": 250,
+            "s": 0,
             "e": 1500,
-            "n": "all 1.25s ease-in",
+            "n": "all 1.5s ease-in",
             "b": "opacity: 1"
           }
         },
@@ -37,7 +34,7 @@
           "a": {
             "s": 1500,
             "e": 2500,
-            "n": "opacity 1s linear",
+            "n": "opacity 1s ease-in",
             "b": "opacity: 1"
           }
         },
@@ -50,16 +47,24 @@
         {
           "t": "e",
           "c": "cta",
-          "s": "",
+          "s": "opacity:0",
           "h": "<a href=?><button type='button' class='cta-button' style='font-size:$FontSizeButtonpx;bottom:$Y-MovementButtonpx;left:$X-MovementButtonpx;transform:translateX(-50%);white-space:nowrap;'>$CopyCTA</button></a>",
           "a": {
             "s": 2500,
             "e": 3000,
-            "n": "opacity 0.5s linear",
+            "n": "opacity 0.5s ease-in",
             "b": "opacity: 1"
           }
         }
-      ]
+      ],
+      "a": {
+        "s": 0,
+        "e": 6000,
+        "n": "opacity 0s linear",
+        "x": "opacity 0s linear",
+        "b": "opacity: 1",
+        "a": "opacity: 0"
+      }
     }
   ],
   "config": [

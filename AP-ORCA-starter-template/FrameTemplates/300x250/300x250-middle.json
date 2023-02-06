@@ -8,9 +8,6 @@
       "t": "f",
       "c": "middle-frame template-set-frame",
       "d": 6000,
-      "j": {
-        "s": "KGZ1bmN0aW9uICgpIHsKCXBhcmVudE5vZGUuc3R5bGUub3BhY2l0eSA9IDE7CiAgICAKCWxldCB0ZXh0UHJpbWFyeSA9IHBhcmVudE5vZGUucXVlcnlTZWxlY3RvcigiLnByaW1hcnlDb3B5Iik7CglsZXQgdGV4dFNlY29uZGFyeSA9IHBhcmVudE5vZGUucXVlcnlTZWxlY3RvcigiLnNlY29uZGFyeUNvcHkiKTsKCgl0ZXh0UHJpbWFyeS5zdHlsZS5sZWZ0ID0gIjEwMCUiOwoJdGV4dFByaW1hcnkuc3R5bGUub3BhY2l0eSA9IDA7Cgl0ZXh0U2Vjb25kYXJ5LnN0eWxlLmxlZnQgPSAiMTAwJSI7Cgl0ZXh0U2Vjb25kYXJ5LnN0eWxlLm9wYWNpdHkgPSAwOwoKCWNvbnNvbGUubG9nKCJKUyBkb25lIik7Cn0pKCk7Cg=="
-      },
       "e": [
         {
           "t": "e",
@@ -32,32 +29,41 @@
         {
           "t": "e",
           "c": "primaryCopy",
-          "s": "text-align:$TextAlignPrimaryCopy;font-size:$FontSizePrimaryCopypx;color:$FontColorPrimaryCopy;bottom:$Y-MovementPrimaryCopypx;left:$X-MovementPrimaryCopypx;width:$WidthPrimaryCopypx",
+          "s": "text-align:$TextAlignPrimaryCopy;font-size:$FontSizePrimaryCopypx;color:$FontColorPrimaryCopy;bottom:$Y-MovementPrimaryCopypx;left:$X-MovementPrimaryCopypx;transform: translateX(300px)",
           "h": "$TextPrimaryCopy",
-          "a": {
-            "s": 0,
-            "e": 1000,
-            "n": "all 1s linear",
-            "x": "all 0.5s linear 3s",
-            "b": "opacity: 1; left: $X-MovementPrimaryCopypx",
-            "a": "left: -$WidthPrimaryCopypx"
-          }
+          "a": 
+            {
+              "s": 1000,
+              "e": 5000,
+              "n": "all 1s linear",
+              "x": "all 0.5s linear",
+              "b": "opacity: 1; transform: translateX(0px)",
+              "a": "transform: translateX(-200px)"
+            }
         },
         {
           "t": "e",
           "c": "secondaryCopy",
-          "s": "text-align:$TextAlignSecondaryCopy;font-size:$FontSizeSecondaryCopypx;bottom:$Y-MovementSecondaryCopypx;left:$X-MovementSecondaryCopypx;width:$WidthSecondaryCopypx;",
+          "s": "text-align:$TextAlignSecondaryCopy;font-size:$FontSizeSecondaryCopypx;bottom:$Y-MovementSecondaryCopypx;left:$X-MovementSecondaryCopypx;width:$WidthSecondaryCopypx;transform: translateX(300px)",
           "h": "$TextSecondaryCopy",
           "a": {
-            "s": 0,
-            "e": 1000,
+            "s": 1000,
+            "e": 5000,
             "n": "all 1s linear",
-            "x": "all 0.5s linear 3s",
-            "b": "opacity: 1; left: $X-MovementSecondaryCopypx",
-            "a": "left: -$WidthSecondaryCopypx"
+            "x": "all 0.5s linear",
+            "b": "opacity: 1; transform: translateX(0px)",
+            "a": "transform: translateX(-200px)"
           }
         }
-      ]
+      ],
+      "a": {
+        "s": 0,
+        "e": 6000,
+        "n": "opacity 0s linear",
+        "x": "opacity 0s linear",
+        "b": "opacity: 1",
+        "a": "opacity: 0"
+      }
     }
   ],
   "config": [

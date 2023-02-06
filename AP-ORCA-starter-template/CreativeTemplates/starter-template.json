@@ -7,9 +7,9 @@
     "frameLimit": 5,
     "frameMinCount": 1,
     "globalTemplateName": "starter-template",
-    "start": ["start", "frame"],
-    "middle": ["middle", "frame"],
-    "end": ["end", "frame"],
+    "start": ["start"],
+    "middle": ["middle"],
+    "end": ["end"],
     "baseSize": 8000
   },
   {
@@ -20,9 +20,9 @@
     "frameLimit": 5,
     "frameMinCount": 1,
     "globalTemplateName": "starter-template",
-    "start": ["start", "frame"],
-    "middle": ["middle", "frame"],
-    "end": ["end", "frame"],
+    "start": ["start"],
+    "middle": ["middle"],
+    "end": ["end"],
     "baseSize": 8000
   }
 ]
