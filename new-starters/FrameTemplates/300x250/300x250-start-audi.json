@@ -5,12 +5,16 @@
         "c": "middle-frame template-set-frame",
         "d": 6000,
         "e": [
-          {
-            "t": "e",
-            "c": "",
-            "h": "",
-            "s": ""
-          }
+            {
+                "t": "e",
+                "c": "copy",
+                "h": "<span class='heading_primary'>audi approved used.</span>  timelessly audi."
+              },
+              {
+                "t": "e",
+                "c": "cta_text",
+                "h": "find yours"
+              }
         ]
       }
     ],

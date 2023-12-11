@@ -6,7 +6,7 @@
       },
       {
         "t": "s",
-        "s": ".dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px;background-color:#FFFFFF;}.template-set-frame{position:absolute; top:0px; left:0px; width:100%; height:100%;}.devGuide{width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:999;display:none;}.devGuide.dev{opacity:$devoveropacity !important;display:block !important;}"
+        "s": ".dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px;background-color:#FFFFFF;}.template-set-frame{position:absolute; top:0px; left:0px; width:100%; height:100%;}.devGuide{width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:999;display:none;}.devGuide.dev{opacity:$devoveropacity !important;display:block !important;}@font-face{font-family:AudiType-Extended;src:url('https://s0.2mdn.net/creatives/assets/3160558/AudiType-ExtendedNormal.woff')}.backImg{height:250px;}.logo{top:12px;width:102px;}.full_width{width:100%}.full_height{height:100%;}.scale{transform: scale(1.8)}.logo,.copy{position:absolute;left:12px;}.copy{top:60px;font-family:AudiType-Extended;text-transform:capitalize;width:200px;}.heading_primary{font-weight:bold;}"
       },
       {
         "t": "j",
@@ -17,6 +17,16 @@
         "c": "devGuide",
         "s": "opacity:$devoveropacity;visibility:$devoveronoff;",
         "h": "<img src='$devGuide'>"
+      },
+      {
+        "t": "e",
+        "c": "backImg",
+        "h": "<img class='full_height scale' src='$backgroundImg'>"
+      },
+      {
+        "t": "e",
+        "c": "logo",
+        "h": "<img class='full_width' src='https://s0.2mdn.net/creatives/assets/3160558/audi-rings-2x.png'>"
       }
     ],
     "config": [
@@ -54,6 +64,42 @@
           "step": 0.1,
           "value": 0.5
         }
-      }
+      },
+      {
+        "target": "$backgroundImg",
+        "name": "Background Image",
+        "type": "file",
+        "groupName": "Background Image",
+        "groupType": "image",
+        "initialValue": "https://s0.2mdn.net/creatives/assets/3160558/audi.png"
+      },
+      {
+        "target": "$XPosLogo",
+        "name": "Logo X Position",
+        "type": "number",
+        "groupName": "Logo",
+        "groupType": "number",
+        "initialValue": 50,
+        "properties": {
+          "min": 0,
+          "max": 600,
+          "step": 1,
+          "value": 50
+        }
+      },
+      {
+        "target": "$YPosLogo",
+        "name": "Logo Y Position",
+        "type": "number",
+        "groupName": "Logo",
+        "groupType": "number",
+        "initialValue": 50,
+        "properties": {
+          "min": 0,
+          "max": 600,
+          "step": 1,
+          "value": 50
+        }
+     }
     ]
   }
