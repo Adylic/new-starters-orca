@@ -6,7 +6,7 @@
     },
     {
       "t": "s",
-      "s": ".dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px;background-color:#FFFFFF;}.template-set-frame{position:absolute; top:0px; left:0px; width:100%; height:100%;}.devGuide{width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:999;display:none;}.devGuide.dev{opacity:$devoveropacity !important;display:block !important;}@font-face{font-family:AudiType-Extended;src:url('https://s0.2mdn.net/creatives/assets/3160558/AudiType-ExtendedNormal.woff')}@font-face{font-family:AudiType-ExtendedBold;src:url('https://s0.2mdn.net/creatives/assets/3160558/AudiType-ExtendedBold.woff')}.backImg{height:250px;}.logo{width:102px;}.full_width{width:100%}.full_height{height:100%;}.scale{transform: scale(1.8)}.logo,.copy{position:absolute;left:12px;}.copy{;font-family:AudiType-Extended;text-transform:capitalize;width:250px;}.heading_primary{top:60px;font-family:AudiType-ExtendedBold;}.heading_sub{top:80px}"
+      "s": ".dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px;background-color:#FFFFFF;}.template-set-frame{position:absolute; top:0px; left:0px; width:100%; height:100%;}.devGuide{width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:999;display:none;}.devGuide.dev{opacity:$devoveropacity !important;display:block !important;}@font-face{font-family:AudiType-Extended;src:url('https://s0.2mdn.net/creatives/assets/3160558/AudiType-ExtendedNormal.woff')}@font-face{font-family:AudiType-ExtendedBold;src:url('https://s0.2mdn.net/creatives/assets/3160558/AudiType-ExtendedBold.woff')}.backImg{height:250px;}.logo{width:102px;}.full_width{width:100%}.full_height{height:100%;}.scale{transform: scale(1.8)}.logo,.copy{position:absolute;}.copy{;font-family:AudiType-Extended;text-transform:capitalize;width:250px;}.heading_primary{font-family:AudiType-ExtendedBold;}.heading_sub{top:80px}"
     },
     {
       "t": "j",
@@ -26,13 +26,13 @@
     {
       "t": "e",
       "c": "copy heading_primary",
-      "s": "font-size:$fontSizeHeadlinepx;color:$colorCopy;",
+      "s": "font-size:$fontSizeHeadlinepx;color:$headlineColor;left:$XPosHeadlinepx;top:$YPosHeadlinepx;",
       "h": "$headlineCopy"
     },
     {
       "t": "e",
       "c": "copy heading_sub",
-      "s": "font-size:$fontSizeSubHeadlinepx;color:$colorCopy;",
+      "s": "font-size:$fontSizeSubHeadlinepx;color:$subHeadlineColor;left:$XPosSubHeadlinepx;top:$YPosSubHeadlinepx;",
       "h": "$subHeadlineCopy"
     }
   ],
@@ -131,10 +131,10 @@
       }
     },
     {
-      "target": "$colorCopy",
+      "target": "$headlineColor",
       "name": "color copy",
       "type": "radio",
-      "groupName": "Copy",
+      "groupName": "Headline",
       "groupType": "select",
       "initialValue": "black",
       "properties": {
@@ -145,6 +145,79 @@
         "black <span style='background-color:black;'></span>",
         "grey <span style='background-color:grey;'></span>"
       ]
-    }
+    },
+    {
+      "target": "$subHeadlineColor",
+      "name": "color copy",
+      "type": "radio",
+      "groupName": "Sub Headline",
+      "groupType": "select",
+      "initialValue": "black",
+      "properties": {
+        "value": "black"
+      },
+      "options": ["black", "grey"],
+      "labels": [
+        "black <span style='background-color:black;'></span>",
+        "grey <span style='background-color:grey;'></span>"
+      ]
+    },
+    {
+      "target": "$XPosHeadline",
+      "name": "Headline X Position",
+      "type": "number",
+      "groupName": "Headline",
+      "groupType": "number",
+      "initialValue": 12,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 12
+      }
+    },
+    {
+      "target": "$YPosHeadline",
+      "name": "Headline Y Position",
+      "type": "number",
+      "groupName": "Headline",
+      "groupType": "number",
+      "initialValue": 60,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 60
+      }
+   },
+    {
+      "target": "$XPosSubHeadline",
+      "name": "Headline X Position",
+      "type": "number",
+      "groupName": "Sub Headline",
+      "groupType": "number",
+      "initialValue": 12,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 12
+      }
+    },
+    {
+      "target": "$YPosSubHeadline",
+      "name": "Headline Y Position",
+      "type": "number",
+      "groupName": "Sub Headline",
+      "groupType": "number",
+      "initialValue": 80,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 80
+      }
+   }
+    
   ]
 }
