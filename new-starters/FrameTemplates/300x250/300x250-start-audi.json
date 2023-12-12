@@ -5,19 +5,199 @@
       "c": "middle-frame template-set-frame",
       "d": 6000,
       "e": [
-        
-        
+        {
+          "t": "e",
+          "c": "copy heading_primary",
+          "s": "font-size:$fontSizeHeadlinepx;text-align:$headlineTextAlign;color:$headlineColor;left:$XPosHeadlinepx;top:$YPosHeadlinepx;opacity: 0;",
+          "h": "$headlineCopy",
+          "a": {
+            "s": 0,
+            "e": 500,
+            "n": "opacity 1s ease-in",
+            "x": "opacity 1s ease",
+            "b": "opacity: 1"
+          }
+        },
+        {
+          "t": "e",
+          "c": "copy heading_sub",
+          "s": "font-size:$fontSizeSubHeadlinepx;text-align:$subHeadlineTextAlign;color:$subHeadlineColor;left:$XPosSubHeadlinepx;top:$YPosSubHeadlinepx;opacity: 0;",
+          "h": "$subHeadlineCopy",
+          "a": {
+            "s": 250,
+            "e": 750,
+            "n": "opacity 1s ease-in",
+            "x": "opacity 1s ease",
+            "b": "opacity: 1"
+          }
+        }
       ]
     }
   ],
   "config": [
     {
-      "target": "$backgroundImg",
-      "name": "Background Image",
-      "type": "file",
-      "groupName": "Background Image",
-      "groupType": "image",
-      "initialValue": "https://s0.2mdn.net/creatives/assets/3160558/audi.png"
+      "target": "$headlineCopy",
+      "name": "Headline Copy",
+      "type": "text",
+      "groupName": "Headline",
+      "groupType": "text",
+      "initialValue": "audi approved used.",
+      "properties": {
+        "value": "audi approved used."
+      }
+    },
+    {
+      "target": "$subHeadlineCopy",
+      "name": "Sub Headline Copy",
+      "type": "text",
+      "groupName": "Sub Headline",
+      "groupType": "text",
+      "initialValue": "timelessly audi.",
+      "properties": {
+        "value": "timelessly audi."
+      }
+    },
+    {
+      "target": "$fontSizeHeadline",
+      "name": "font size",
+      "type": "number",
+      "groupName": "Headline",
+      "groupType": "number",
+      "initialValue": 16,
+      "properties": {
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "value": 16
+      }
+    },
+    {
+      "target": "$fontSizeSubHeadline",
+      "name": "font size",
+      "type": "number",
+      "groupName": "Sub Headline",
+      "groupType": "number",
+      "initialValue": 16,
+      "properties": {
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "value": 16
+      }
+    },
+    {
+      "target": "$headlineColor",
+      "name": "color copy",
+      "type": "radio",
+      "groupName": "Headline",
+      "groupType": "select",
+      "initialValue": "black",
+      "properties": {
+        "value": "black"
+      },
+      "options": ["black", "grey"],
+      "labels": [
+        "black <span style='background-color:black;'></span>",
+        "grey <span style='background-color:grey;'></span>"
+      ]
+    },
+    {
+      "target": "$subHeadlineColor",
+      "name": "color copy",
+      "type": "radio",
+      "groupName": "Sub Headline",
+      "groupType": "select",
+      "initialValue": "black",
+      "properties": {
+        "value": "black"
+      },
+      "options": ["black", "grey"],
+      "labels": [
+        "black <span style='background-color:black;'></span>",
+        "grey <span style='background-color:grey;'></span>"
+      ]
+    },
+    {
+      "target": "$XPosHeadline",
+      "name": "Headline X Position",
+      "type": "number",
+      "groupName": "Headline",
+      "groupType": "number",
+      "initialValue": 12,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 12
+      }
+    },
+    {
+      "target": "$YPosHeadline",
+      "name": "Headline Y Position",
+      "type": "number",
+      "groupName": "Headline",
+      "groupType": "number",
+      "initialValue": 60,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 60
+      }
+    },
+    {
+      "target": "$XPosSubHeadline",
+      "name": "Headline X Position",
+      "type": "number",
+      "groupName": "Sub Headline",
+      "groupType": "number",
+      "initialValue": 12,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 12
+      }
+    },
+    {
+      "target": "$YPosSubHeadline",
+      "name": "Headline Y Position",
+      "type": "number",
+      "groupName": "Sub Headline",
+      "groupType": "number",
+      "initialValue": 80,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 80
+      }
+    },
+    {
+      "target": "$headlineTextAlign",
+      "name": "text align",
+      "type": "radio",
+      "groupName": "Headline",
+      "groupType": "select",
+      "initialValue": "left",
+      "properties": {
+        "value": "left"
+      },
+      "options": ["left", "center", "right"],
+      "labels": ["left", "center", "right"]
+    },
+    {
+      "target": "$subHeadlineTextAlign",
+      "name": "text align",
+      "type": "radio",
+      "groupName": "Sub Headline",
+      "groupType": "select",
+      "initialValue": "left",
+      "properties": {
+        "value": "left"
+      },
+      "options": ["left", "center", "right"],
+      "labels": ["left", "center", "right"]
     }
   ]
 }

@@ -4,7 +4,7 @@
         "size": "300x250",
         "width": 300,
         "height": 250,
-        "frameLimit": 5,
+        "frameLimit": 3,
         "frameMinCount": 1,
         "globalTemplateName": "audi-template",
         "start": ["start-audi"],
