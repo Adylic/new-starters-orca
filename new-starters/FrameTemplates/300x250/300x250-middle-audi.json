@@ -3,7 +3,7 @@
       {
         "t": "f",
         "c": "middle-frame template-set-frame",
-        "d": 5000,
+        "d": 6000,
         "e": [
           {
             "t": "e",
@@ -14,6 +14,15 @@
         ]
       }
     ],
-    "config": []
+    "config": [
+      {
+        "target": "$backgroundImg",
+        "name": "Background Image",
+        "type": "file",
+        "groupName": "Background Image",
+        "groupType": "image",
+        "initialValue": "https://s0.2mdn.net/creatives/assets/3160558/audi.png"
+      }
+    ]
   }
   

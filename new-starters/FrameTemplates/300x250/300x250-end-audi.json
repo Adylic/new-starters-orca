@@ -3,16 +3,60 @@
       {
         "t": "f",
         "c": "end-frame template-set-frame",
-        "d": 5000,
+        "d": 6000,
         "e": [
           {
             "t": "e",
-            "c": "",
-            "h": "",
-            "s": ""
+            "c": "logo",
+            "s": "left:$XPosLogopx;top:$YPosLogopx;",
+            "h": "<img class='full_width' src='https://s0.2mdn.net/creatives/assets/3160558/audi-rings-2x.png'>"
+          },
+          {
+            "t": "e",
+            "c": "cta_text",
+            "h": "find yours"
           }
+          
         ]
       }
     ],
-    "config": []
+    "config": [
+      {
+        "target": "$backgroundImg",
+        "name": "Background Image",
+        "type": "file",
+        "groupName": "Background Image",
+        "groupType": "image",
+        "initialValue": "https://s0.2mdn.net/creatives/assets/3160558/audi.png"
+
+      },
+      {
+        "target": "$XPosLogo",
+        "name": "Logo X Position",
+        "type": "number",
+        "groupName": "Logo",
+        "groupType": "number",
+        "initialValue": 12,
+        "properties": {
+          "min": 0,
+          "max": 300,
+          "step": 1,
+          "value": 50
+        }
+      },
+      {
+        "target": "$YPosLogo",
+        "name": "Logo Y Position",
+        "type": "number",
+        "groupName": "Logo",
+        "groupType": "number",
+        "initialValue": 12,
+        "properties": {
+          "min": 0,
+          "max": 250,
+          "step": 1,
+          "value": 50
+        }
+     }
+    ]
   }
