@@ -26,6 +26,7 @@
       {
         "t": "e",
         "c": "logo",
+        "s": "left:$XPosLogopx;top:$YPosLogopx;",
         "h": "<img class='full_width' src='https://s0.2mdn.net/creatives/assets/3160558/audi-rings-2x.png'>"
       }
     ],
@@ -79,10 +80,10 @@
         "type": "number",
         "groupName": "Logo",
         "groupType": "number",
-        "initialValue": 50,
+        "initialValue": 12,
         "properties": {
           "min": 0,
-          "max": 600,
+          "max": 300,
           "step": 1,
           "value": 50
         }
@@ -93,10 +94,10 @@
         "type": "number",
         "groupName": "Logo",
         "groupType": "number",
-        "initialValue": 50,
+        "initialValue": 12,
         "properties": {
           "min": 0,
-          "max": 600,
+          "max": 250,
           "step": 1,
           "value": 50
         }

@@ -7,9 +7,9 @@
         "frameLimit": 5,
         "frameMinCount": 1,
         "globalTemplateName": "audi-template",
-        "start": ["start-audi", "frame"],
-        "middle": ["middle-audi", "frame"],
-        "end": ["end-audi", "frame"],
+        "start": ["start-audi"],
+        "middle": ["middle-audi"],
+        "end": ["end-audi"],
         "baseSize": 8000
       }
 ]
