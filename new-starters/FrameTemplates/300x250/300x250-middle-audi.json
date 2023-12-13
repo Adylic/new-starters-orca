@@ -24,6 +24,14 @@
   ],
   "config": [
     {
+      "target": "$backgroundImg",
+      "name": "Background Image",
+      "type": "file",
+      "groupName": "Background Image",
+      "groupType": "image",
+      "initialValue": "https://s0.2mdn.net/creatives/assets/3160558/audi.png"
+    },
+    {
       "target": "$CTACopy",
       "name": "CTA Copy",
       "type": "text",
