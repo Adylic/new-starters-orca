@@ -7,6 +7,10 @@
       "e": [
         {
           "t": "e",
+          "h": "<img class='full_height scale' src='$backgroundImg'>"
+        },
+        {
+          "t": "e",
           "c": "cta",
           "s": "font-size:$fontSizeCTApx;left:$XPosCTApx;bottom:$YPosCTApx;opacity:0;transform: scale(0.5);",
           "h": "$CTACopy",
@@ -29,7 +33,7 @@
       "type": "file",
       "groupName": "Background Image",
       "groupType": "image",
-      "initialValue": "https://s0.2mdn.net/creatives/assets/3160558/audi.png"
+      "initialValue": "https://s0.2mdn.net/creatives/assets/3160558/300x250-audi_2x.png"
     },
     {
       "target": "$CTACopy",

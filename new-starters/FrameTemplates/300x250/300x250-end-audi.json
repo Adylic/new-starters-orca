@@ -3,8 +3,21 @@
     {
       "t": "f",
       "c": "end-frame template-set-frame",
-      "d": 6000,
+      "d": 5000,
       "e": [
+        {
+          "t": "e",
+          "c": "backImg",
+          "h": "<img class='full_height scale' src='$backgroundImg'>",
+          "a": {
+            "s": 500,
+            "e": 1000,
+            "n": "opacity 350ms ease-out",
+            "x": "opacity 350ms ease-out",
+            "b": "opacity:1;",
+            "a": "opacity:0;"
+          }
+        },
         {
           "t": "e",
           "c": "logo",

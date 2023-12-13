@@ -6,7 +6,7 @@
     },
     {
       "t": "s",
-      "s": ".dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px;background-color:#FFFFFF;}.template-set-frame{position:absolute; top:0px; left:0px; width:100%; height:100%;}.devGuide{width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:999;display:none;}.devGuide.dev{opacity:$devoveropacity !important;display:block !important;}@font-face{font-family:AudiType-Extended;src:url('https://s0.2mdn.net/creatives/assets/3160558/AudiType-ExtendedNormal.woff')}@font-face{font-family:AudiType-ExtendedBold;src:url('https://s0.2mdn.net/creatives/assets/3160558/AudiType-ExtendedBold.woff')}.backImg{height:250px;}.logo{width:102px;}.full_width{width:100%}.full_height{height:100%;}.scale{transform: scale(1.8)}.logo,.copy,.cta{position:absolute;font-family:AudiType-Extended;}.copy{text-transform:capitalize;width:250px;}.heading_primary{font-family:AudiType-ExtendedBold;}.heading_sub{top:80px}.cta{background-color:#fff;width:fit-content;padding:6px 16px;transition:transform 350ms ease-out}.cta:hover{ transform: scale(1.2);}.dev.cta,.dev.copy{opacity:1 !important;}"
+      "s": ".dynamicAdvertContainer{cursor:pointer;line-height:1;width:300px;height:250px;background-color:#FFFFFF;}.template-set-frame{position:absolute; top:0px; left:0px; width:100%; height:100%;}.devGuide{width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:999;display:none;}.devGuide.dev{opacity:$devoveropacity !important;display:block !important;}@font-face{font-family:AudiType-Extended;src:url('https://s0.2mdn.net/creatives/assets/3160558/AudiType-ExtendedNormal.woff')}@font-face{font-family:AudiType-ExtendedBold;src:url('https://s0.2mdn.net/creatives/assets/3160558/AudiType-ExtendedBold.woff')}.backImg{height:250px;}.logo{width:102px;}.full_width{width:100%}.full_height{height:100%;}.scale{transform: scale(1.8)}.logo,.copy,.cta{position:absolute;font-family:AudiType-Extended;z-index: 2;}.copy{text-transform:capitalize;width:250px;}.heading_primary{font-family:AudiType-ExtendedBold;}.heading_sub{top:80px}.cta{background-color:#fff;width:fit-content;padding:6px 16px;transition:transform 350ms ease-out}.cta:hover{ transform: scale(1.2);}.dev.cta,.dev.copy{opacity:1 !important;}"
     },
     {
       "t": "j",
@@ -17,11 +17,6 @@
       "c": "devGuide",
       "s": "opacity:$devoveropacity;visibility:$devoveronoff;",
       "h": "<img src='$devGuide'>"
-    },
-    {
-      "t": "e",
-      "c": "backImg",
-      "h": "<img class='full_height scale' src='$backgroundImg'>"
     }
   ],
   "config": [
@@ -59,14 +54,6 @@
         "step": 0.1,
         "value": 0.5
       }
-    },
-    {
-      "target": "$backgroundImg",
-      "name": "Background Image",
-      "type": "file",
-      "groupName": "Background Image",
-      "groupType": "image",
-      "initialValue": "https://s0.2mdn.net/creatives/assets/3160558/audi.png"
     }
   ]
 }
