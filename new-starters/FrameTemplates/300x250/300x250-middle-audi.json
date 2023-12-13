@@ -3,16 +3,78 @@
     {
       "t": "f",
       "c": "middle-frame template-set-frame",
-      "d": 6000,
+      "d": 500,
       "e": [
         {
           "t": "e",
-          "c": "",
-          "h": "",
-          "s": ""
+          "c": "cta",
+          "s": "font-size:$fontSizeCTApx;left:$XPosCTApx;bottom:$YPosCTApx;opacity:0;transform: scale(0.5);",
+          "h": "$CTACopy",
+          "a": {
+            "s": 0,
+            "e": 500,
+            "n": "all 0.5s ease-in",
+            "x": "all 0.5s ease",
+            "b": "opacity: 1;transform: scale(1);",
+            "a": "opacity: 0;"
+          }
         }
       ]
     }
   ],
-  "config": []
+  "config": [
+    {
+      "target": "$CTACopy",
+      "name": "CTA Copy",
+      "type": "text",
+      "groupName": "CTA",
+      "groupType": "text",
+      "initialValue": "find yours",
+      "properties": {
+        "value": "find yours"
+      }
+    },
+    {
+      "target": "$fontSizeCTA",
+      "name": "font size",
+      "type": "number",
+      "groupName": "CTA",
+      "groupType": "number",
+      "initialValue": 11.5,
+      "properties": {
+        "min": 0,
+        "max": 30,
+        "step": 0.5,
+        "value": 11.5
+      }
+    },
+    {
+      "target": "$XPosCTA",
+      "name": "CTA X Position",
+      "type": "number",
+      "groupName": "CTA",
+      "groupType": "number",
+      "initialValue": 15,
+      "properties": {
+        "min": 0,
+        "max": 300,
+        "step": 1,
+        "value": 15
+      }
+    },
+    {
+      "target": "$YPosCTA",
+      "name": "CTA Y Position",
+      "type": "number",
+      "groupName": "CTA",
+      "groupType": "number",
+      "initialValue": 15,
+      "properties": {
+        "min": 0,
+        "max": 250,
+        "step": 1,
+        "value": 15
+      }
+    }
+  ]
 }

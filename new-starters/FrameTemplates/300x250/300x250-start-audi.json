@@ -3,7 +3,7 @@
     {
       "t": "f",
       "c": "middle-frame template-set-frame",
-      "d": 6000,
+      "d": 1000,
       "e": [
         {
           "t": "e",
@@ -87,7 +87,7 @@
     },
     {
       "target": "$headlineColor",
-      "name": "color copy",
+      "name": "color",
       "type": "radio",
       "groupName": "Headline",
       "groupType": "select",
@@ -103,19 +103,14 @@
     },
     {
       "target": "$subHeadlineColor",
-      "name": "color copy",
-      "type": "radio",
+      "name": "color",
+      "type": "text",
       "groupName": "Sub Headline",
-      "groupType": "select",
+      "groupType": "text",
       "initialValue": "black",
       "properties": {
         "value": "black"
-      },
-      "options": ["black", "grey"],
-      "labels": [
-        "black <span style='background-color:black;'></span>",
-        "grey <span style='background-color:grey;'></span>"
-      ]
+      }
     },
     {
       "target": "$XPosHeadline",
