@@ -4,6 +4,9 @@
       "t": "f",
       "c": "end-frame template-set-frame",
       "d": 5000,
+      "j": {
+        "s": "KGZ1bmN0aW9uICgpIHsKICBpbml0RnJhbWVBbmltYXRpb25zKCk7CgogIGZ1bmN0aW9uIGluaXRGcmFtZUFuaW1hdGlvbnMoKSB7CiAgICBsZXQgZnJhbWVUbCA9IGdzYXAudGltZWxpbmUoKTsKICAgIC8vIFlvdXIgZnJhbWUgYW5pbWF0aW9ucyBnbyBoZXJlCiAgfQp9KSgpOwo="
+      },
       "e": [
         {
           "t": "e",
@@ -11,7 +14,7 @@
           "h": "<img class='full_height scale' src='$backgroundImg'>",
           "a": {
             "s": 0,
-            "e": 1000,
+            "e": 500,
             "n": "opacity 350ms ease-out",
             "x": "opacity 350ms ease-out",
             "b": "opacity:1;",
@@ -26,7 +29,7 @@
         },
         {
           "t": "e",
-          "c": "cta",
+          "c": "cta", 
           "s": "font-size:$fontSizeCTApx;left:$XPosCTApx;bottom:$YPosCTApx;opacity:0;",
           "h": "$CTACopy",
           "a": {
