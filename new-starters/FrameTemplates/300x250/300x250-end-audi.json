@@ -5,39 +5,19 @@
       "c": "end-frame template-set-frame",
       "d": 5000,
       "j": {
-        "s": "KGZ1bmN0aW9uICgpIHsKICBpbml0RnJhbWVBbmltYXRpb25zKCk7CgogIGZ1bmN0aW9uIGluaXRGcmFtZUFuaW1hdGlvbnMoKSB7CiAgICBsZXQgZnJhbWVUbCA9IGdzYXAudGltZWxpbmUoKTsKICAgIC8vIFlvdXIgZnJhbWUgYW5pbWF0aW9ucyBnbyBoZXJlCiAgfQp9KSgpOwo="
+        "s": "KGZ1bmN0aW9uICgpIHsKICBpbml0RnJhbWVBbmltYXRpb25zKCk7CgogIGZ1bmN0aW9uIGluaXRGcmFtZUFuaW1hdGlvbnMoKSB7CiAgICBsZXQgZnJhbWVUbCA9IGdzYXAudGltZWxpbmUoKTsKICAgIC8vIFlvdXIgZnJhbWUgYW5pbWF0aW9ucyBnbyBoZXJlCiAgICBmcmFtZVRsLnRvKCIuc2NhbGUiLCB7IHNjYWxlOiAxLjIsIGR1cmF0aW9uOiAwLjc1LCBlYXNlOiAicG93ZXIxLkluT3V0IiB9KTsKICB9Cn0pKCk7Cg=="
       },
       "e": [
         {
           "t": "e",
           "c": "backImg",
-          "h": "<img class='full_height scale' src='$backgroundImg'>",
-          "a": {
-            "s": 0,
-            "e": 500,
-            "n": "opacity 350ms ease-out",
-            "x": "opacity 350ms ease-out",
-            "b": "opacity:1;",
-            "a": "opacity:0;"
-          }
+          "h": "<img class='full_height scale' src='$backgroundImg'>"
         },
         {
           "t": "e",
           "c": "logo",
           "s": "left:$XPosLogopx;top:$YPosLogopx;",
           "h": "<img class='full_width' src='https://s0.2mdn.net/creatives/assets/3160558/audi-rings-2x.png'>"
-        },
-        {
-          "t": "e",
-          "c": "cta", 
-          "s": "font-size:$fontSizeCTApx;left:$XPosCTApx;bottom:$YPosCTApx;opacity:0;",
-          "h": "$CTACopy",
-          "a": {
-            "s": 0,
-            "e": 1500,
-            "n": "transform 750ms ease-in",
-            "b": "opacity:1;transform: translateX(75px);"
-          }
         }
       ]
     }
