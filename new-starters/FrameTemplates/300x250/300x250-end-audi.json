@@ -10,7 +10,7 @@
           "c": "backImg",
           "h": "<img class='full_height scale' src='$backgroundImg'>",
           "a": {
-            "s": 500,
+            "s": 0,
             "e": 1000,
             "n": "opacity 350ms ease-out",
             "x": "opacity 350ms ease-out",
@@ -32,8 +32,8 @@
           "a": {
             "s": 0,
             "e": 1500,
-            "n": "transform 350ms ease",
-            "b": "opacity:1;"
+            "n": "transform 750ms ease-in",
+            "b": "opacity:1;transform: translateX(75px);"
           }
         }
       ]
